@@ -1,0 +1,19 @@
+body{margin:0px;font-family:Franklin Gothic Medium, Helvetica, Arial, Microsoft Yahei, Simsun}
+a:link{text-decoration:none;color:#FF6600;}
+a:hover{text-decoration:underline;}
+#nav {width:100%;background:#FF6600;height:3em;text-align:center;margin:-1em 0;}
+#nav li {display:inline-block;float:inherit;text-transform:uppercase;font-size:150%;margin-top:0.25em;}
+#nav li span {padding:0 0.25em;line-height:1.5em;color:#FF6600;background:#FFF;}
+#nav li a {padding:0 0.25em;line-height:1.5em;color:#FFF;background:none;}
+#subnav {width:100%;background: url('http://ww4.sinaimg.cn/large/4b91f9d5gw1dyscqgul37j.jpg') repeat-x;height:3em;line-height:3em;text-align:center;}
+#subnav li {display:inline-block;float:inherit;text-transform:uppercase;font-size:125%;margin-top:0.25em;}
+#subnav li span, .linkicon {padding:0 0.25em;line-height:1.5em;color:#FFF;background:#FF6600;}
+#subnav li a {padding:0 0.25em;line-height:1.5em;color:#FF6600;background:none;}
+#left {width:25%;float:left;padding-left:1em;}
+#right {width:73%;float:right;}
+#right ul {display:table;}
+#right li {display:inline-block;width:200px;padding:2px;float:left;}
+#right li p {margin-top:-40px;height:40px;font-size:80%;color:#FFF;background:#000;filter:alpha(opacity=75);opacity:0.75;}
+#right li img {width:200px;height:150px;border:1px solid #999;margin-top:-1em;}
+#right li a {color:#FF0;font-weight:600;}
+#bottom {clear:both;width:100%;background:#FF6600;height:3em;line-height:3em;text-indent:1em;color:#FFF;}

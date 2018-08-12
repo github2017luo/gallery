@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>格式化</title>
+<link href="postmain.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="mainEditor">
+                <div class="main" id="mainUploads">
+                  <table class="btnLayout">
+                      <tr>
+                          <td>
+                               <ul class="btns">
+                                   <li class="format" onclick="mainEditor.format();">格式化</li>
+                              </ul>　
+                              <input type="checkbox" id="isClearLinks" title="去掉所有链接" /><label for="isClearLinks">清链接</label>
+                              <input type="checkbox" id="isClearTables" title="去掉表格结构，保留表内容" /><label for="isClearTables">清表格</label>
+                              <input type="checkbox" id="isClearTableStyles" title="去掉表格的样式设定，保留表结构" /><label for="isClearTableStyles">清表样式</label>
+                              <input type="checkbox" id="isClearImgs" title="删除所有图片" /><label for="isClearImgs">清图片</label>
+                              <input type="checkbox" id="isToDBCCase" title="全角标点、数字和字母的转换为半角" /><label for="isChangeDBCCase">全角转半角</label>
+                              <input type="checkbox" id="isKeepFontColor" title="保留文字颜色" /><label for="isStoreFontColor">保留文字颜色</label>
+                              <input type="checkbox" id="isDeleteBr" title="去除br，不转换为p" /><label for="isDeleteBr">去br不转p</label>
+                              <input type="checkbox" id="isKeepFont" title="保留字体设置" /><label for="isStoreFont">保留字体设置</label>
+                          </td>
+                       </tr>
+                                             <tr>
+                          <td>
+                    <div id="frameBorder_1" class="frameBorder">
+                        <iframe id="mainPreview" src="" frameborder="0" tabindex="5"></iframe>
+                        <textarea id="mainCode" name="mainCode"></textarea>
+                        <input type="hidden" name="content" id="content" />
+                  </div>
+                  <textarea id="tempContent" style="display: none;"></textarea>
+
+
+                          </td>
+                    
+                        </tr>
+
+                      <tr>
+                          <td>
+                            <a href="###" class="btn current" id="toContentView" accesskey="v">视图</a>
+                            <a href="###" class="btn" id="toContentCode" accesskey="c">代码</a>
+                            <input type="submit" class="btn" value="提交(Alt+s)" id="quickSubmit" style="display:none;" />
+                          </td>
+                    
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+<script type="text/javascript" src="ntes_jslib.js"></script>
+<script type="text/javascript" src="postpub.js"></script>
+<script type="text/javascript" src="postmain.js"></script>
+
+<script type="text/javascript">
+	try {
+		eval(jQuery_script);
+		eval(jQueryUI_script);
+	}
+	catch(e) {
+	}	
+	(function($) {
+		var tag_entry = $("#tag_entry").tabs({collapsible: true, selected: -1})[0],
+			frameBorder_1 = document.getElementById("frameBorder_1");
+			
+		function adjustPos() {
+			tag_entry.style.top = frameBorder_1.offsetTop + 'px';
+		}
+		window.onresize = function() {
+			if(adjustPos.t) {
+				clearTimeout(adjustPos.t);
+			}
+			adjustPos.t = setTimeout(adjustPos, 100);
+		}
+		adjustPos();
+		
+		$(".btn-close-tab").click(function() {
+			$(tag_entry).tabs('option', 'selected', -1);
+		});
+	})(jQuery);
+	$.noConflict();
+</script>
+
+</body>
+</html>

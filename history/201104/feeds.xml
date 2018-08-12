@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<options images="false" fulltext="false" />
+<feeds>
+<category name="更新">
+<feed name="微博" url="http://api.fanfou.com/statuses/user_timeline/lishuhang.rss" />
+<feed name="博客" url="http://feed.feedsky.com/lishuhang" />
+<feed name="豆瓣" url="http://www.douban.com/feed/people/perf/interests" />
+<feed name="动漫" url="http://bgm.tv/feed/user/lishuhang/timeline" />
+</category>
+</feeds>
+</rss>

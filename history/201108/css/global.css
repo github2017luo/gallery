@@ -1,0 +1,239 @@
+<!--
+/*
+ * MyFonts Webfont Build ID 849716, 2011-07-11T04:02:23-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo 700
+ * URL: http://new.myfonts.com/fonts/exljbris/museo/700/
+ * Foundry: exljbris
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * License: http://www.myfonts.com/viewlicense?1056
+ * Licensed pageviews: unlimited/month
+ * CSS font-family: Museo-700
+ * CSS font-weight: normal
+ * 
+ * Webfont: Museo 300
+ * URL: http://new.myfonts.com/fonts/exljbris/museo/300/
+ * Foundry: exljbris
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * License: http://www.myfonts.com/viewlicense?1056
+ * Licensed pageviews: unlimited/month
+ * CSS font-family: Museo-300
+ * CSS font-weight: normal
+ * 
+ * Webfont: Museo 500
+ * URL: http://new.myfonts.com/fonts/exljbris/museo/500/
+ * Foundry: exljbris
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * License: http://www.myfonts.com/viewlicense?1056
+ * Licensed pageviews: unlimited/month
+ * CSS font-family: Museo-500
+ * CSS font-weight: normal
+ * 
+ * (c) 2011 Bitstream Inc
+*/
+
+
+-->
+ @font-face {font-family: 'Museo-700';src: url('http://lishuhang.com/fonts/eot/style_154925.eot');src: url('http://lishuhang.com/fonts/eot/style_154925.eot?#iefix') format('embedded-opentype'),url('http://lishuhang.com/fonts/woff/style_154925.woff') format('woff'),url('http://lishuhang.com/fonts/ttf/style_154925.ttf') format('truetype'),url('http://lishuhang.com/fonts/svg/style_154925.svg#Museo-700') format('svg');}
+ @font-face {font-family: 'Museo-300';src: url('http://lishuhang.com/fonts/eot/style_154926.eot');src: url('http://lishuhang.com/fonts/eot/style_154926.eot?#iefix') format('embedded-opentype'),url('http://lishuhang.com/fonts/woff/style_154926.woff') format('woff'),url('http://lishuhang.com/fonts/ttf/style_154926.ttf') format('truetype'),url('http://lishuhang.com/fonts/svg/style_154926.svg#Museo-300') format('svg');}
+ @font-face {font-family: 'Museo-500';src: url('http://lishuhang.com/fonts/eot/style_154928.eot');src: url('http://lishuhang.com/fonts/eot/style_154928.eot?#iefix') format('embedded-opentype'),url('http://lishuhang.com/fonts/woff/style_154928.woff') format('woff'),url('http://lishuhang.com/fonts/ttf/style_154928.ttf') format('truetype'),url('http://lishuhang.com/fonts/svg/style_154928.svg#Museo-500') format('svg');}
+
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; color:black; background:white; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+
+/*
+	Page Style
+*/
+body { 
+	font:normal 100%/1.5 "Museo-500", "Myriad Pro", "Microsoft JhengHei", "Simhei", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:#eee;
+	background:#071544 url(http://img4.cache.netease.com/photo/0009/2011-07-15/78VDJP4L0AO50009.jpg) no-repeat top center;
+	padding:0;
+	margin:0;
+	position:relative;
+	text-shadow:0 1px rgba(255,255,255,.4);
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#container {
+	width:1000px;
+	top:40px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+/*
+	Slideshow style
+*/
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:940px;
+	height:500px;
+	left:30px;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slide h1{
+	font-size:600%;
+	font-family: "Museo-700", "Myriad Pro", "Microsoft Yahei", "Simhei", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#slides .slide {
+	margin-left:20px;
+	margin-right:40px;
+	width:920px;
+	height:500px;
+	display:block;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+/*
+	Next/prev buttons
+*/
+#slides .next,#slides .prev {
+	position:absolute;
+	text-align:center;
+	line-height:500px;
+	top:0px;
+	left:0px;
+	width:30px;
+	height:500px;
+	display:block;
+	background:#333;
+	font-size:200%;
+	color:#FFF;
+	z-index:101;
+}
+
+#slides .next a, #slides .prev a {
+	text-decoration:none;
+}
+
+#slides .next {
+	left:970px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Footer
+*/
+
+#footer {
+	display:block;
+	text-align:center;
+	width:1000px;
+	position:absolute;
+	top:560px;
+	margin-top:10px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+
+/*
+	Type and anchors
+*/
+
+a:link,a:visited {
+	color:#FC0;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color:#FF0;
+	text-decoration:underline;
+}
+
+h1 {
+	font-size:2em;
+}
+
+p {
+	font-size:1.3em;
+}
+
+#slides .link {
+	display:block;
+	margin-top:10px;
+	font-weight:800;
+}

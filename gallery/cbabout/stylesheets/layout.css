@@ -1,0 +1,40 @@
+@charset "utf-8";
+html,body{font-family:"Microsoft Yahei",Tahoma;font-size:12px;background:#e8e8e8 url(http://img5.cache.netease.com/tech/2012/6/21/2012062118055864a44.jpg) no-repeat center top}
+aside,section,nav,header,footer,article{display:block}
+strong{font-weight:700}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+.wrapper{width:980px;margin:0 auto}
+.global_head{height:105px;position:relative}
+.cnbeta_logo{width:187px;height:50px;background:url(../images/cnbeta_logo.png) no-repeat 0 0;position:absolute;left:0}
+.cnbeta_logo a{display:block;width:187px;height:46px;text-indent:-99999px;overflow:hidden}
+.tiny_bar{padding:8px 0;text-align:right}
+.tiny_bar li{display:inline;color:#ccc}
+.tiny_bar li.feed{background:url(../images/home_tabs_icon.png) no-repeat 0 -79px;padding-left:18px}
+.tiny_bar a{color:#666}
+.global_navi{height:57px;width:758px;background:url(../images/home_tabs_icon.png) no-repeat 0 -156px;position:absolute;right:0}
+.global_navi .main_navi{height:29px}
+.global_navi .sub_navi{height:28px;line-height:28px;padding-left:20px}
+.global_navi .main_navi li{height:29px;float:left}
+.global_navi .main_navi li a{display:block;height:29px;line-height:29px;color:#fff;font-size:14px;font-weight:bold;text-align:center;float:left;overflow:hidden}
+.global_navi .main_navi li a:hover{color:#fc0}
+.global_navi .main_navi li a#a1{width:69px}
+.global_navi .main_navi li a#a2{width:70px}
+.global_navi .main_navi li a#a3{width:99px}
+.global_navi .main_navi li a#a4{width:68px}
+.global_navi .main_navi li a#a5{width:71px}
+.global_navi .main_navi li a#a6{width:64px}
+.global_navi .sub_navi li{height:28px;padding-right:15px;float:left}
+.global_navi .sub_navi a{color:#fff}
+#google_search{width:315px;text-align:right}
+#google_search form{padding-top:3px}
+#google_search .search_btn{width:36px;height:21px;background:none;border:none}
+#google_search .search_key{width:175px}
+.banner_ad_980{height:80px;overflow:hidden}
+.main_content{padding:10px 0 25px}
+.main_content_left{width:662px;float:left}
+.main_content_right{width:312px;float:right}
+.copyright{border-top:1px solid #ccc;padding:20px 0 30px 165px;background:url(../images/cnbeta_logo.png) no-repeat 8px -345px;color:#333;line-height:22px;clear:both}
+.copyright a{color:#069}
+.clear{clear:both}
+.blank10{height:10px;overflow:hidden;clear:both}

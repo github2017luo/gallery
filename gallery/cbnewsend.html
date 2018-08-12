@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>投递新闻_cnBeta.COM</title>
+<base href="http://www.cnbeta.com/">
+<base target="_blank">
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="author" content="cnBeta" />
+<meta name="copyright" content="Copyright (c) 2011 cnBeta." />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="rating" content="general" />
+<meta name="keywords" content="简明IT新闻,IT业界资讯,网友媒体,言论平台" />
+<meta name="description" content="cnBeta.com为您提供最新最快IT业界资讯,报导立场公正中立,网友讨论气氛浓厚.创造出最适合目标人群阅读的新闻、评论、观点和专访" />
+<script language="javascript" type="text/javascript" src="http://www.cnbeta.com/js/tem.js"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.cnbeta.com/backend.php" />
+<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="http://www.cnbeta.com/backend.php?atom" />
+<style type="text/css">
+td,body,input{font-size:14px;font-family:Arial, Helvetica, sans-serif;}
+body{background:#CCC;margin:0px;}
+#wrapper {}
+#header {width:100%;height:40px;background:#033276 url(http://img.cnbeta.com/upimg/110611/LonelyJames_2309021140396558.png);color:#FFF;text-align:center;}
+#content {background:#FFF;width:800px; margin:0 auto;}
+#content .subtitle {background:#369;color:#FFF;}
+#content abbr {font-size:12px;}
+</style>
+</head>
+<script charset="utf-8" src="http://www.cnbeta.com/editor/kindeditor-min.js"></script>
+<script src="/editor/newsend.js">
+</script>
+<Script language="javascript">
+function GetQueryString(name)
+{
+var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+var r = window.location.search.substr(1).match(reg);
+if (r!=null) return unescape(r[2]); return "";
+}
+</Script>
+<body>
+<div id="wrapper">
+<div id="header"><img src="http://img.cnbeta.com/upimg/110611/LonelyJames_2307221668493054.png" alt="" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="0,0,140,40" href="http://www.cnbeta.com" alt="cnBeta.COM" />
+  </map>
+</div>
+<div id="content">
+  <table width="100%" border="0" cellspacing="6" cellpadding="4">
+<tr>
+  <td colspan="3" class="subtitle"><strong>我们声明&hellip;&hellip;</strong></td>
+  </tr>
+<tr>
+  <td><strong>优先处理访客投递</strong><br />
+    <abbr>24小时之内必须处理。</abbr></td>
+  <td><strong>不会发布所有投递</strong><br />
+    <abbr>自撰稿件会在退稿时说明理由。</abbr></td>
+  <td><strong>格式和排版可能有变动</strong><br />
+    <abbr>但会尽量尊重您的文意。</abbr></td>
+</tr>
+<tr>
+  <td colspan="3" class="subtitle"><strong>请您注意&hellip;&hellip;</strong></td>
+  </tr>
+<tr>
+  <td><strong>请确保信息的真实性</strong><br />
+    <abbr>不要编故事或者发&quot;古董&quot;。</abbr></td>
+  <td><strong>请尊重原作者</strong><br />
+    <abbr>请提供原网址，不要抹掉署名。</abbr></td>
+  <td><strong>请为您的原创作品署名</strong><br />
+    <abbr>我们乐意按您希望的方式发布。</abbr></td>
+</tr>
+<tr>
+  <td colspan="3" class="subtitle"><strong>更多便捷投递方法</strong></td>
+  </tr>
+<tr>
+  <td><strong>书签小工具</strong><br />
+    <abbr>拖动到书签栏：<a href="javascript:window.location=%22http://www.cnbeta.com/newsend.php?newsfrom=%22+encodeURIComponent(document.location)+%22&amp;newstitle=%22+encodeURIComponent(document.title)">投递到cnBeta</a></abbr></td>
+  <td><strong>邮箱投递</strong><br />
+    <abbr><a href="mailto:ugmbbc@gmail.com?subject=投递新闻：" target="_self">ugmbbc#gmail.com</a></abbr></td>
+  <td><strong>微博投递</strong><br />
+    <abbr><a href="http://weibo.com/lishuhang">新浪</a> <a href="http://t.qq.com/lishuhang">腾讯</a> <a href="http://t.163.com/lishuhang">网易</a> <a href="http://twitter.com/cblive">Twitter</a></abbr></td>
+</tr>
+</table>
+  <form action="postnews.php" method="post" name="form1" id="form1" onsubmit="return checkpost(this)">
+  <table width="100%" border="0" cellpadding="8">
+<tr>
+<td><strong>标题</strong>*</td>
+<td colspan="3"><script language="JavaScript" type="text/javascript">
+document.write("<input name='newstitle' type='text' class='keyword' value='"+GetQueryString("newstitle")+"' style='width:700px;'/>");
+</script></td>
+</tr>
+<tr>
+<td><strong>来源</strong>*</td>
+<td colspan="3"><script language="JavaScript" type="text/javascript">
+document.write("<input name='newsfrom' type='text' class='keyword' value='"+GetQueryString("newsfrom")+"' style='width:700px;'/>");
+</script></td>
+</tr>
+<tr>
+<td><strong>邮箱</strong>*</td>
+<td colspan="3"><input class="keyword" type="text"  name="email" style="width:700px;"/></td>
+</tr>
+<tr>
+<td><strong>名字</strong></td>
+<td><input class="keyword" type="text"  name="aname" style="width:200px;" value="匿名人士"/></td>
+<td><strong>主页</strong></td>
+<td>http://<input class="keyword" type="text"  name="apage" style="width:300px;"/></td>
+</tr>
+<tr>
+<td><strong>摘要</strong>*</td>
+<td colspan="3"><textarea id="hometext" name="hometext" cols="100" rows="8" style="width:700px;height:200px;visibility:hidden;"></textarea></td>
+</tr>
+<tr>
+<td><strong>扩展</strong></td>
+<td colspan="3"><textarea id="bodytext" name="bodytext" cols="100" rows="8" style="width:700px;height:400px;visibility:hidden;"></textarea></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="8">
+<tr style="display:none;">
+<td colspan="2"><strong>验证码</strong>　<input class="keyword" type="text"  name="valimg" size="5"/>  <img id="safecode0" alt="点击换一张" onclick="reloadcode(0);" style="cursor:pointer" src="validate.php" width="85" height="18" /></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="8">
+<tr>
+<td>*必填</td>
+<td><input name="nowcomment" type="submit" value="　　　　现在投递　　　　"/>　　　　　　　　　　<input type="reset" value="清空重填"/></td>
+</tr>
+<tr>
+<td></td>
+<td>(C)2003-2011 cnBeta 传媒组织 | <a href="http://www.miibeian.gov.cn/">浙ICP备05002327</a></td>
+</tr>
+</table>
+</form></div></div>
+</body>
+</html>
+<div style="display:none;"> 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> 
+</script> 
+<script type="text/javascript"> 
+_uacct = "UA-435607-2";
+urchinTracker();
+</script> 
+<noscript><a href="http://www.51.la/?987284" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/987284.asp"
+style="border:none" /></a></noscript> 
+<script language="javascript" src="http://count28.51yes.com/click.aspx?id=289804176&logo=1"></script> 
+<script language="javascript" type="text/javascript"src="http://js.users.51.la/987284.js"></script> 
+</div>

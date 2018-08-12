@@ -1,0 +1,91 @@
+body
+{
+	overflow: auto;
+	font-family: arial;
+}
+div.header_div
+{
+	position: relative;
+	/*background-color: #EFEFEF;*/
+	width: 100%;
+	overflow: auto;
+	margin: auto;
+}
+div.container
+{
+	/*border: 1px solid black;
+	background-color: #EFEFEF;*/
+	position: relative;
+	margin: auto;
+	display: block;
+	overflow: auto;
+	/* SPECIFY HEIGHT & WIDTH AS DESIRED */
+	height: 100%;
+	width: 99%;
+}
+div.rss
+{
+	width: 99%;
+	margin: 2px;
+	background-color: white;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+img.loading
+{
+	position: relative;
+	margin-top: 50px;
+}
+a.rss_link,a.rss_link:active
+{
+	display: inline;
+	color: blue;
+}
+a.rss_link:hover
+{
+	color: #BBBBFF;
+}
+a.rss_link:visited
+{
+	color: gray;
+}
+a.top,a.top:active {
+	text-decoration: none;
+	font-size: 10pt;
+	display: inline;
+	color: gray;
+}
+a.top:hover {
+	text-decoration: underline;
+	color: black;
+	display: inline;
+}
+font.graytext
+{
+	font-size: 10pt;
+	color: #444444;
+}
+font.rss_title
+{
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+font.rss_date
+{
+	font-size: 9pt;
+	font-weight: normal;
+	color: black;
+	display: block;
+}
+font.rss_description
+{
+	font-size: 12pt;
+	color: black;
+}
+select
+{
+	color: black;
+	font-size: 10pt;
+	background-color: #EAEAEA;
+}
