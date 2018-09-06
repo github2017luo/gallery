@@ -150,6 +150,7 @@ CBN News,http://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8
 BBC News,http://girlz.cdn.newschat.tv/hls/bbcnews_live/index.m3u8
 BBC News,http://79.137.127.218:8081/22AEEbYLjsYm7JYTZxYcesuYTZxY8euQVERINVI2ND6dQra/live/bbcnews.m3u8
 BBC World News,http://girlz.cdn.newschat.tv/hls/bbcwn_live/index.m3u8
+BBC World News,https://par-5.firstonetv.net/hls/5ff34d18-2730-66cc-0d17-400956225bb5.m3u8
 Sky News,http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8
