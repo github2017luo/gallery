@@ -92,8 +92,9 @@ Next TV News,http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv1/chunklist.m3u8
 Next TV News,http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8
 
 [World News]
-CNN,http://212.8.253.29:1935/cnew/myStream//playlist.m3u8?sechash=1as8pMJDxUJVHfpyBIKHA2DUKfymI2f-A0dBcodCYUA=
+CNN,https://2d04.janjuaplayer.com:8088/live/cnn_livestreaming/playlist.m3u8?id=71202&wowzasessionid=767316297
 CNN,http://girlz.cdn.newschat.tv/hls/cnn_live/index.m3u8
+CNN International,https://2247.janjuaplayer.com:8088/live/cnn_livestreaming/playlist.m3u8?id=71202&wowzasessionid=104930674
 CNN International,http://girlz.cdn.newschat.tv/hls/cnni_live/index.m3u8
 HLN,http://girlz.cdn.newschat.tv/hls/hln_live/index.m3u8
 CBSN,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
