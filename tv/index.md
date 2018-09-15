@@ -1,20 +1,30 @@
 ﻿## China
 
-[CCTV1](http://39.134.52.180/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225977/index.m3u8)
+[CCTV1](http://publish3.cdn.ucloud.com.cn/ucloud/17a1817a27b0a061b5274a3b9ad0ecc1/playlist.m3u8)
+
+[CCTV1](http://111.48.34.227/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225765/3.m3u8)
+
+[CCTV1](http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8)
 
 [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8)
 
 [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1.m3u8)
 
-[CCTV2](http://223.110.245.169/PLTV/3/224/3221227207/index.m3u8)
+[CCTV1 HK](http://al3-flv.live.huajiao.com/live_huajiao_v2/2b3548603b6c7965aa4cc86700c25802.m3u8)
+
+[CCTV2](http://publish3.cdn.ucloud.com.cn/ucloud/275fdff10a292f5050f6483fbcb9908d/playlist.m3u8)
+
+[CCTV2](http://112.5.223.27/ott.fj.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8)
 
 [CCTV2](http://ivi.bupt.edu.cn/hls/cctv2.m3u8)
+
+[CCTV3](http://publish3.cdn.ucloud.com.cn/ucloud/e06ebc46cf842cf80610e2a56d718233/playlist.m3u8)
 
 [CCTV3](http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8)
 
 [CCTV3](http://ivi.bupt.edu.cn/hls/cctv3.m3u8)
 
-[CCTV4](http://61.166.153.32:1180/play/playback/90000001000000050000000000000199/live100001.m3u8)
+[CCTV4](http://publish3.cdn.ucloud.com.cn/ucloud/ab6c674c7b74122215808e13d94172e2/playlist.m3u8)
 
 [CCTV4](http://223.110.245.170/PLTV/3/224/3221225534/index.m3u8)
 
@@ -24,41 +34,23 @@
 
 [CCTV4](http://39.134.52.180/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225978/index.m3u8)
 
-[CCTV5](http://223.110.243.135/PLTV/3/224/3221226324/index.m3u8?servicetype=1&icpid=88888888&from=1&hms_devid=3424)
+[CCTV5](http://223.110.241.204:6610/cntv/live1/cctv-5/live/1.m3u8)
 
-[CCTV5](http://hnxy.chinashadt.com:1936/live/tv3.stream_aac/playlist.m3u8)
-
-[CCTV5](http://hnsyx.chinashadt.com:2036/live/tv17.stream/playlist.m3u8)
-
-[CCTV5](http://hbzz.chinashadt.com:2036/live/3.stream/playlist.m3u8)
-
-[CCTV5](http://jxyz.chinashadt.com:2036/live/yz4.stream/playist.m3u8)
-
-[CCTV5](http://hbsh.chinashadt.com:2036/live/8.stream/playlist.m3u8)
-
-[CCTV5](http://ahtc.chinashadt.com:2036/live/6.stream/playlist.m3u8)
-
-[CCTV5](http://hbmc.chinashadt.com:2740/live/di5.stream_360p/playlist.m3u8)
-
-[CCTV5](http://hbry.chinashadt.com:1938/live/1004.stream_360p/playlist.m3u8)
-
-[CCTV5](http://sxws.chinashadt.com:1936/live/tv5.stream_360p/playlist.m3u8)
-
-[CCTV5](http://hnsd.chinashadt.com:2036/zhuanma/stream:cctv5.stream_360p/playlist.m3u8)
-
-[CCTV5](http://35498.hlsplay.aodianyun.com/guangdianyun_35498/tv_channel_429.m3u8)
-
-[CCTV5](http://34862.hlsplay.aodianyun.com/guangdianyun_34862/tv_channel_440.m3u8)
-
-[CCTV5](http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226942/index.m3u8)
-
-[CCTV5](http://124.47.33.200/PLTV/88888888/224/3221225489/index.m3u8)
+[CCTV5](http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8)
 
 [CCTV5](http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8)
 
 [CCTV5](http://ivi.bupt.edu.cn/hls/cctv5.m3u8)
 
+[CCTV5+](http://223.110.241.204:6610/cntv/live1/hdcctv05plus/live/1.m3u8)
+
+[CCTV5+](http://223.110.243.162/PLTV/3/224/3221225604/index.m3u8)
+
 [CCTV5+](http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8)
+
+[CCTV6](http://publish3.cdn.ucloud.com.cn/ucloud/2a8ab05808116e1952b897ea77984ac2/playlist.m3u8)
+
+[CCTV6](http://223.110.241.204:6610/cntv/live1/cctv-6/live/1.m3u8)
 
 [CCTV6](http://223.110.245.172/PLTV/3/224/3221225548/index.m3u8)
 
@@ -66,35 +58,49 @@
 
 [CCTV6](http://ivi.bupt.edu.cn/hls/cctv6.m3u8)
 
+[CCTV7](http://publish3.cdn.ucloud.com.cn/ucloud/e5280fe3a00170892ca0da5fc31d276c/playlist.m3u8)
+
+[CCTV7](http://112.5.223.57/ott.fj.chinamobile.com/PLTV/88888888/224/3221225805/index.m3u8)
+
 [CCTV7](http://223.110.245.173/PLTV/3/224/3221225546/index.m3u8)
 
 [CCTV7](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225832/index.m3u8)
 
 [CCTV7](http://ivi.bupt.edu.cn/hls/cctv7.m3u8)
 
-[CCTV8](http://183.207.249.37/PLTV/3/224/3221227204/index.m3u8)
+[CCTV8](http://publish3.cdn.ucloud.com.cn/ucloud/c5367a6b59cce1995583b71eb683688c/playlist.m3u8)
+
+[CCTV8](http://223.110.241.204:6610/cntv/live1/cctv-8/live/1.m3u8)
+
+[CCTV8](http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8)
 
 [CCTV8](http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8)
 
 [CCTV8](http://ivi.bupt.edu.cn/hls/cctv8.m3u8)
 
+[CCTV9](http://publish3.cdn.ucloud.com.cn/ucloud/2d9630d8972ad1142bf00f3ea6b7fe0a/playlist.m3u8)
+
+[CCTV9](http://112.5.223.58/ott.fj.chinamobile.com/PLTV/88888888/224/3221225929/index.m3u8)
+
 [CCTV9](http://183.207.249.14/PLTV/3/224/3221225532/index.m3u8)
 
 [CCTV9](http://ivi.bupt.edu.cn/hls/cctv9.m3u8)
 
-[CCTV9](http://39.134.52.173/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225816/index.m3u8)
+[CGTN Documentary](http://publish3.cdn.ucloud.com.cn/ucloud/4706f77c6675f9052df4d50cd1c9bd53/playlist.m3u8)
 
 [CGTN Documentary](http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8)
 
-[CCTV10](http://183.207.249.14/PLTV/3/224/3221225550/index.m3u8)
+[CCTV10](http://publish3.cdn.ucloud.com.cn/ucloud/413fb6efb7281484bf1630ec66e19827/playlist.m3u8)
+
+[CCTV10](http://112.5.223.65/ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/index.m3u8)
 
 [CCTV10](http://ivi.bupt.edu.cn/hls/cctv10.m3u8)
-
-[CCTV11](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225983/index.m3u8)
 
 [CCTV11](http://ivi.bupt.edu.cn/hls/cctv11.m3u8)
 
 [CCTV12](http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8)
+
+[CCTV12](http://publish3.cdn.ucloud.com.cn/ucloud/886e6fc3607ccd08e2b54cb23e7d6ff6/playlist.m3u8)
 
 [CCTV12](http://ivi.bupt.edu.cn/hls/cctv12.m3u8)
 
@@ -104,75 +110,19 @@
 
 [CCTV15](http://ivi.bupt.edu.cn/hls/cctv15.m3u8)
 
-## China Regional
-
-[Anhui TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225809/index.m3u8)
-
-[Anhui TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226001/index.m3u8)
-
-[BTV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225988/index.m3u8)
-
-[BTV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225784/index.m3u8)
-
-[BTV Kaku](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226010/index.m3u8)
-
-[Dragon TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8)
-
-[Dragon TV](http://ivi.bupt.edu.cn/hls/dfhd.m3u8)
-
-[Dragon TV](http://ivi.bupt.edu.cn/hls/dftv.m3u8)
-
-[Guangdong TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225985/index.m3u8)
-
-[Guangdong TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225801/index.m3u8)
-
-[Guangxi TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225811/index.m3u8)
-
-[Guangxi TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226002/index.m3u8)
-
-[Hunan Jinying Cartoon](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8)
-
-[Jiangsu TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225989/index.m3u8)
-
-[Jiangsu TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225502/index.m3u8)
-
-[Jiangsu Sports](http://183.207.249.12/PLTV/4/224/3221225935/index.m3u8)
-
-[Liaoning TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225782/index.m3u8)
-
-[Liaoning Sports](http://39.134.52.172/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225838/index.m3u8)
-
-[Liaoning Education](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225872/index.m3u8)
-
-[Liaoning Life](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225873/index.m3u8)
-
-[Shandong TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225775/index.m3u8)
-
-[Shenzhen TV](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225501/index.m3u8)
-
-[Dongman Xiuchang](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225996/index.m3u8)
-
-[Youxi Fengyun](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226003/index.m3u8)
-
-[BesTV Sports 1](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226030/index.m3u8)
-
-[BesTV Sports 2](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226035/index.m3u8)
-
-[Movie Channel 1](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225770/index.m3u8)
-
-[CHC HD Movies](http://ivi.bupt.edu.cn/hls/chchd.m3u8)
-
-[CHC Action Movie](http://hbmc.chinashadt.com:2739/live/dzdy.stream_360p/playlist.m3u8)
-
-[SinoVision](http://media3.sinovision.net:1935/live/livestream/playlist.m3u8)
-
 ## Chinese News
 
 [CCTV13](http://223.110.245.172/PLTV/3/224/3221225560/index.m3u8)
 
+[CCTV13](http://publish3.cdn.ucloud.com.cn/ucloud/a04e5515cd2a94b29f61206f59dd907b/playlist.m3u8)
+
+[CCTV13](http://cache.ott.bestlive.itv.cmvideo.cn/000000001000/6918130250570453526/1.m3u8)
+
 [CCTV13](http://183.207.249.14/PLTV/3/224/3221225560/index.m3u8)
 
 [CCTV13](http://ivi.bupt.edu.cn/hls/cctv13.m3u8)
+
+[CGTN](http://publish3.cdn.ucloud.com.cn/ucloud/842ca4652671c891bdf56f6cfbb53cbd/playlist.m3u8)
 
 [CGTN](http://live.cgtn.com/manifest.m3u8)
 
@@ -182,13 +132,17 @@
 
 [Beijing Time](http://play5.kandian.360.cn/live_news_1500/main_output_m1/index.m3u8)
 
+[Guangdong News](http://stream1.grtn.cn/xwpd/sd/live.m3u8)
+
 [Guangzhou News](http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8)
 
-[Knews24](http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226041/index.m3u8)
+[Knews24](http://hls.live.kksmg.com/live/live24h/playlist.m3u8)
 
-[Knews24](http://hls.live.kksmg.com/live/live24h/playlist.m3u8?se=kankan&ct=2&_cp=1)
+[STV News](http://azure4a-live.bestvcdn.com.cn/live/program/Dbestvapp-mobile-v4.live.bestvcdn.com.cnD/_7c97b52737fe265a1b5b5a5083f34b32_keyB1AAE1C030A2002D872CE686A33CCC22BF05F900CFC1E4E64BD46DCAD1BB9F2EA5228ACB314F62D9A51B5847F5140E32B61723DFD0D53231B3A2D90429391D648359037370110BA2BF84136C29D595AA992196BAF1668916E3FD4F80153FC3BAD0CD26A8E538E04718A9A6CEABFF4BA5_/live/xwzhhd/4000000/d3.m3u8)
 
-[STV news](http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/xwzhhd/700000/d1.m3u8)
+[STV News](http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/xwzhhd/700000/d1.m3u8)
+
+[CBN](http://azure4a-live.bestvcdn.com.cn/live/program/Dbestvapp-mobile-v4.live.bestvcdn.com.cnD/_00f227e83ca40db4d1d5dc7c59aa340a_keyB1AAE1C030A2002D872CE686A33CCC22BF05F900CFC1E4E64BD46DCAD1BB9F2E42197049029F032489D66B92B8E9C45505BA4B8739BAF910188A5ED2E13CF842A2B32311B33ED7A4D4621C7D0B68D2C93A3F4A75003FC7FEFABD061445D080D67840172496DD6E643297C270426F524B_/live/dycjhd/4000000/d3.m3u8)
 
 [CBN](http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/dycj/700000/d1.m3u8)
 
@@ -196,9 +150,11 @@
 
 [CBN](http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8)
 
-[CBN](http://183.207.249.7/PLTV/3/224/3221225573/index.m3u8)
+[TVB iNews](http://al3-flv.live.huajiao.com/live_huajiao_v2/fe9997d8f829d42dc09513eb7e550294.m3u8)
 
 [TVB Finance](http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8)
+
+[TVB Finance](http://al3-flv.live.huajiao.com/live_huajiao_v2/e82ffd808024392354055bce8e381a74.m3u8)
 
 [TVB Entertainment](http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil)
 
@@ -206,9 +162,9 @@
 
 [Cable News](http://ottproxy1.mott.tv/livehls/MOB-SCC/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=suBYLNfg49z4)
 
-[Cable Finance](http://ottproxy1.mott.tv/livehls/MOB-NGW/03.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=ttrQ5Q1Yh9ce)
+[Cable Finance](http://ottproxy1.mott.tv/livehls/MOB-NGW/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=ttrQ5Q1Yh9ce)
 
-[Phoenix TV Infonews](http://live.fengshows.com/live/PIN_500k/index.m3u8?ts=&token=)
+[Phoenix TV Infonews](http://al3-flv.live.huajiao.com/live_huajiao_v2/107df4a2960d7fc378015f13cf6090ad.m3u8)
 
 [Phoenix TV Infonews](http://223.110.245.139/PLTV/3/224/3221226980/index.m3u8)
 
@@ -225,8 +181,6 @@
 [Next TV News](http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8)
 
 ## World News
-
-[CNN](http://212.8.253.29:1935/cnew/myStream//playlist.m3u8?sechash=1as8pMJDxUJVHfpyBIKHA2DUKfymI2f-A0dBcodCYUA=)
 
 [CNN](http://girlz.cdn.newschat.tv/hls/cnn_live/index.m3u8)
 
@@ -292,9 +246,9 @@
 
 [BBC News](http://girlz.cdn.newschat.tv/hls/bbcnews_live/index.m3u8)
 
-[BBC News](http://79.137.127.218:8081/22AEEbYLjsYm7JYTZxYcesuYTZxY8euQVERINVI2ND6dQra/live/bbcnews.m3u8)
-
 [BBC World News](http://girlz.cdn.newschat.tv/hls/bbcwn_live/index.m3u8)
+
+[BBC World News](https://par-1.firstonetv.net/hls/39004c9e-0334-0e42-505a-8ecb5fc1129c.m3u8)
 
 [Sky News](http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8)
 
@@ -424,9 +378,9 @@
 
 [Phoenix TV Chinese](http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8)
 
-[Phoenix TV Chinese](http://live.fengshows.com/live/PCC_500k/index.m3u8?ts=&token=)
+[Phoenix TV Chinese](http://live.fengshows.com/live/PCC_500k/index.m3u8)
 
-[Phoenix TV Hong Kong](http://live.fengshows.com/live/PHK_500k/index.m3u8?ts=&token=)
+[Phoenix TV Hong Kong](http://live.fengshows.com/live/PHK_500k/index.m3u8)
 
 [Phoenix TV Hong Kong](http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8)
 
@@ -459,8 +413,6 @@
 [TDM Sport](http://live4.tdm.com.mo/ch4/definst//ch4.live/playlist.m3u8)
 
 [TDM HD](http://live3.tdm.com.mo:1935/ch6/hd_ch6.live/playlist.m3u8)
-
-[ELTA Sports 3](rtmp://wv2.tp33.net:1935/sat/md041)
 
 ## Chinese Religious
 
@@ -581,8 +533,6 @@
 ## Europe
 
 [LondonLive](http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8)
-
-[VISIT-X TV](rtmp://stream.visit-x.tv/vxtv/live_720p)
 
 [TV3(Catalunya)](http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3_mobil/playlist.m3u8)
 
