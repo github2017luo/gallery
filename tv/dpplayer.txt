@@ -67,9 +67,9 @@ CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 Beijing Time,http://play5.kandian.360.cn/live_news_1500/main_output_m1/index.m3u8
 Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8?_upt=a8a39ea81536908019
-Guangzhou News,http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8
+Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e892905cb9018cf0d4.m3u8
+Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
 Knews24,http://hls.live.kksmg.com/live/live24h/playlist.m3u8?se=kankan&ct=2&_cp=1
-STV News,http://azure4a-live.bestvcdn.com.cn/live/program/Dbestvapp-mobile-v4.live.bestvcdn.com.cnD/_7c97b52737fe265a1b5b5a5083f34b32_keyB1AAE1C030A2002D872CE686A33CCC22BF05F900CFC1E4E64BD46DCAD1BB9F2EA5228ACB314F62D9A51B5847F5140E32B61723DFD0D53231B3A2D90429391D648359037370110BA2BF84136C29D595AA992196BAF1668916E3FD4F80153FC3BAD0CD26A8E538E04718A9A6CEABFF4BA5_/live/xwzhhd/4000000/d3.m3u8
 STV News,http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/xwzhhd/700000/d1.m3u8
 CBN,http://azure4a-live.bestvcdn.com.cn/live/program/Dbestvapp-mobile-v4.live.bestvcdn.com.cnD/_00f227e83ca40db4d1d5dc7c59aa340a_keyB1AAE1C030A2002D872CE686A33CCC22BF05F900CFC1E4E64BD46DCAD1BB9F2E42197049029F032489D66B92B8E9C45505BA4B8739BAF910188A5ED2E13CF842A2B32311B33ED7A4D4621C7D0B68D2C93A3F4A75003FC7FEFABD061445D080D67840172496DD6E643297C270426F524B_/live/dycjhd/4000000/d3.m3u8
 CBN,http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/dycj/700000/d1.m3u8
@@ -92,9 +92,7 @@ Next TV News,http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv1/chunklist.m3u8
 Next TV News,http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8
 
 [World News]
-CNN,https://2d04.janjuaplayer.com:8088/live/cnn_livestreaming/playlist.m3u8?id=71202&wowzasessionid=767316297
 CNN,http://girlz.cdn.newschat.tv/hls/cnn_live/index.m3u8
-CNN International,https://2247.janjuaplayer.com:8088/live/cnn_livestreaming/playlist.m3u8?id=71202&wowzasessionid=104930674
 CNN International,http://girlz.cdn.newschat.tv/hls/cnni_live/index.m3u8
 HLN,http://girlz.cdn.newschat.tv/hls/hln_live/index.m3u8
 CBSN,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
