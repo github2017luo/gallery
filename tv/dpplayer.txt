@@ -1,5 +1,5 @@
 ﻿[China]
-CCTV1,http://publish3.cdn.ucloud.com.cn/ucloud/17a1817a27b0a061b5274a3b9ad0ecc1/playlist.m3u8
+CCTV1,http://cctv5.txty.5213.liveplay.myqcloud.com/live/cctv1_txty.m3u8
 CCTV1,http://111.48.34.227/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225765/3.m3u8
 CCTV1,http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
