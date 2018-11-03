@@ -31,38 +31,39 @@ CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
 CCTV9,http://publish3.cdn.ucloud.com.cn/ucloud/efc718a49dd3753420d3f7084c1d2536/playlist.m3u8?k=CCAC84785C87C251C66B8C5A
 CCTV9,http://112.5.223.58/ott.fj.chinamobile.com/PLTV/88888888/224/3221225929/index.m3u8
 CCTV9,http://183.207.249.14/PLTV/3/224/3221225532/index.m3u8
-CGTN Documentary,http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8
 CCTV10,http://ivi.bupt.edu.cn/hls/cctv10.m3u8
 CCTV10,http://112.5.223.65/ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/index.m3u8
 CCTV11,http://ivi.bupt.edu.cn/hls/cctv11.m3u8
 CCTV12,http://ivi.bupt.edu.cn/hls/cctv12.m3u8
 CCTV12,http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8
-CCTV14,http://ivi.bupt.edu.cn/hls/cctv14.m3u8
-CCTV14,http://223.110.245.169/PLTV/3/224/3221227201/index.m3u8
-CCTV15,http://ivi.bupt.edu.cn/hls/cctv15.m3u8
-
-[Chinese News]
 CCTV13,http://223.110.245.172/PLTV/3/224/3221225560/index.m3u8
 CCTV13,http://183.207.249.14/PLTV/3/224/3221225560/index.m3u8
 CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
+CCTV14,http://ivi.bupt.edu.cn/hls/cctv14.m3u8
+CCTV14,http://223.110.245.169/PLTV/3/224/3221227201/index.m3u8
+CCTV15,http://ivi.bupt.edu.cn/hls/cctv15.m3u8
 CGTN,http://live.cgtn.com/manifest.m3u8
 CGTN,http://live.cgtn.com/1000/prog_index.m3u8
 CGTN,https://live.cgtn.com/500/prog_index.m3u8
 CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
+CGTN Documentary,http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8
+
+[Chinese News]
 BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
-Beijing Time,http://play5.kandian.360.cn/live_news_1500/main_output_m1/index.m3u8
-Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8?_upt=a8a39ea81536908019
+Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8
 Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
-Knews24,http://hls.live.kksmg.com/live/live24h/playlist.m3u8?se=kankan&ct=2&_cp=1
+Knews24,http://hls-live.kksmg.com/live/live24h3/playlist.m3u8
+Knews Live 1,http://bililive.kksmg.com/hls/vmix2/playlist.m3u8
+Knews Lujiazui,http://bililive.kksmg.com/hls/sdi7000/playlist.m3u8
+Knews Modu Eye,http://bililive.kksmg.com/hls/sdi80/playlist.m3u8
 STV News,http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/xwzhhd/700000/d1.m3u8
-CBN,http://azure4a-live.bestvcdn.com.cn/live/program/Dbestvapp-mobile-v4.live.bestvcdn.com.cnD/_00f227e83ca40db4d1d5dc7c59aa340a_keyB1AAE1C030A2002D872CE686A33CCC22BF05F900CFC1E4E64BD46DCAD1BB9F2E42197049029F032489D66B92B8E9C45505BA4B8739BAF910188A5ED2E13CF842A2B32311B33ED7A4D4621C7D0B68D2C93A3F4A75003FC7FEFABD061445D080D67840172496DD6E643297C270426F524B_/live/dycjhd/4000000/d3.m3u8
 CBN,http://aliyunkknews-live.bestvcdn.com.cn/live/program/Dkankan.live.bestvcdn.com.cnD/_M_keyM_/live/dycj/700000/d1.m3u8
 CBN,http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
 CBN,http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
-TVB iNews,http://al3-flv.live.huajiao.com/live_huajiao_v2/fe9997d8f829d42dc09513eb7e550294.m3u8
+TVB iNews,http://m.567it.com/inews.m3u8
 TVB Finance,http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8
-TVB Finance,http://al3-flv.live.huajiao.com/live_huajiao_v2/e82ffd808024392354055bce8e381a74.m3u8?k=CCAC84785C87C251C66B8C5A
+TVB Finance,http://m.567it.com/j5.m3u8
 TVB Entertainment,http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil
 Bright Smart Finance,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 Cable News,http://ottproxy1.mott.tv/livehls/MOB-SCC/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=suBYLNfg49z4
@@ -78,6 +79,7 @@ Next TV News,http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8
 
 [World News]
 CNN,http://girlz.cdn.newschat.tv/hls/cnn_live/index.m3u8
+CNN International,https://cdn77.tvmucho.com/4xtoZiMEOHJeHYAgUW3KPw==,1541318340/t1-hd-cdn/cnn-int-europe-hd/uk/cnn-int-europe-hd_576p/chunks.m3u8
 CNN International,http://girlz.cdn.newschat.tv/hls/cnni_live/index.m3u8
 HLN,http://girlz.cdn.newschat.tv/hls/hln_live/index.m3u8
 CBSN,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
@@ -313,8 +315,6 @@ Bloomberg Event (US),https://bblive-liveproduseast.hs.llnwd.net/btv/desktop/us_e
 Bloomberg Event (EMEA),https://liveprodeuwest.akamaized.net/btv/desktop/eu_event.m3u8
 Bloomberg Event (Asia),https://liveprodapnortheast.akamaized.net/btv/desktop/ap_event.m3u8
 Bloomberg Event (Politics),https://bblive-liveproduseast.hs.llnwd.net/btv/desktop/us_politics.m3u8
-Lujiazui,http://bililive.kksmg.com/hls/sdi7000/playlist.m3u8
-Modu Eye,http://bililive.kksmg.com/hls/sdi80/playlist.m3u8
 
 [US Regional]
 District of Columbia Network,http://video.oct.dc.gov/out/u/DCN.m3u8
