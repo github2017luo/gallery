@@ -183,13 +183,13 @@ Phoenix TV Chinese,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
 Phoenix TV Chinese,http://live.fengshows.com/live/PCC_500k/index.m3u8?ts=&token=
 Phoenix TV Hong Kong,http://live.fengshows.com/live/PHK_500k/index.m3u8?ts=&token=
 Phoenix TV Hong Kong,http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
-TVB Jade,http://pulllive-al.wasu.cn/live/d97e0342e848dbc54a25a99d303b556d.m3u8
+TVB Jade,http://m.567it.com/jade.m3u8
 TVB Jade,http://qqpull.inke.cn/live/1529495855458960.m3u8
-TVB Pearl,http://pulllive-al.wasu.cn/live/487040cf86d8b52e24e3b593d2cf61f8.m3u8
+TVB Pearl,http://m.567it.com/Pearl.m3u8
 ViuTV,http://viutv99-i.akamaihd.net/hls/live/265284/live1/stream4/streamPlaylist.m3u8
 ViuTV,http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
-Fantastic TV,http://media.fantv.hk/m3u8/archive/channel2.m3u8
-Fantastic TV,http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
+Open TV,http://media.fantv.hk/m3u8/archive/channel2.m3u8
+Open TV,http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
 HKSTV,http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
 Sun TV,https://stream.isuntv.com/680k/mid_video_index.m3u8
 
