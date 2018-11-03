@@ -1,68 +1,53 @@
 ﻿[China]
-CCTV1,http://cctv5.txty.5213.liveplay.myqcloud.com/live/cctv1_txty.m3u8
-CCTV1,http://111.48.34.227/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225765/3.m3u8
-CCTV1,http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
-CCTV1 HK,http://al3-flv.live.huajiao.com/live_huajiao_v2/2b3548603b6c7965aa4cc86700c25802.m3u8
-CCTV2,http://publish3.cdn.ucloud.com.cn/ucloud/275fdff10a292f5050f6483fbcb9908d/playlist.m3u8
-CCTV2,http://112.5.223.27/ott.fj.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
+CCTV1,http://111.48.34.227/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225765/3.m3u8
+CCTV1,http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8
+CCTV1 HK,http://al3-flv.live.huajiao.com/live_huajiao_v2/797e99b87a89d77144555acc27922dd9.m3u8?type=enc1
 CCTV2,http://ivi.bupt.edu.cn/hls/cctv2.m3u8
-CCTV3,http://publish3.cdn.ucloud.com.cn/ucloud/e06ebc46cf842cf80610e2a56d718233/playlist.m3u8
+CCTV2,http://112.5.223.27/ott.fj.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
 CCTV3,http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
 CCTV3,http://ivi.bupt.edu.cn/hls/cctv3.m3u8
-CCTV4,http://publish3.cdn.ucloud.com.cn/ucloud/ab6c674c7b74122215808e13d94172e2/playlist.m3u8
-CCTV4,http://223.110.245.170/PLTV/3/224/3221225534/index.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
-CCTV4,http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225521/index.m3u8
+CCTV4,http://223.110.245.170/PLTV/3/224/3221225534/index.m3u8
 CCTV4,http://39.134.52.180/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225978/index.m3u8
-CCTV5,http://223.110.241.204:6610/cntv/live1/cctv-5/live/1.m3u8?IASHttpSessionId=OTT1734220180806065159455682
-CCTV5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8
+CCTV4,http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225521/index.m3u8
 CCTV5,http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
 CCTV5,http://ivi.bupt.edu.cn/hls/cctv5.m3u8
-CCTV5+,http://223.110.241.204:6610/cntv/live1/hdcctv05plus/live/1.m3u8?IASHttpSessionId=OTT1734220180806065159455682
-CCTV5+,http://223.110.243.162/PLTV/3/224/3221225604/index.m3u8
+CCTV5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8
 CCTV5+,http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
-CCTV6,http://publish3.cdn.ucloud.com.cn/ucloud/2a8ab05808116e1952b897ea77984ac2/playlist.m3u8
-CCTV6,http://223.110.241.204:6610/cntv/live1/cctv-6/live/1.m3u8?IASHttpSessionId=OTT1734220180806065159455682CCTV6,
-CCTV6,http://223.110.245.172/PLTV/3/224/3221225548/index.m3u8
+CCTV5+,http://223.110.243.162/PLTV/3/224/3221225604/index.m3u8
 CCTV6,http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
 CCTV6,http://ivi.bupt.edu.cn/hls/cctv6.m3u8
-CCTV7,http://publish3.cdn.ucloud.com.cn/ucloud/e5280fe3a00170892ca0da5fc31d276c/playlist.m3u8
-CCTV7,http://112.5.223.57/ott.fj.chinamobile.com/PLTV/88888888/224/3221225805/index.m3u8
+CCTV6,http://223.110.245.172/PLTV/3/224/3221225548/index.m3u8
+CCTV7,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
 CCTV7,http://223.110.245.173/PLTV/3/224/3221225546/index.m3u8
 CCTV7,http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225832/index.m3u8
-CCTV7,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
-CCTV8,http://publish3.cdn.ucloud.com.cn/ucloud/c5367a6b59cce1995583b71eb683688c/playlist.m3u8
-CCTV8,http://223.110.241.204:6610/cntv/live1/cctv-8/live/1.m3u8?IASHttpSessionId=OTT1734220180806065159455682
-CCTV8,http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8
+CCTV7,http://112.5.223.57/ott.fj.chinamobile.com/PLTV/88888888/224/3221225805/index.m3u8
 CCTV8,http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
 CCTV8,http://ivi.bupt.edu.cn/hls/cctv8.m3u8
-CCTV9,http://publish3.cdn.ucloud.com.cn/ucloud/2d9630d8972ad1142bf00f3ea6b7fe0a/playlist.m3u8
+CCTV8,http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8
+CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
+CCTV9,http://publish3.cdn.ucloud.com.cn/ucloud/efc718a49dd3753420d3f7084c1d2536/playlist.m3u8?k=CCAC84785C87C251C66B8C5A
 CCTV9,http://112.5.223.58/ott.fj.chinamobile.com/PLTV/88888888/224/3221225929/index.m3u8
 CCTV9,http://183.207.249.14/PLTV/3/224/3221225532/index.m3u8
-CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
-CGTN Documentary,http://publish3.cdn.ucloud.com.cn/ucloud/4706f77c6675f9052df4d50cd1c9bd53/playlist.m3u8
 CGTN Documentary,http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8
-CCTV10,http://publish3.cdn.ucloud.com.cn/ucloud/413fb6efb7281484bf1630ec66e19827/playlist.m3u8
-CCTV10,http://112.5.223.65/ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/index.m3u8
 CCTV10,http://ivi.bupt.edu.cn/hls/cctv10.m3u8
+CCTV10,http://112.5.223.65/ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/index.m3u8
 CCTV11,http://ivi.bupt.edu.cn/hls/cctv11.m3u8
-CCTV12,http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8
-CCTV12,http://publish3.cdn.ucloud.com.cn/ucloud/886e6fc3607ccd08e2b54cb23e7d6ff6/playlist.m3u8
 CCTV12,http://ivi.bupt.edu.cn/hls/cctv12.m3u8
-CCTV14,http://223.110.245.169/PLTV/3/224/3221227201/index.m3u8
+CCTV12,http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8
 CCTV14,http://ivi.bupt.edu.cn/hls/cctv14.m3u8
+CCTV14,http://223.110.245.169/PLTV/3/224/3221227201/index.m3u8
 CCTV15,http://ivi.bupt.edu.cn/hls/cctv15.m3u8
 
 [Chinese News]
 CCTV13,http://223.110.245.172/PLTV/3/224/3221225560/index.m3u8
-CCTV13,http://publish3.cdn.ucloud.com.cn/ucloud/a04e5515cd2a94b29f61206f59dd907b/playlist.m3u8
-CCTV13,http://cache.ott.bestlive.itv.cmvideo.cn/000000001000/6918130250570453526/1.m3u8?channel-id=ystenlive&Contentid=6918130250570453526&livemode=1&stbId=003503FF000218901803C88F26A0EDCC&userToken=e3bc3e9e316c5465e2eced817f9165a821vv&usergroup=g21077100000&version=1.0&owaccmark=6918130250570453526&owchid=ystenlive&owsid=7807854155610949411&AuthInfo=gnNmxI1l2iu9UqqQ7vImgU6M1kbEAgFwtzN36TpxK3PA8I52aEet8P2Hwex5duTeyCDqDHvF9C2dOVJr8zi9L%2f6ccPSinuN81OQ1gOBXV%2fkzDovI9IKhpYUMxUTpEN6y
 CCTV13,http://183.207.249.14/PLTV/3/224/3221225560/index.m3u8
 CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
-CGTN,http://publish3.cdn.ucloud.com.cn/ucloud/842ca4652671c891bdf56f6cfbb53cbd/playlist.m3u8
 CGTN,http://live.cgtn.com/manifest.m3u8
+CGTN,http://live.cgtn.com/1000/prog_index.m3u8
+CGTN,https://live.cgtn.com/500/prog_index.m3u8
 CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 Beijing Time,http://play5.kandian.360.cn/live_news_1500/main_output_m1/index.m3u8
