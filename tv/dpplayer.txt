@@ -68,7 +68,7 @@ TVB Entertainment,http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil
 Bright Smart Finance,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 Cable News,http://ottproxy1.mott.tv/livehls/MOB-SCC/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=suBYLNfg49z4
 Cable Finance,http://ottproxy1.mott.tv/livehls/MOB-NGW/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=ttrQ5Q1Yh9ce
-Phoenix TV Infonews,http://al3-flv.live.huajiao.com/live_huajiao_v2/107df4a2960d7fc378015f13cf6090ad.m3u8
+Phoenix TV Infonews,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 Phoenix TV Infonews,http://223.110.245.139/PLTV/3/224/3221226980/index.m3u8
 Phoenix TV Infonews,http://183.251.61.198/PLTV/88888888/224/3221225901/index.m3u8
 RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
