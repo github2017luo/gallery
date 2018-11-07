@@ -122,6 +122,8 @@ BBC One,http://s1.tvmucho.com:8081/tvmucho/bbc-one-hd/playlist.m3u8
 BBC Two,http://s1.tvmucho.com:8081/tvmucho/bbc-two-hd/playlist.m3u8
 BBC Arabic,http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
 BBC Persian,http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8
+ITV,http://s1.tvmucho.com:8081/tvmucho/itv-one-hd/playlist.m3u8
+ITV 2,http://t.cn/EwFcr8c
 Sky News,http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8
