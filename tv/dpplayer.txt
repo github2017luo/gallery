@@ -259,6 +259,7 @@ GoodTV 13,http://live.streamingfast.net/osmflivech13.m3u8
 GoodTV 13,http://live-350k.streamingfast.net/osmflivech13.m3u8
 GoodTV 14,http://live.streamingfast.net/osmflivech14.m3u8
 GoodTV 14,http://live-350k.streamingfast.net/osmflivech14.m3u8
+
 [World News]
 CBC News Network,http://girlz.cdn.newschat.tv/hls/cbc_live/index.m3u8
 France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8
@@ -278,6 +279,7 @@ TRTWORLD,http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8
 [Regional News]
 Tagesschau24,http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
 ARD Tagesschau,http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8
+BFMTV,https://bfmtvalive1-a.akamaihd.net/9824d8182ef7475abb5cb41f0d2b71d0/eu-central-1/876450610001/dd257bd6bff64eccb0a29b54cc705a07/playlist_ssaiM.m3u8
 BFMTV,https://bfmtvalive1-a.akamaihd.net/8a3483ffeb9d40f0a738c1392f2bcc14/eu-central-1/876450610001/profile_0/00e965fc653a4efabf4cbd8d551ac725/chunklist_ssaiM.m3u8
 RAI News 24,http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/master.m3u8
 Antena 3,http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8

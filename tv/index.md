@@ -542,6 +542,8 @@
 
 [BFMTV](https://bfmtvalive1-a.akamaihd.net/8a3483ffeb9d40f0a738c1392f2bcc14/eu-central-1/876450610001/profile_0/00e965fc653a4efabf4cbd8d551ac725/chunklist_ssaiM.m3u8)
 
+[BFMTV](https://bfmtvalive1-a.akamaihd.net/8a3483ffeb9d40f0a738c1392f2bcc14/eu-central-1/876450610001/profile_0/00e965fc653a4efabf4cbd8d551ac725/chunklist_ssaiM.m3u8)
+
 [RAI News 24](http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/master.m3u8)
 
 [Antena 3](http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8)
