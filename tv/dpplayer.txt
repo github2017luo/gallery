@@ -1,4 +1,5 @@
 ﻿[CCTV]
+CCTV1,http://cctvcnch5c.v.wscdns.com/live/cctv1_2/index.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
 CCTV1,http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8
@@ -6,6 +7,7 @@ CCTV2,http://ivi.bupt.edu.cn/hls/cctv2.m3u8
 CCTV2,http://112.5.223.27/ott.fj.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
 CCTV3,http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
 CCTV3,http://ivi.bupt.edu.cn/hls/cctv3.m3u8
+CCTV4,http://cctvcnch5c.v.wscdns.com/live/cctv4_2/index.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
 CCTV4,http://223.110.245.170/PLTV/3/224/3221225534/index.m3u8
 CCTV4,http://39.134.52.180/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225978/index.m3u8
@@ -32,6 +34,7 @@ CCTV10,http://112.5.223.65/ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/i
 CCTV11,http://ivi.bupt.edu.cn/hls/cctv11.m3u8
 CCTV12,http://ivi.bupt.edu.cn/hls/cctv12.m3u8
 CCTV12,http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8
+CCTV13,http://cctvcnch5c.v.wscdns.com/live/cctv13_2/index.m3u8
 CCTV13,http://223.110.245.172/PLTV/3/224/3221225560/index.m3u8
 CCTV13,http://183.207.249.14/PLTV/3/224/3221225560/index.m3u8
 CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
