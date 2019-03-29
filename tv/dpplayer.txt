@@ -74,6 +74,7 @@ Phoenix TV Infonews,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/322
 Phoenix TV Infonews,http://183.251.61.198/PLTV/88888888/224/3221225901/index.m3u8
 Phoenix TV Hong Kong,http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
 Bright Smart Finance,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+Passion Times,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
 
 [Macau]
 TDM 1,https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
@@ -209,22 +210,48 @@ TV Azteca Noticias,http://cdnapi.kaltura.com/p/459791/sp/45979100/playManifest/e
 Telemax,http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
 
 [United Kingdom]
-BBC News,http://s1.tvmucho.com:8081/tvmucho/bbc-news-hd/playlist.m3u8
-BBC News,http://girlz.cdn.newschat.tv/hls/bbcnews_live/index.m3u8
-BBC World News,http://s1.tvmucho.com:8081/tvmucho/bbc-world-europe/playlist.m3u8
-BBC World News,http://girlz.cdn.newschat.tv/hls/bbcwn_live/index.m3u8
 BBC One,http://s1.tvmucho.com:8081/tvmucho/bbc-one-hd/playlist.m3u8
-BBC Two,http://s1.tvmucho.com:8081/tvmucho/bbc-two-hd/playlist.m3u8
+BBC One,http://s1.tvmucho.com:8081/tvmucho/bbc1london/playlist.m3u8
+BBC TWO,http://s1.tvmucho.com:8081/tvmucho/bbc-two-hd/playlist.m3u8
+BBC News,http://s1.tvmucho.com:8081/tvmucho/bbc-news-hd/playlist.m3u8
+BBC World News,http://s1.tvmucho.com:8081/tvmucho/bbc-world-europe/playlist.m3u8
+BBC Parliament,http://s1.tvmucho.com:8081/tvmucho/parliament/playlist.m3u8
+CBBC,http://s1.tvmucho.com:8081/tvmucho/cbbc-hd/playlist.m3u8
+CBeeBies,http://s1.tvmucho.com:8081/tvmucho/cbeebies-hd/playlist.m3u8
+BBC ALBA,http://s1.tvmucho.com:8081/tvmucho/bbc-alba/playlist.m3u8
 BBC Arabic,http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
 BBC Persian,http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8
-ITV,http://s1.tvmucho.com:8081/tvmucho/itv-one-hd/playlist.m3u8
+ITV 1,http://s1.tvmucho.com:8081/tvmucho/itv-one-hd/playlist.m3u8
+ITV 2,http://s1.tvmucho.com:8081/tvmucho/itv2/playlist.m3u8
+ITV 3,http://s1.tvmucho.com:8081/tvmucho/itv3/playlist.m3u8
+ITV 4,http://s1.tvmucho.com:8081/tvmucho/itv4/playlist.m3u8
+ITVBe,http://s1.tvmucho.com:8081/tvmucho/itvbe/playlist.m3u8
+Channel 4,http://s1.tvmucho.com:8081/tvmucho/ch4-hd/playlist.m3u8
+E4,http://s1.tvmucho.com:8081/tvmucho/e4/playlist.m3u8
+Film4,http://s1.tvmucho.com:8081/tvmucho/film-4/playlist.m3u8
+More4,http://s1.tvmucho.com:8081/tvmucho/more4/playlist.m3u8
+4seven,http://s1.tvmucho.com:8081/tvmucho/4seven/playlist.m3u8
+Channel 5,http://s1.tvmucho.com:8081/tvmucho/channel-5-hd/playlist.m3u8
+5 Spike,http://s1.tvmucho.com:8081/tvmucho/spike/playlist.m3u8
+5 USA,http://s1.tvmucho.com:8081/tvmucho/5usa/playlist.m3u8
+Dave,http://s1.tvmucho.com:8081/tvmucho/dave/playlist.m3u8
+Drama,http://s1.tvmucho.com:8081/tvmucho/drama/playlist.m3u8
+Really,http://s1.tvmucho.com:8081/tvmucho/really/playlist.m3u8
+Yesterday,http://s1.tvmucho.com:8081/tvmucho/yesterday/playlist.m3u8
+Sky News,http://s1.tvmucho.com:8081/tvmucho/sky-news-international/playlist.m3u8
 Sky News,http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8
-Euronews,http://girlz.cdn.newschat.tv/hls/euronews_live/index.m3u8
+Free Sports,http://s1.tvmucho.com:8081/tvmucho/freesports/playlist.m3u8
+Quest,http://s1.tvmucho.com:8081/tvmucho/quest/playlist.m3u8
+Quest Red,http://s1.tvmucho.com:8081/tvmucho/quest-red/playlist.m3u8
+Sony Movies,http://s1.tvmucho.com:8081/tvmucho/movie-mix/playlist.m3u8
+CBS Reality,http://s1.tvmucho.com:8081/tvmucho/cbs-reality/playlist.m3u8
 LondonLive,http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
 
 [Europe]
+Euronews,http://s1.tvmucho.com:8081/tvmucho/euronewsuk/playlist.m3u8
+Euronews,http://girlz.cdn.newschat.tv/hls/euronews_live/index.m3u8
 France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8
 France 24,http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
 BFMTV,https://bfmtvalive1-a.akamaihd.net/9824d8182ef7475abb5cb41f0d2b71d0/eu-central-1/876450610001/dd257bd6bff64eccb0a29b54cc705a07/playlist_ssaiM.m3u8
@@ -248,6 +275,9 @@ Sky News Australia Extra 1,https://skynewsau-live.akamaized.net/hls/live/2002689
 Sky News Australia Extra 2,https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
 Sky News Australia Extra 3,https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
 Three (New Zealand),http://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master.m3u8
+Maori Television,https://bcsecurelivehls-i.akamaihd.net/hls/live/720612/1614493167001_1/master.m3u8
+Te Reo (New Zealand),https://bcsecurelivehls-i.akamaihd.net/hls/live/720613/1614493167001_2/master.m3u8
+TVSN (New Zealand),https://tvsn-i.akamaihd.net/hls/live/261837/tvsn_nz/tvsn_nz_4m5_4500.m3u8
 
 [Singapore]
 Channel NewsAsia,https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8
