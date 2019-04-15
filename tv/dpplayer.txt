@@ -49,30 +49,88 @@ CGTN,https://live.cgtn.com/500/prog_index.m3u8
 CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 CGTN Documentary,http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8
 CETV1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225910/3.m3u8
+CHC,http://ivi.bupt.edu.cn/hls/chchd.m3u8
 
 [China Regional]
 Anhui TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225915/3.m3u8
+Anhui TV,http://ivi.bupt.edu.cn/hls/ahhd.m3u8
+Anhui TV,http://ivi.bupt.edu.cn/hls/ahtv.m3u8
 BTV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225975/3.m3u8
+BTV,http://ivi.bupt.edu.cn/hls/btv1hd.m3u8
+BTV,http://ivi.bupt.edu.cn/hls/btv1.m3u8
+BTV Art,http://ivi.bupt.edu.cn/hls/btv2hd.m3u8
+BTV Art,http://ivi.bupt.edu.cn/hls/btv2.m3u8
+BTV Science,http://ivi.bupt.edu.cn/hls/btv3.m3u8
+BTV Movies,http://ivi.bupt.edu.cn/hls/btv4.m3u8
+BTV Economic,http://ivi.bupt.edu.cn/hls/btv5.m3u8
+BTV Life,http://ivi.bupt.edu.cn/hls/btv7.m3u8
+BTV Youth,http://ivi.bupt.edu.cn/hls/btv8.m3u8
 BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
-Fujian TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
+BTV Kaku,http://ivi.bupt.edu.cn/hls/btv10.m3u8
+BTV Documentary,http://ivi.bupt.edu.cn/hls/btv11hd.m3u8
+Chongqing TV,http://ivi.bupt.edu.cn/hls/cqhd.m3u8
+Chongqing TV,http://ivi.bupt.edu.cn/hls/cqtv.m3u8
+Fujian SETV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
+Fujian SETV,http://ivi.bupt.edu.cn/hls/dntv.m3u8
+Gansu TV,http://ivi.bupt.edu.cn/hls/gstv.m3u8
 Guangdong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225893/3.m3u8
+Guangdong TV,http://ivi.bupt.edu.cn/hls/gdhd.m3u8
+Guangdong TV,http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8
+Guangxi TV,http://ivi.bupt.edu.cn/hls/gxtv.m3u8
 Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8
+Guizhou TV,http://ivi.bupt.edu.cn/hls/gztv.m3u8
+Hainan TSTV,http://ivi.bupt.edu.cn/hls/lytv.m3u8
+Hebei TV,http://ivi.bupt.edu.cn/hls/hebtv.m3u8
 Heilongjiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225968/3.m3u8
+Heilongjiang TV,http://ivi.bupt.edu.cn/hls/hljhd.m3u8
+Heilongjiang TV,http://ivi.bupt.edu.cn/hls/hljtv.m3u8
+Henan TV,http://ivi.bupt.edu.cn/hls/hntv.m3u8
 Hubei TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225966/3.m3u8
+Hubei TV,http://ivi.bupt.edu.cn/hls/hbhd.m3u8
+Hubei TV,http://ivi.bupt.edu.cn/hls/hbtv.m3u8
 Hunan TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225892/3.m3u8
+Hunan TV,http://ivi.bupt.edu.cn/hls/hunanhd.m3u8
+Hunan TV,http://ivi.bupt.edu.cn/hls/hunantv.m3u8
+Inner Mongolia TV,http://ivi.bupt.edu.cn/hls/nmtv.m3u8
 Jiangsu TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225885/3.m3u8
+Jiangsu TV,http://ivi.bupt.edu.cn/hls/jshd.m3u8
+Jiangsu TV,http://ivi.bupt.edu.cn/hls/jstv.m3u8
 Jiangxi TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225914/3.m3u8
+Jiangxi TV,http://ivi.bupt.edu.cn/hls/jxtv.m3u8
+Jilin TV,http://ivi.bupt.edu.cn/hls/jltv.m3u8
 Liaoning TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225888/3.m3u8
+Liaoning TV,http://ivi.bupt.edu.cn/hls/lnhd.m3u8
+Liaoning TV,http://ivi.bupt.edu.cn/hls/lntv.m3u8
+Ningxia TV,http://ivi.bupt.edu.cn/hls/nxtv.m3u8
+Qinghai TV,http://ivi.bupt.edu.cn/hls/qhtv.m3u8
+Shaanxi TV,http://ivi.bupt.edu.cn/hls/sxtv.m3u8
 Shandong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225974/3.m3u8
+Shandong TV,http://ivi.bupt.edu.cn/hls/sdhd.m3u8
+Shandong TV,http://ivi.bupt.edu.cn/hls/sdtv.m3u8
+Shanxi TV,http://ivi.bupt.edu.cn/hls/sxrtv.m3u8
 Shenzhen TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225967/3.m3u8
+Shenzhen TV,http://ivi.bupt.edu.cn/hls/szhd.m3u8
+Shenzhen TV,http://ivi.bupt.edu.cn/hls/sztv.m3u8
+Sichuan TV,http://ivi.bupt.edu.cn/hls/sctv.m3u8
 Tianjin TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225960/3.m3u8
+Tianjin TV,http://ivi.bupt.edu.cn/hls/tjhd.m3u8
+Tianjin TV,http://ivi.bupt.edu.cn/hls/tjtv.m3u8
+Tibetan TV,http://ivi.bupt.edu.cn/hls/xztv.m3u8
+Xiamen TV,http://ivi.bupt.edu.cn/hls/xmtv.m3u8
+Xinjiang TV,http://ivi.bupt.edu.cn/hls/xjtv.m3u8
+Xinjiang PCC TV,http://ivi.bupt.edu.cn/hls/bttv.m3u8
+Yunnan TV,http://ivi.bupt.edu.cn/hls/yntv.m3u8
 Zhejiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225899/3.m3u8
+Zhejiang TV,http://ivi.bupt.edu.cn/hls/zjhd.m3u8
+Zhejiang TV,http://ivi.bupt.edu.cn/hls/zjtv.m3u8
 
 [Shanghai]
 Dragon TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225887/3.m3u8
+Dragon TV,http://ivi.bupt.edu.cn/hls/dfhd.m3u8
+Dragon TV,http://ivi.bupt.edu.cn/hls/dftv.m3u8
 STV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225973/3.m3u8
 CBN,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225891/3.m3u8
 CBN,http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
