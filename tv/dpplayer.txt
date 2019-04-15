@@ -1,4 +1,5 @@
 ﻿[CCTV]
+CCTV1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225965/3.m3u8
 CCTV1,http://cctvcnch5c.v.wscdns.com/live/cctv1_2/index.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
@@ -12,6 +13,7 @@ CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
 CCTV4,http://223.110.245.170/PLTV/3/224/3221225534/index.m3u8
 CCTV4,http://39.134.52.180/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225978/index.m3u8
 CCTV4,http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221225521/index.m3u8
+CCTV5,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225904/3.m3u8
 CCTV5,http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
 CCTV5,http://ivi.bupt.edu.cn/hls/cctv5.m3u8
 CCTV5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8
@@ -46,15 +48,60 @@ CGTN,http://live.cgtn.com/1000/prog_index.m3u8
 CGTN,https://live.cgtn.com/500/prog_index.m3u8
 CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 CGTN Documentary,http://183.207.249.14/PLTV/3/224/3221225572/index.m3u8
+CETV1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225910/3.m3u8
 
-[Chinese Regional]
+[China Regional]
+Anhui TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225915/3.m3u8
+BTV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225975/3.m3u8
 BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
+Fujian TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
+Guangdong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225893/3.m3u8
 Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8
 Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8
+Heilongjiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225968/3.m3u8
+Hubei TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225966/3.m3u8
+Hunan TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225892/3.m3u8
+Jiangsu TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225885/3.m3u8
+Jiangxi TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225914/3.m3u8
+Liaoning TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225888/3.m3u8
+Shandong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225974/3.m3u8
+Shenzhen TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225967/3.m3u8
+Tianjin TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225960/3.m3u8
+Zhejiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225899/3.m3u8
+
+[Shanghai]
+Dragon TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225887/3.m3u8
+STV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225973/3.m3u8
+CBN,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225891/3.m3u8
 CBN,http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
 CBN,http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
+ICS,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225972/3.m3u8
+SMG Metropolitan,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225969/3.m3u8
+SMG Life and Vogue,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225918/3.m3u8
+SMG TV Play,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225970/3.m3u8
+SMG Sports,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225964/3.m3u8
+SMG Sports 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225889/3.m3u8
+SMG Documentary,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225911/3.m3u8
+SMG Documentary 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225971/3.m3u8
+SMG Art,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225976/1.m3u8
+SMG City Theatre,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225902/3.m3u8
+SMG Comics,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225977/3.m3u8
+SMG Game Channel,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225897/3.m3u8
+SMG Comedy,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225963/3.m3u8
+SMG Music,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225916/3.m3u8
+SMG Auto,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225962/3.m3u8
+SMG Happy Lottery,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225886/3.m3u8
+BesTV Sports 1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225901/3.m3u8
+BesTV Sports 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225905/3.m3u8
+BesTV Sports 3,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225906/3.m3u8
+BesTV Sports 4,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225907/3.m3u8
+BesTV Sports 5,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225908/3.m3u8
+BesTV Sports 6,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225917/3.m3u8
+BesTV Sports 7,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225948/3.m3u8
+BesTV Sports 8,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225957/3.m3u8
+BesTV Sports 9,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225958/3.m3u8
 
 [Hong Kong]
 TVB Jade,http://m.567it.com/jade.m3u8
@@ -280,18 +327,25 @@ Te Reo (New Zealand),https://bcsecurelivehls-i.akamaihd.net/hls/live/720613/1614
 TVSN (New Zealand),https://tvsn-i.akamaihd.net/hls/live/261837/tvsn_nz/tvsn_nz_4m5_4500.m3u8
 
 [Singapore]
-Channel NewsAsia,https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8
-Channel NewsAsia,https://d2ko4czujk9652.cloudfront.net/hls/cnaspcweb/prog_index.m3u8
-Channel NewsAsia,http://imtcnai-lh.akamaihd.net/i/cnai_main@334572/master.m3u8
+CNA,https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8
+CNA,http://drsh196ivjwe8.cloudfront.net/hls/cnai/03.m3u8
+CNA,https://d2ko4czujk9652.cloudfront.net/hls/cnaspcweb/prog_index.m3u8
+CNA,http://imtcnai-lh.akamaihd.net/i/cnai_main@334572/master.m3u8
+Mediacorp ch5,https://dlau142f16b92.cloudfront.net/hls/ch5ctv/master02.m3u8
 Mediacorp ch5,https://dlau142f16b92.cloudfront.net/hls/ch5pcweb/prog_index.m3u8
 Mediacorp ch8,https://d34e90s3s13i7n.cloudfront.net/hls/ch8pcweb/prog_index.m3u8
+Mediacorp ch8,https://d34e90s3s13i7n.cloudfront.net/hls/ch8ctv/master02.m3u8
 Mediacorp chU,https://d3inlz9elsutjl.cloudfront.net/hls/chupcweb/prog_index.m3u8
+Mediacorp chU,https://d3inlz9elsutjl.cloudfront.net/hls/chuctv/master02.m3u8
 Mediacorp Suria,https://d11h6a6nhl9kj9.cloudfront.net/hls/suriapcweb/prog_index.m3u8
+Mediacorp Suria,https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8
 Mediacorp Vatantham,https://d39v9xz8f7n8tk.cloudfront.net/hls/vsnthmpcweb/prog_index.m3u8
+Mediacorp Vatantham,https://d39v9xz8f7n8tk.cloudfront.net/hls/vsnthmctv/master02.m3u8
 Mediacorp Okto Sports,https://ddftztnzt6o79.cloudfront.net/hls/oktopcweb/prog_index.m3u8
+Mediacorp Okto Sports,https://ddftztnzt6o79.cloudfront.net/hls/oktoctv/master02.m3u8
 
 [Japan]
-NHK-G,http://81.90.189.20:8181/hls/551768754804.m3u8/sig/vNsasOceqAQ/expires/1550741021594/srcIp/47.88.221.5/clientType/0/srcAg/SAFARI_IPHONE_OTHER/video.m3u8
+NHK-G,https://nhknewssimul-i.akamaihd.net/hls/live/226063/nhknewssimul/playlist.m3u8
 NHK World,http://web-cache.stream.ne.jp/www11/nhkworld-tv/global/222714/live_tv.m3u8
 NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
 NHK World,http://nhkwglobal-i.akamaihd.net/hls/live/222714/nhkwglobal/index.m3u8
@@ -376,6 +430,8 @@ Bloomberg Event (EMEA),https://liveprodeuwest.akamaized.net/btv/desktop/eu_event
 Bloomberg Event (Asia),https://liveprodapnortheast.akamaized.net/btv/desktop/ap_event.m3u8
 Bloomberg Event (Politics),https://bblive-liveproduseast.hs.llnwd.net/btv/desktop/us_politics.m3u8
 International Space Station,http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
+NHK Live 5,https://nhknewsreal5-i.akamaihd.net/hls/live/267603/nhknewsreal5/playlist.m3u8
+NHK Live 6,https://nhknewsreal6-i.akamaihd.net/hls/live/267604/nhknewsreal6/playlist.m3u8
 Visit-X,http://stream.visit-x.tv/vxtv/live_720p/playlist.m3u8
 Visit-X,rtmp://stream.visit-x.tv/vxtv/live_720p
 Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/PAZ_Chega_de_Guerras.m3u8
