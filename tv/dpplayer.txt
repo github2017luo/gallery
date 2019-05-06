@@ -72,8 +72,6 @@ BTV Kaku,http://ivi.bupt.edu.cn/hls/btv10.m3u8
 BTV Documentary,http://ivi.bupt.edu.cn/hls/btv11hd.m3u8
 Chongqing TV,http://ivi.bupt.edu.cn/hls/cqhd.m3u8
 Chongqing TV,http://ivi.bupt.edu.cn/hls/cqtv.m3u8
-Fujian SETV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
-Fujian SETV,http://ivi.bupt.edu.cn/hls/dntv.m3u8
 Gansu TV,http://ivi.bupt.edu.cn/hls/gstv.m3u8
 Guangdong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225893/3.m3u8
 Guangdong TV,http://ivi.bupt.edu.cn/hls/gdhd.m3u8
@@ -84,7 +82,7 @@ Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e89290
 Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
 Guangzhou News,http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8
 Guizhou TV,http://ivi.bupt.edu.cn/hls/gztv.m3u8
-Hainan TSTV,http://ivi.bupt.edu.cn/hls/lytv.m3u8
+Hainan TV,http://ivi.bupt.edu.cn/hls/lytv.m3u8
 Hebei TV,http://ivi.bupt.edu.cn/hls/hebtv.m3u8
 Heilongjiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225968/3.m3u8
 Heilongjiang TV,http://ivi.bupt.edu.cn/hls/hljhd.m3u8
@@ -121,7 +119,6 @@ Tianjin TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225960/3.m3
 Tianjin TV,http://ivi.bupt.edu.cn/hls/tjhd.m3u8
 Tianjin TV,http://ivi.bupt.edu.cn/hls/tjtv.m3u8
 Tibetan TV,http://ivi.bupt.edu.cn/hls/xztv.m3u8
-Xiamen TV,http://ivi.bupt.edu.cn/hls/xmtv.m3u8
 Xinjiang TV,http://ivi.bupt.edu.cn/hls/xjtv.m3u8
 Xinjiang PCC TV,http://ivi.bupt.edu.cn/hls/bttv.m3u8
 Yunnan TV,http://ivi.bupt.edu.cn/hls/yntv.m3u8
@@ -162,6 +159,15 @@ BesTV Sports 6,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225917/
 BesTV Sports 7,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225948/3.m3u8
 BesTV Sports 8,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225957/3.m3u8
 BesTV Sports 9,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225958/3.m3u8
+
+[Fujian]
+Fujian SETV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
+Fujian SETV,http://ivi.bupt.edu.cn/hls/dntv.m3u8
+Xiamen TV,http://cstvpull.live.wscdns.com/live/xiamen.flv
+Xiamen TV,http://ivi.bupt.edu.cn/hls/xmtv.m3u8
+Xiamen 1,http://cstvpull.live.wscdns.com/live/xiamen1.flv
+Xiamen 2,http://cstvpull.live.wscdns.com/live/xiamen2.flv
+Xiamen 3,http://cstvpull.live.wscdns.com/live/xiamen3.flv
 
 [Hong Kong]
 TVB Jade,http://m.567it.com/jade.m3u8
@@ -345,11 +351,13 @@ Cinefil WOWOW,http://192.240.127.34:1935/live/cs27.stream/media_1254.m3u8
 
 [Korea]
 Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+MBC,http://tvvtvv.com/plus/imbc.m3u8
 YTN,http://112.175.248.34:1935/ytn/_definst_/ylivehd_20140419_1/playlist.m3u8
 YTN Korean,http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/manifest.m3u8
 EBS2,http://ebsonair.ebs.co.kr:1935/ebs2familypc/familypc1m/playlist.m3u8
 TV Chosun,http://live.chosun.gscdn.com/live/tvchosun1.stream/chunklist.m3u8
 CBS (Korea),http://cbs-live.gscdn.com/cbs-live/cbs-live.stream/playlist.m3u8
+Korean Central TV,http://tv.nknews.org/tvhls/stream.m3u8
 
 [South - Southeast Asia]
 BTVI (India),http://bloomtv.live-s.cdn.bitgravity.com/cdn-live-b5/_definst_/bloomtv/live/feed01/playlist.m3u8
