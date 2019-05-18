@@ -1,0 +1,13 @@
+﻿CNN,https://gnome.cdn.livenewschat.eu/hls/cnn_live/index.m3u8
+CNN International,https://mosquitos.cdn.livenewschat.eu/hls/cnni_live/index.m3u8
+HLN,https://dogs.cdn.livenewschat.eu/hls/hln_live/index.m3u8
+MSNBC,https://mosquitos.cdn.livenewschat.eu/hls/msnbcuk_live/index.m3u8
+CNBC,https://mosquitos.cdn.livenewschat.eu/hls/cnbc_live/index.m3u8
+Bloomberg,https://gnome.cdn.livenewschat.eu/hls/bloomberg_live/index.m3u8
+CBC News Network,https://mosquitos.cdn.livenewschat.eu/hls/cbc_live/index.m3u8
+Euronews,https://mosquitos.cdn.livenewschat.eu/hls/euronews_live/index.m3u8
+Sky News,https://budgie.cdn.livenewschat.eu/hls/skyintl_live/index.m3u8
+ABC News (Australia),https://mosquitos.cdn.livenewschat.eu/hls/abcau_live/index.m3u8
+Al Jazeera,https://mosquitos.cdn.livenewschat.eu/hls/aljazeera_live/index.m3u8
+Free Speech TV,https://budgie.cdn.livenewschat.eu/hls/fstv_live/index.m3u8
+LiveOne Studio,https://dogs.cdn.livenewschat.eu/hls/bigpapi_live/index.m3u8
