@@ -261,6 +261,12 @@ GoodTV 14,http://live.streamingfast.net/osmflivech14.m3u8
 GoodTV 14,http://live-350k.streamingfast.net/osmflivech14.m3u8
 
 [US News Channels]
+CNN,https://1861340594.rsc.cdn77.org/1wQRJRL6KuZ59iyl3U05MA==,1558796402/ls-54548-1/index.m3u8
+CNN,https://1861340594.rsc.cdn77.org/1wQRJRL6KuZ59iyl3U05MA==,1558796402/ls-54548-1/tracks-v1a1/mono.m3u8
+HLN,https://1161275585.rsc.cdn77.org/LS-ATL-54548-7/index.m3u8
+HLN,https://1161275585.rsc.cdn77.org/LS-ATL-54548-7/tracks-v4a1/mono.m3u8
+MSNBC,https://watch.livenewson.com/6MVZKbpNwbGTxMSl4-kq0Q==,1558796408/LS-ATL-54548-10/index.m3u8
+MSNBC,https://watch.livenewson.com/6MVZKbpNwbGTxMSl4-kq0Q==,1558796408/LS-ATL-54548-10/tracks-v1a1/mono.m3u8
 CBSN,https://www.cbsnews.com/common/video/cbsn_header_prod.m3u8
 CBSN,https://cbsnhls-i.akamaihd.net/hls/live/264710/cbsn_hlsprod_2/master_360.m3u8
 CBSN,https://www.cbsnews.com/common/video/dai_prod.m3u8
@@ -269,6 +275,8 @@ CBSN New York,https://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/mas
 ET Live,https://etlive-mediapackage-fastly.cbsaavideo.com/out/v1/6769f717ef374f8f87e213fad1705c86/manifest.m3u8
 CBS Sports HQ,https://cbssportsdc-lh.akamaihd.net/i/dc_1@136737/master.m3u8
 ABC News,https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8
+Fox News,https://1028107998.rsc.cdn77.org/TT9QqWnpKtfzUZ5jJW0Chg==,1558805421/ls-54548-2/index.m3u8
+Fox News,https://1028107998.rsc.cdn77.org/TT9QqWnpKtfzUZ5jJW0Chg==,1558805421/ls-54548-2/tracks-v1a1/mono.m3u8
 FOX News Go, http://foxnewsuni-f.akamaihd.net/i/FNCGOPREV_40220@40220/index_300000_av-p.m3u8?sd=10&rebase=on
 FOX News Radio,http://fnurtmp-f.akamaihd.net/i/FNRADIOHDS_1@92141/master.m3u8
 Bloomberg,https://bblive-liveprodapnortheast.hs.llnwd.net/btv/desktop/ap_live.m3u8
@@ -304,6 +312,8 @@ WeatherNation,http://klive-a.akamaihd.net/dc-0/m/pa-live-publish5/live/legacy/p/
 Adult Swim,http://adultswimhls-i.akamaihd.net/hls/live/238460/adultswim/main/1/master.m3u8
 
 [United Kingdom]
+BBC World News,https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8
+BBC World News,https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/tracks-v1a1/mono.m3u8
 BBC Arabic,http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
 BBC Persian,http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8
 Sky News,http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8
@@ -327,6 +337,7 @@ TV3(Catalunya),http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp
 The church channel,http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/master.m3u8
 
 [Australia - NZ]
+ABC News (Australia),https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/50345bf35f664739912f0b255c172ae9/index.m3u8
 Sky News Australia Extra 1,https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 Sky News Australia Extra 2,https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
 Sky News Australia Extra 3,https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
