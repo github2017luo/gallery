@@ -200,20 +200,30 @@ Xiamen 3,http://cstvpull.live.wscdns.com/live/xiamen3.flv
 
 [Hong Kong]
 TVB Jade,http://m.567it.com/jade.m3u8
+TVB Jade,http://219.232.160.161:5080/hls/bycgekwh.m3u8
+TVB Jade,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=188b
+TVB Jade,https://livesec.mudu.tv/watch/yp7jwb.m3u8?auth_key=1564893530-753330-0-6d95df0a880ec25bcefb35bf34403875
+TVB Jade,http://tv.kuai1789.cn:280/wintv/af883c82c3c54ccc9247db8abc0961ac.m3u8
 TVB Pearl,http://m.567it.com/Pearl.m3u8
+TVB News,https://livesec.mudu.tv/watch/p2xnr5_lsd.m3u8?auth_key=1564893627-509741-0-912a0dfa924c1e6e12b6e6dc5d819c86
+TVB News,http://104.233.205.112:888/v/inews.m3u8?token=ZMhAZOUkQFtbNgzSeTT42DPA
 TVB Finance,http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8
 ViuTV,http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
 ViuTV,http://viutv99-i.akamaihd.net/hls/live/265284/live1/stream4/streamPlaylist.m3u8
 Open TV,http://media.fantv.hk/m3u8/archive/channel2.m3u8
 Open TV,http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
+Cable News,http://liveplay.laiyin.xyz/live/xw2.m3u8?txSecret=cb8dc8545d05790a730a157acf88703a&txTime=5D719E5F
 Cable News,http://ottproxy1.mott.tv/livehls/MOB-SCC/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=suBYLNfg49z4
 Cable Finance,http://ottproxy1.mott.tv/livehls/MOB-NGW/index.m3u8?token=128c23e3733abd26b35145f59b2bf86f94e726a5ceeaa96ea0139b483cb2ae928efd5679243064b8904e1fcd84b2cddb&sessionID=ttrQ5Q1Yh9ce
 Sun TV,https://stream.isuntv.com/680k/mid_video_index.m3u8
 RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
 Phoenix TV Chinese,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
+Phoenix TV Infonews,http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8
 Phoenix TV Infonews,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 Phoenix TV Infonews,http://183.251.61.198/PLTV/88888888/224/3221225901/index.m3u8
+Phoenix TV Infonews,http://112.25.77.147:8080/live/fhzixun/1.m3u8
+Phoenix TV Infonews,http://104.233.205.110:888/v/fhzx.m3u8
 Phoenix TV Hong Kong,http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
 Bright Smart Finance,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 Passion Times,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
@@ -261,8 +271,9 @@ GoodTV 14,http://live.streamingfast.net/osmflivech14.m3u8
 GoodTV 14,http://live-350k.streamingfast.net/osmflivech14.m3u8
 
 [US News Channels]
-CNN,https://1861340594.rsc.cdn77.org/1wQRJRL6KuZ59iyl3U05MA==,1558796402/ls-54548-1/index.m3u8
-CNN,https://1861340594.rsc.cdn77.org/1wQRJRL6KuZ59iyl3U05MA==,1558796402/ls-54548-1/tracks-v1a1/mono.m3u8
+CNN,https://1861340594.rsc.cdn77.org/ICw-7DVyEPviycMktqL4sg==,1564813818/ls-54548-1/index.m3u8
+CNN,https://1828529515.rsc.cdn77.org/QNEFOsa7SSI6qLRKGEuMwQ==,1564818730/LS-ATL-54548-9/tracks-v4a1/mono.m3u8
+CNN,http://peer2.savitar.tv/CNN/myStream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8zLzIwMTkgNDo1NjowMSBBTSZoYXNoX3ZhbHVlPVpEdldYVjRFZW9wRWhRaUJXaXdkVnc9PSZ2YWxpZG1pbnV0ZXM9MzYwJmlkPTA=
 HLN,https://1161275585.rsc.cdn77.org/LS-ATL-54548-7/index.m3u8
 HLN,https://1161275585.rsc.cdn77.org/LS-ATL-54548-7/tracks-v4a1/mono.m3u8
 MSNBC,https://watch.livenewson.com/6MVZKbpNwbGTxMSl4-kq0Q==,1558796408/LS-ATL-54548-10/index.m3u8
@@ -313,6 +324,7 @@ Adult Swim,http://adultswimhls-i.akamaihd.net/hls/live/238460/adultswim/main/1/m
 
 [United Kingdom]
 BBC World News,http://ott-cdn.ucom.am/s24/01.m3u8
+BBC World News,https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8
 BBC Arabic,http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
 BBC Persian,http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8
 Sky News,http://girlz.cdn.newschat.tv/hls/skyintl_live/index.m3u8
@@ -396,6 +408,7 @@ BTVI (India),http://bloomtv.live-s.cdn.bitgravity.com/cdn-live-b5/_definst_/bloo
 NDTV 24x7,http://ndtvstream-lh.akamaihd.net/i/ndtv_24x7_1@300633/master.m3u8
 ITN (Sri Lanka),http://cdncities.com/itndvr2/itndvr2/playlist.m3u8
 Rupavahini TV,http://dammikartmp.tulix.tv/slrc1/slrc1/playlist.m3u8
+CNN Indonesia,http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist.m3u8
 
 [Middle East]
 Al Jazeera English,http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/appleman.m3u8
