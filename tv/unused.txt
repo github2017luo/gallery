@@ -1,0 +1,299 @@
+[CCTV]
+CCTV3,http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
+CCTV3,http://ivi.bupt.edu.cn/hls/cctv3.m3u8
+CCTV3,http://cctvcnch5c.v.wscdns.com/live/cctv3_2/index.m3u8
+CCTV3,http://cctvksw.v.kcdnvip.com/live/cctv3_1/index.m3u8
+CCTV5+,http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
+CCTV5+,http://cctvcnch5c.v.wscdns.com/live/cctv5plus_2/index.m3u8
+CCTV5+,http://cctvksw.v.kcdnvip.com/live/cctv5plus_1/index.m3u8
+CCTV6,http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
+CCTV6,http://ivi.bupt.edu.cn/hls/cctv6.m3u8
+CCTV6,http://cctvcnch5c.v.wscdns.com/live/cctv6_2/index.m3u8
+CCTV6,http://cctvksw.v.kcdnvip.com/live/cctv6_1/index.m3u8
+CCTV7,http://cctvcnch5c.v.wscdns.com/live/cctv7_2/index.m3u8
+CCTV7,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
+CCTV7,http://cctvksw.v.kcdnvip.com/live/cctv7_1/index.m3u8
+CCTV8,http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
+CCTV8,http://ivi.bupt.edu.cn/hls/cctv8.m3u8
+CCTV8,http://cctvcnch5c.v.wscdns.com/live/cctv8_2/index.m3u8
+CCTV8,http://cctvksw.v.kcdnvip.com/live/cctv8_1/index.m3u8
+CCTV10,http://cctvksw.v.kcdnvip.com/live/cctv10_1/index.m3u8
+CCTV10,http://ivi.bupt.edu.cn/hls/cctv10.m3u8
+CCTV10,http://cctvcnch5c.v.wscdns.com/live/cctv10_2/index.m3u8
+CCTV11,http://cctvcnch5c.v.wscdns.com/live/cctv11_2/index.m3u8
+CCTV11,http://ivi.bupt.edu.cn/hls/cctv11.m3u8
+CCTV11,http://cctvksw.v.kcdnvip.com/live/cctv11_1/index.m3u8
+CCTV12,http://cctvcnch5c.v.wscdns.com/live/cctv12_2/index.m3u8
+CCTV12,http://ivi.bupt.edu.cn/hls/cctv12.m3u8
+CCTV12,http://cctvksw.v.kcdnvip.com/live/cctv12_1/index.m3u8
+CCTV14,http://cctvcnch5c.v.wscdns.com/live/cctvchild_2/index.m3u8
+CCTV14,http://ivi.bupt.edu.cn/hls/cctv14.m3u8
+CCTV14,http://cctvksw.v.kcdnvip.com/live/cctvchild_1/index.m3u8
+CCTV15,http://cctvcnch5c.v.wscdns.com/live/cctv15_2/index.m3u8
+CCTV15,http://ivi.bupt.edu.cn/hls/cctv15.m3u8
+CCTV15,http://cctvksw.v.kcdnvip.com/live/cctv15_1/index.m3u8
+CETV1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225910/3.m3u8
+CETV1,http://111.40.205.87/PLTV/88888888/224/3221225652/index.m3u8
+CHC,http://ivi.bupt.edu.cn/hls/chchd.m3u8
+
+[China Regional]
+Anhui TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225915/3.m3u8
+Anhui TV,http://ivi.bupt.edu.cn/hls/ahhd.m3u8
+Anhui TV,http://ivi.bupt.edu.cn/hls/ahtv.m3u8
+BTV Art,http://ivi.bupt.edu.cn/hls/btv2hd.m3u8
+BTV Art,http://ivi.bupt.edu.cn/hls/btv2.m3u8
+BTV Science,http://ivi.bupt.edu.cn/hls/btv3.m3u8
+BTV Movies,http://ivi.bupt.edu.cn/hls/btv4.m3u8
+BTV Economic,http://ivi.bupt.edu.cn/hls/btv5.m3u8
+BTV Life,http://ivi.bupt.edu.cn/hls/btv7.m3u8
+BTV Youth,http://ivi.bupt.edu.cn/hls/btv8.m3u8
+BTV News,http://ivi.bupt.edu.cn/hls/btv9.m3u8
+BTV Kaku,http://ivi.bupt.edu.cn/hls/btv10.m3u8
+BTV Documentary,http://ivi.bupt.edu.cn/hls/btv11hd.m3u8
+Chongqing TV,http://ivi.bupt.edu.cn/hls/cqhd.m3u8
+Chongqing TV,http://ivi.bupt.edu.cn/hls/cqtv.m3u8
+Gansu TV,http://ivi.bupt.edu.cn/hls/gstv.m3u8
+Guangdong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225893/3.m3u8
+Guangdong TV,http://ivi.bupt.edu.cn/hls/gdhd.m3u8
+Guangdong TV,http://ivi.bupt.edu.cn/hls/gdtv.m3u8
+Guangdong News,http://stream1.grtn.cn/xwpd/sd/live.m3u8
+Guangxi TV,http://ivi.bupt.edu.cn/hls/gxtv.m3u8
+Guangzhou TV,https://23436.liveplay.myqcloud.com/live/23436_dc2089877e7111e892905cb9018cf0d4.m3u8
+Guangzhou News,https://23436.liveplay.myqcloud.com/live/23436_e2fd8e1e7e7111e892905cb9018cf0d4.m3u8
+Guangzhou News,http://23436.liveplay.myqcloud.com/live/23436_6f91587d4f7311e892905cb9018cf0d4.m3u8
+Guizhou TV,http://ivi.bupt.edu.cn/hls/gztv.m3u8
+Hainan TV,http://ivi.bupt.edu.cn/hls/lytv.m3u8
+Hebei TV,http://ivi.bupt.edu.cn/hls/hebtv.m3u8
+Heilongjiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225968/3.m3u8
+Heilongjiang TV,http://ivi.bupt.edu.cn/hls/hljhd.m3u8
+Heilongjiang TV,http://ivi.bupt.edu.cn/hls/hljtv.m3u8
+Henan TV,http://ivi.bupt.edu.cn/hls/hntv.m3u8
+Hubei TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225966/3.m3u8
+Hubei TV,http://ivi.bupt.edu.cn/hls/hbhd.m3u8
+Hubei TV,http://ivi.bupt.edu.cn/hls/hbtv.m3u8
+Hunan TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225892/3.m3u8
+Hunan TV,http://ivi.bupt.edu.cn/hls/hunanhd.m3u8
+Hunan TV,http://ivi.bupt.edu.cn/hls/hunantv.m3u8
+Inner Mongolia TV,http://ivi.bupt.edu.cn/hls/nmtv.m3u8
+Jiangsu TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225885/3.m3u8
+Jiangsu TV,http://ivi.bupt.edu.cn/hls/jshd.m3u8
+Jiangsu TV,http://ivi.bupt.edu.cn/hls/jstv.m3u8
+Jiangxi TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225914/3.m3u8
+Jiangxi TV,http://ivi.bupt.edu.cn/hls/jxtv.m3u8
+Jilin TV,http://ivi.bupt.edu.cn/hls/jltv.m3u8
+Liaoning TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225888/3.m3u8
+Liaoning TV,http://ivi.bupt.edu.cn/hls/lnhd.m3u8
+Liaoning TV,http://ivi.bupt.edu.cn/hls/lntv.m3u8
+Ningxia TV,http://ivi.bupt.edu.cn/hls/nxtv.m3u8
+Qinghai TV,http://ivi.bupt.edu.cn/hls/qhtv.m3u8
+Shaanxi TV,http://ivi.bupt.edu.cn/hls/sxtv.m3u8
+Shandong TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225974/3.m3u8
+Shandong TV,http://ivi.bupt.edu.cn/hls/sdhd.m3u8
+Shandong TV,http://ivi.bupt.edu.cn/hls/sdtv.m3u8
+Shanxi TV,http://ivi.bupt.edu.cn/hls/sxrtv.m3u8
+Shenzhen TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225967/3.m3u8
+Shenzhen TV,http://ivi.bupt.edu.cn/hls/szhd.m3u8
+Shenzhen TV,http://ivi.bupt.edu.cn/hls/sztv.m3u8
+Sichuan TV,http://ivi.bupt.edu.cn/hls/sctv.m3u8
+Tianjin TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225960/3.m3u8
+Tianjin TV,http://ivi.bupt.edu.cn/hls/tjhd.m3u8
+Tianjin TV,http://ivi.bupt.edu.cn/hls/tjtv.m3u8
+Tibetan TV,http://ivi.bupt.edu.cn/hls/xztv.m3u8
+Xinjiang TV,http://ivi.bupt.edu.cn/hls/xjtv.m3u8
+Xinjiang PCC TV,http://ivi.bupt.edu.cn/hls/bttv.m3u8
+Yunnan TV,http://ivi.bupt.edu.cn/hls/yntv.m3u8
+Zhejiang TV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225899/3.m3u8
+Zhejiang TV,http://ivi.bupt.edu.cn/hls/zjhd.m3u8
+Zhejiang TV,http://ivi.bupt.edu.cn/hls/zjtv.m3u8
+
+[Shanghai]
+SMG Metropolitan,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225969/3.m3u8
+SMG Life and Vogue,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225918/3.m3u8
+SMG TV Play,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225970/3.m3u8
+SMG Sports,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225964/3.m3u8
+SMG Sports 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225889/3.m3u8
+SMG Documentary,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225911/3.m3u8
+SMG Documentary 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225971/3.m3u8
+SMG Art,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225976/1.m3u8
+SMG City Theatre,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225902/3.m3u8
+SMG Comics,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225977/3.m3u8
+SMG Game Channel,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225897/3.m3u8
+SMG Comedy,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225963/3.m3u8
+SMG Music,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225916/3.m3u8
+SMG Auto,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225962/3.m3u8
+SMG Happy Lottery,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225886/3.m3u8
+BesTV Sports 1,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225901/3.m3u8
+BesTV Sports 2,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225905/3.m3u8
+BesTV Sports 3,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225906/3.m3u8
+BesTV Sports 4,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225907/3.m3u8
+BesTV Sports 5,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225908/3.m3u8
+BesTV Sports 6,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225917/3.m3u8
+BesTV Sports 7,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225948/3.m3u8
+BesTV Sports 8,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225957/3.m3u8
+BesTV Sports 9,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225958/3.m3u8
+
+[Fujian]
+Fujian SETV,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225961/3.m3u8
+Fujian SETV,http://ivi.bupt.edu.cn/hls/dntv.m3u8
+Xiamen TV,http://cstvpull.live.wscdns.com/live/xiamen.flv
+Xiamen TV,http://ivi.bupt.edu.cn/hls/xmtv.m3u8
+Xiamen 1,http://cstvpull.live.wscdns.com/live/xiamen1.flv
+Xiamen 2,http://cstvpull.live.wscdns.com/live/xiamen2.flv
+Xiamen 3,http://cstvpull.live.wscdns.com/live/xiamen3.flv
+
+[HK]
+Phoenix TV Chinese,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
+Phoenix TV Infonews,http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8
+Phoenix TV Infonews,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
+Phoenix TV Infonews,http://183.251.61.198/PLTV/88888888/224/3221225901/index.m3u8
+Phoenix TV Infonews,http://112.25.77.147:8080/live/fhzixun/1.m3u8
+Phoenix TV Infonews,http://104.233.205.110:888/v/fhzx.m3u8
+Phoenix TV Hong Kong,http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
+
+[TW]
+GoodTV 1,http://live.streamingfast.net/osmflivech1.m3u8
+GoodTV 1,http://live-350k.streamingfast.net/osmflivech1.m3u8
+GoodTV 2,http://live.streamingfast.net/osmflivech2.m3u8
+GoodTV 2,http://live-350k.streamingfast.net/osmflivech2.m3u8
+GoodTV 3,http://live.streamingfast.net/osmflivech3.m3u8
+GoodTV 3,http://live-350k.streamingfast.net/osmflivech3.m3u8
+GoodTV 4,http://live.streamingfast.net/osmflivech4.m3u8
+GoodTV 4,http://live-350k.streamingfast.net/osmflivech4.m3u8
+GoodTV 5,http://live.streamingfast.net/osmflivech5.m3u8
+GoodTV 5,http://live-350k.streamingfast.net/osmflivech5.m3u8
+GoodTV 6,http://live.streamingfast.net/osmflivech6.m3u8
+GoodTV 6,http://live-350k.streamingfast.net/osmflivech6.m3u8
+GoodTV 7,http://live.streamingfast.net/osmflivech7.m3u8
+GoodTV 7,http://live-350k.streamingfast.net/osmflivech7.m3u8
+GoodTV 8,http://live.streamingfast.net/osmflivech8.m3u8
+GoodTV 8,http://live-350k.streamingfast.net/osmflivech8.m3u8
+GoodTV 9,http://live.streamingfast.net/osmflivech9.m3u8
+GoodTV 9,http://live-350k.streamingfast.net/osmflivech9.m3u8
+GoodTV 10,http://live.streamingfast.net/osmflivech10.m3u8
+GoodTV 10,http://live-350k.streamingfast.net/osmflivech10.m3u8
+GoodTV 11,http://live.streamingfast.net/osmflivech11.m3u8
+GoodTV 11,http://live-350k.streamingfast.net/osmflivech11.m3u8
+GoodTV 12,http://live.streamingfast.net/osmflivech12.m3u8
+GoodTV 12,http://live-350k.streamingfast.net/osmflivech12.m3u8
+GoodTV 13,http://live.streamingfast.net/osmflivech13.m3u8
+GoodTV 13,http://live-350k.streamingfast.net/osmflivech13.m3u8
+GoodTV 14,http://live.streamingfast.net/osmflivech14.m3u8
+GoodTV 14,http://live-350k.streamingfast.net/osmflivech14.m3u8
+
+[2019-06]
+
+[CCTV]
+CCTV2,http://220.158.149.14:9999/live/TV00000000000000000007@HHZT;LIVE
+CCTV3,http://220.158.149.14:9999/live/TV00000000000000000102@HHZT;LIVE
+CCTV4,http://220.158.149.14:9999/live/TV00000000000000000015@HHZT;LIVE
+CCTV5,http://220.158.149.14:9999/live/TV00000000000000000104@HHZT;LIVE
+CCTV7,http://220.158.149.14:9999/live/TV00000000000000000008@HHZT;LIVE
+CCTV8,http://220.158.149.14:9999/live/TV00000000000000000103@HHZT;LIVE
+CCTV10,http://220.158.149.14:9999/live/TV00000000000000000009@HHZT;LIVE
+CCTV11,http://220.158.149.14:9999/live/TV00000000000000000010@HHZT;LIVE
+CCTV12,http://220.158.149.14:9999/live/TV00000000000000000011@HHZT;LIVE
+CCTV13,http://220.158.149.14:9999/live/TV00000000000000000014@HHZT;LIVE
+CCTV14,http://220.158.149.14:9999/live/TV00000000000000000013@HHZT;LIVE
+CCTV15,http://220.158.149.14:9999/live/TV00000000000000000012@HHZT;LIVE
+CGTN Documentary,http://220.158.149.14:9999/live/TV00000000000000000018@HHZT;LIVE
+CGTN-E,http://220.158.149.14:9999/live/TV00000000000000000017@HHZT;LIVE
+CGTN-F,http://220.158.149.14:9999/live/TV00000000000000000016@HHZT;LIVE
+CETV1,http://220.158.149.14:9999/live/TV00000000000000000026@HHZT;LIVE
+SDETV,http://220.158.149.14:9999/live/TV00000000000000000053@HHZT;LIVE
+
+[China Regional]
+Anhui TV,http://220.158.149.14:9999/live/TV00000000000000000057@HHZT;LIVE
+Beijing TV,http://220.158.149.14:9999/live/TV00000000000000000058@HHZT;LIVE
+Chongqing TV,http://220.158.149.14:9999/live/TV00000000000000000052@HHZT;LIVE
+Gansu TV,http://220.158.149.14:9999/live/TV00000000000000000054@HHZT;LIVE
+Guangdong TV,http://220.158.149.14:9999/live/TV00000000000000000022@HHZT;LIVE
+Guangxi TV,http://220.158.149.14:9999/live/TV00000000000000000021@HHZT;LIVE
+Hebei TV,http://220.158.149.14:9999/live/TV00000000000000000060@HHZT;LIVE
+Heilongjiang TV,http://220.158.149.14:9999/live/TV00000000000000000046@HHZT;LIVE
+Henan TV,http://220.158.149.14:9999/live/TV00000000000000000049@HHZT;LIVE
+Hubei TV,http://220.158.149.14:9999/live/TV00000000000000000027@HHZT;LIVE
+Hunan Cartoon,http://220.158.149.14:9999/live/TV00000000000000000020@HHZT;LIVE
+Hunan TV,http://220.158.149.14:9999/live/TV00000000000000000019@HHZT;LIVE
+Ningxia TV,http://220.158.149.14:9999/live/TV00000000000000000050@HHZT;LIVE
+Jiangsu TV,http://220.158.149.14:9999/live/TV00000000000000000024@HHZT;LIVE
+Jiangxi TV,http://220.158.149.14:9999/live/TV00000000000000000055@HHZT;LIVE
+Shaanxi TV,http://220.158.149.14:9999/live/TV00000000000000000051@HHZT;LIVE
+Shandong TV,http://220.158.149.14:9999/live/TV00000000000000000047@HHZT;LIVE
+Shanxi TV,http://220.158.149.14:9999/live/TV00000000000000000048@HHZT;LIVE
+Sichuan TV,http://220.158.149.14:9999/live/TV00000000000000000056@HHZT;LIVE
+Tianjin TV,http://220.158.149.14:9999/live/TV00000000000000000059@HHZT;LIVE
+Youman Cartoon,http://220.158.149.14:9999/live/TV00000000000000000025@HHZT;LIVE
+Yunnan TV,http://220.158.149.14:9999/live/TV00000000000000000023@HHZT;LIVE
+Zhejiang TV,http://220.158.149.14:9999/live/TV00000000000000000045@HHZT;LIVE
+
+[Hong Kong]
+Phoenix TV Chinese,http://220.158.149.14:9999/live/TV00000000000000000067@HHZT;LIVE
+Phoenix TV Hong Kong,http://220.158.149.14:9999/live/TV00000000000000000068@HHZT;LIVE
+Phoenix TV Infonews,http://220.158.149.14:9999/live/TV00000000000000000066@HHZT;LIVE
+Xing Kong TV,http://220.158.149.14:9999/live/TV00000000000000000064@HHZT;LIVE
+Sun TV,http://220.158.149.14:9999/live/TV00000000000000000062@HHZT;LIVE
+CNEX Documentaries,http://220.158.149.14:9999/live/TV00000000000000000083@HHZT;LIVE
+
+[Macau]
+Lotus Macau,http://220.158.149.14:9999/live/TV00000000000000000069@HHZT;LIVE
+Macau Satellite TV,http://220.158.149.14:9999/live/TV00000000000000000029@HHZT;LIVE
+MASTV,http://220.158.149.14:9999/live/TV00000000000000000030@HHZT;LIVE
+
+[Taiwan]
+EBC Yoyo,http://220.158.149.14:9999/live/TV00000000000000000076@HHZT;LIVE
+TVBS Happy TV,http://220.158.149.14:9999/live/TV00000000000000000079@HHZT;LIVE
+TVBS News,http://220.158.149.14:9999/live/TV00000000000000000082@HHZT;LIVE
+VideoLand Sports HD,http://220.158.149.14:9999/live/TV00000000000000000078@HHZT;LIVE
+
+[Japan & Korea]
+BS NTV,http://220.158.149.14:9999/live/TV00000000000000000072@HHZT;LIVE
+BS-TBS,http://220.158.149.14:9999/live/TV00000000000000000074@HHZT;LIVE
+NHK-G,http://220.158.149.14:9999/live/TV00000000000000000075@HHZT;LIVE
+KBS World,http://220.158.149.14:9999/live/TV00000000000000000112@HHZT;LIVE
+
+[Europe & US]
+AXN,http://220.158.149.14:9999/live/TV00000000000000000108@HHZT;LIVE
+BBC World News,http://220.158.149.14:9999/live/TV00000000000000000109@HHZT;LIVE
+Reuters Live Service,http://220.158.149.14:9999/live/TV00000000000000000034@HHZT;LIVE
+Channel V,http://220.158.149.14:9999/live/TV00000000000000000065@HHZT;LIVE
+Christian Television Network,http://220.158.149.14:9999/live/TV00000000000000000043@HHZT;LIVE
+Discovery Asia,http://220.158.149.14:9999/live/TV00000000000000000114@HHZT;LIVE
+Disney Channel,http://220.158.149.14:9999/live/TV00000000000000000113@HHZT;LIVE
+Fashion TV,http://220.158.149.14:9999/live/TV00000000000000000116@HHZT;LIVE
+HBO,http://220.158.149.14:9999/live/TV00000000000000000166@HHZT;LIVE
+MTV,http://220.158.149.14:9999/live/TV00000000000000000111@HHZT;LIVE
+National Geographic,http://220.158.149.14:9999/live/TV00000000000000000115@HHZT;LIVE
+
+[Southeast Asia]
+Bayon TV (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000122@HHZT;LIVE
+Channel 9 (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000091@HHZT;LIVE
+Channel 9 (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000169@HHZT;LIVE
+CNC (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000040@HHZT;LIVE
+D Channel 15 (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000123@HHZT;LIVE
+ETV (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000121@HHZT;LIVE
+MITV,http://220.158.149.14:9999/live/TV00000000000000000090@HHZT;LIVE
+MITV,http://220.158.149.14:9999/live/TV00000000000000000168@HHZT;LIVE
+Mizzima TV (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000092@HHZT;LIVE
+Mizzima TV (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000170@HHZT;LIVE
+MRTV,http://220.158.149.14:9999/live/TV00000000000000000089@HHZT;LIVE
+MRTV,http://220.158.149.14:9999/live/TV00000000000000000167@HHZT;LIVE
+MyTV (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000041@HHZT;LIVE
+SSR 9 (Myanmar),http://220.158.149.14:9999/live/TV00000000000000000120@HHZT;LIVE
+ThaiPBS,http://220.158.149.14:9999/live/TV00000000000000000044@HHZT;LIVE
+PPCTV (Thailand),http://220.158.149.14:9999/live/TV00000000000000000037@HHZT;LIVE
+
+[Misc]
+Al Jazeera Arabic,http://220.158.149.14:9999/live/TV00000000000000000088@HHZT;LIVE
+RAI Italia,http://220.158.149.14:9999/live/TV00000000000000000028@HHZT;LIVE
+RAI Italia,http://220.158.149.14:9999/live/TV00000000000000000160@HHZT;LIVE
+RT,http://220.158.149.14:9999/live/TV00000000000000000061@HHZT;LIVE
+PNN,http://220.158.149.14:9999/live/TV00000000000000000038@HHZT;LIVE
+ATN,http://220.158.149.14:9999/live/TV00000000000000000039@HHZT;LIVE
+Unknown Movies,http://220.158.149.14:9999/live/TV00000000000000000081@HHZT;LIVE
+Unknown Channel 35,http://220.158.149.14:9999/live/TV00000000000000000035@HHZT;LIVE
+Unknown Channel 36],http://220.158.149.14:9999/live/TV00000000000000000036@HHZT;LIVE
+Unknown Channel 70,http://220.158.149.14:9999/live/TV00000000000000000070@HHZT;LIVE
+Unknown Channel 73,http://220.158.149.14:9999/live/TV00000000000000000073@HHZT;LIVE
+Unknown Channel 77,http://220.158.149.14:9999/live/TV00000000000000000077@HHZT;LIVE
+Unknown Channel 80,http://220.158.149.14:9999/live/TV00000000000000000080@HHZT;LIVE
+Unknown Channel 106,http://220.158.149.14:9999/live/TV00000000000000000106@HHZT;LIVE
