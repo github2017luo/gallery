@@ -186,7 +186,7 @@ Mediacorp Vatantham,https://tglmp03.akamaized.net/out/v1/230bc7050839446b87c8626
 NHK-G,https://nhknewssimul-i.akamaihd.net/hls/live/226063/nhknewssimul/playlist.m3u8
 NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
 NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/domestic/playlist.m3u8
-NHK World Chinese,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+NHK World Chinese,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
 NTV News 24,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 Family Gekijyo,http://192.240.127.34:1935/live/cs11.stream/media_1254.m3u8
 History (Japan),http://192.240.127.34:1935/live/cs14.stream/media_1254.m3u8
