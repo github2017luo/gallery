@@ -36,7 +36,7 @@
 
 **[United Kingdom]**
 
-[BBC World News](http://ott-cdn.ucom.am/s24/index.m3u8) | [BBC News](https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8) | [BBC Arabic](http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8) | [BBC Persian](http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8)
+[BBC World News](http://163.172.186.160:8081/02AygYWmZnxOW1Jac1xarT4INGVI2ND6dBQR82QrRdGr/live/bbcworld/mono.m3u8) | [BBC News](https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8) | [BBC Arabic](http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8) | [BBC Persian](http://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8)
 
 **[Europe]**
 

@@ -137,7 +137,7 @@ All American TV,http://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
 World Fashion Channel,http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v1a1/index.m3u8
 
 [United Kingdom]
-BBC World News,http://220.158.149.14:9999/live/TV00000000000000000112@HHZT;LIVE
+BBC World News,http://163.172.186.160:8081/02AygYWmZnxOW1Jac1xarT4INGVI2ND6dBQR82QrRdGr/live/bbcworld/mono.m3u8
 BBC World News,http://ott-cdn.ucom.am/s24/01.m3u8
 BBC News,https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8
 BBC Arabic,http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
