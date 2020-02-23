@@ -38,6 +38,7 @@ Max Financial Media,http://xinl.live.maxtv.cn/live/zb/playlist.m3u8
 Australia RTV,http://rtvcdn.com.au:8082/TV_GG.m3u8
 SinoVision,http://ec.sinovision.net/video/ts/lv.m3u8
 SinoVision,http://ec.sinovision.net/video/ts/newlv.m3u8
+Wuhan 1,http://stream.appwuhan.com/1tzb/sd/live.m3u8
 
 [Hong Kong]
 TVB Jade,http://pull.leshantangjt.com/live/3c9edt80bg89d8ccba9d8b71b/playlist.m3u8
