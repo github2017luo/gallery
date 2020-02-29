@@ -219,11 +219,8 @@ Mediacorp Vatantham,https://tglmp03.akamaized.net/out/v1/230bc7050839446b87c8626
 
 [Japan]
 NHK-G,https://nhknewssimul-i.akamaihd.net/hls/live/226063/nhknewssimul/playlist.m3u8
-NHK World,https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index.m3u8
-NHK World,https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index_1M.m3u8
-NHK World,http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index.m3u8
-NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
-NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/domestic/playlist.m3u8
+NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/domestic/playlist-akamaivtt.m3u8
+NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 NHK World Chinese,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
 NTV News 24,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 Family Gekijyo,http://192.240.127.34:1935/live/cs11.stream/media_1254.m3u8
@@ -259,10 +256,24 @@ Al Jazeera Arabic,http://aljazeera-ara-hd-live.hls.adaptive.level3.net/aljazeera
 Al Jazeera Arabic,http://220.158.149.14:9999/live/TV00000000000000000088@HHZT;LIVE
 Al Hurra,http://mbnhls-lh.akamaihd.net/i/MBN_1@118619/master.m3u8
 Al Hurra,https://mbningestworld-i.akamaihd.net/hls/live/586122/worldsafe/master.m3u8
-TRTWORLD,http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8
-TRT Haber,http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8
-DHA (Turkey),https://5d8ef5ac99397.streamlock.net/live/smil:dhaweb.smil/playlist.m3u8
 TV66 (Israel),http://edge1.il.kab.tv/rtplive/tv66-heb-high.stream/playlist.m3u8
+
+[Turkey]
+TRT 1,https://tv-trt1.live.trt.com.tr/master.m3u8
+TRT 2,https://tv-trt2.live.trt.com.tr/master.m3u8
+TRT WORLD,https://tv-trtworld.live.trt.com.tr/master.m3u8
+TRT HABER,https://tv-trthaber.live.trt.com.tr/master.m3u8
+TRT SPOR,https://tv-trtspor1.live.trt.com.tr/master.m3u8
+TRT SPOR 2,https://tv-trtspor2.live.trt.com.tr/master.m3u8
+TRT BELGESEL,https://trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/master.m3u8
+TRT COCUK,https://tv-trtcocuk.live.trt.com.tr/master.m3u8
+TRT AVAZ,https://tv-trtavaz.live.trt.com.tr/master.m3u8
+TRT MUZIK,https://tv-trtmuzik.live.trt.com.tr/master.m3u8
+TRT TURK,https://tv-trtturk.live.trt.com.tr/master.m3u8
+TRT KURDI,https://tv-trtkurdi.live.trt.com.tr/master.m3u8
+TRT ARABI,https://tv-trtarabi.live.trt.com.tr/master.m3u8
+TRT 3 TBMM TV,https://mecliscanlitv-lh.akamaihd.net/i/MECLISTV_1@127503/master.m3u8
+DHA (Turkey),https://5d8ef5ac99397.streamlock.net/live/smil:dhaweb.smil/playlist.m3u8
 
 [Russia]
 RT,https://rt-news.secure.footprint.net/1103.m3u8
