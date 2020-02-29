@@ -79,10 +79,11 @@ SinoVision,http://ec.sinovision.net/video/ts/newlv.m3u8
 Wuhan 1,http://stream.appwuhan.com/1tzb/sd/live.m3u8
 
 [Hong Kong]
-TVB Jade,http://pull.leshantangjt.com/live/3c9edt80bg89d8ccba9d8b71b/playlist.m3u8
 TVB Jade,http://m.567it.com/jade.m3u8
 TVB Pearl,http://m.567it.com/Pearl.m3u8
-TVB News,http://pull.leshantangjt.com/live/b11a7196f23c3a5b1102a7c22/playlist.m3u8
+TVB News,http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
+TVB Finance,http://www.liveviptv.xyz/tv/tvb.php?vid=wxzx
+TVB Ch88 Horse Racing,http://tvbilive11-i.akamaihd.net/hls/live/494672/CH88/CH88-01.m3u8
 ViuTV,https://ewcdnsite07.nowe.com/session/p8-5-4f9d5517413-e3c931ee3ef3cbd/Content/HLS/LIVE/Channel(HLS_CH099)/index.m3u8
 ViuTV,http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
 Open TV,http://media.fantv.hk/m3u8/archive/channel2.m3u8
@@ -137,6 +138,16 @@ MASTV,http://stream.mastvnet.com/MSTV/playlist.m3u8
 MASTV,http://220.158.149.14:9999/live/TV00000000000000000030@HHZT;LIVE
 
 [Taiwan]
+中视,http://104.250.154.42:8080/ZZ_zhongshi/ZZ_zhongshi.m3u8
+华视,http://104.250.154.42:8080/ZZ_huashi/ZZ_huashi.m3u8
+年代新闻,http://104.250.154.42:8080/ZZ_niandaixinwen/ZZ_niandianxinwen.m3u8
+中天综合,http://104.250.154.42:8080/ZZ_zhongtianzonghe/ZZ_zhongtianzonghe.m3u8
+东森新闻,http://192.200.120.82:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8
+三立新闻,http://60.199.188.65/HLS/WG_ETTV-N/index.m3u8
+WarnerTV,http://192.200.120.82:8080/ZZ_huanadianying/ZZ_huanadianying.m3u8
+国家地理,http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
+FOX动作电影,http://104.250.154.42:8080/ZZ_foxaction/ZZ_foxaction.m3u8
+
 TVBS News,http://60.199.188.65/HLS/WG_TVBS-N/index.m3u8
 TVBS News,https://play1.dsz77.com/tvbsxw/index.m3u8
 ETTV News,http://60.199.188.65/HLS/WG_ETTV-N/index.m3u8
@@ -451,3 +462,44 @@ Unknown Channel 73,http://220.158.149.14:9999/live/TV00000000000000000073@HHZT;L
 Unknown Channel 77,http://220.158.149.14:9999/live/TV00000000000000000077@HHZT;LIVE
 Unknown Channel 80,http://220.158.149.14:9999/live/TV00000000000000000080@HHZT;LIVE
 Unknown Channel 106,http://220.158.149.14:9999/live/TV00000000000000000106@HHZT;LIVE
+
+[Guangdong]
+广东珠江,http://nclive.grtn.cn/zjpd/playlist.m3u8
+广州新闻,http://aplay.gztv.com/sec/xinwen.m3u8
+广州少儿,http://aplay.gztv.com/sec/shaoer.m3u8
+广州台,http://aplay.gztv.com/sec/zhonghe.m3u8
+广东房产,http://nclive.grtn.cn/fcpd/sd/live.m3u8
+广东公共,http://nclive.grtn.cn/ggpd/sd/live.m3u8
+广东国际,http://nclive.grtn.cn/gjpd/sd/live.m3u8
+广东科教,http://nclive.grtn.cn/tvs1hd/hd/live.m3u8
+广东综艺4K,http://nclive.grtn.cn/4K/sd/live.m3u8
+广东少儿,http://nclive.grtn.cn/tvs5/sd/live.m3u8
+广东影视,http://nclive.grtn.cn/tvs4/sd/live.m3u8
+汕头综合,http://dslive.grtn.cn/stzh/playlist.m3u8
+湛江综合,http://dslive.grtn.cn/zjzh/sd/live.m3u8
+茂名综合,http://dslive.grtn.cn/mmzh/sd/live.m3u8
+江门综合,http://dslive.grtn.cn/jmzh/sd/live.m3u8
+珠海生活,http://dslive.grtn.cn/zhzh/sd/live.m3u8
+揭阳综合,http://dslive.grtn.cn/jyzh/sd/live.m3u8
+阳江综合,http://dslive.grtn.cn/yjzh/sd/live.m3u8
+韶关公共,http://dslive.grtn.cn/sgxwzhHD/sd/live.m3u8
+梅州综合,http://dslive.grtn.cn/mzzh/sd/live.m3u8
+潮州综合,http://live.zscz0768.com/live/zhpd.m3u8
+潮州公共,http://live.zscz0768.com/live/ggpd.m3u8
+河源综合,http://dslive.grtn.cn/hyzh/sd/live.m3u8
+汕尾综合,http://dslive.grtn.cn/swzh/sd/live.m3u8
+云浮综合,http://dslive.grtn.cn/yfzh/sd/live.m3u8
+嘉佳卡通,http://nclive.grtn.cn/jjkt/sd/live.m3u8
+高尔夫,http://nclive.grtn.cn/grfpd/sd/live.m3u8
+南方购物,http://nclive.grtn.cn/nfgw/sd/live.m3u8
+
+[CCTV Paid Programs]
+CCTV兵器科技频道,http://live.hcs.cmvideo.cn/ws_v/2018/gfjs/gfjs450/350/01.m3u8
+CCTV发现之旅频道,http://live.hcs.cmvideo.cn/wd_r3/cnr/faxianzhilv/1000/01.m3u8
+CCTV风云剧场频道,http://live.hcs.cmvideo.cn/ws_v/2018/fyjc/fyjc450/350/01.m3u8
+CCTV风云音乐频道,http://live.hcs.cmvideo.cn/ws_v/2018/fyyy/fyyy450/350/01.m3u8
+CCTV风云足球,http://live.hcs.cmvideo.cn/ws_v/2018/fyzq/fyzq450/350/01.m3u8
+CCTV怀旧剧场频道,http://live.hcs.cmvideo.cn/ws_v/2018/hjjc/hjjc450/350/01.m3u8
+CCTV世界地理频道,http://live.hcs.cmvideo.cn/ws_v/2018/sjdl/sjdl450/350/01.m3u8
+CCTV央视文化精品频道,http://live.hcs.cmvideo.cn/ws_v/2018/ysjp/ysjp450/350/01.m3u8
+CCTV新科动漫,http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2_hd.m3u8
