@@ -17,6 +17,7 @@ CCTV13,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000204603.m3u8
 CCTV14,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000204403.m3u8
 CCTV15,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000205003.m3u8
 CCTV17,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000204203.m3u8
+CGTN,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2001656801.m3u8
 广东卫视,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000292703.m3u8
 广西卫视,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000294203.m3u8
 湖南卫视,http://120.204.20.147/tlivecloud-cdn.ysp.cctv.cn/001/2000296203.m3u8
