@@ -148,7 +148,6 @@ MASTV,http://220.158.149.14:9999/live/TV00000000000000000030@HHZT;LIVE
 WarnerTV,http://192.200.120.82:8080/ZZ_huanadianying/ZZ_huanadianying.m3u8
 国家地理,http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
 FOX动作电影,http://104.250.154.42:8080/ZZ_foxaction/ZZ_foxaction.m3u8
-
 TVBS News,http://60.199.188.65/HLS/WG_TVBS-N/index.m3u8
 TVBS News,https://play1.dsz77.com/tvbsxw/index.m3u8
 ETTV News,http://60.199.188.65/HLS/WG_ETTV-N/index.m3u8
@@ -171,6 +170,17 @@ NTDTV Canada West,https://live.ntdimg.com/cwlive220/playlist.m3u8
 BABY First,http://ms003.happytv.com.tw/live/F9YMztT5DcwWEr1f/index.m3u8
 Hope Channel,http://bcliveuniv-lh.akamaihd.net:80/i/Live_1@384161/index_500_av-p.m3u8
 Weixin TV,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+
+[LINE TV]
+中视新闻台,https://lss.line-scdn.net/cc_tw/p/live/hQhn7HO7UD0YBIxFWOzYScWgdB3F8d0FFbywUc3VOUCMudx4UbypDKHZMU3V3fhsQbihJc35GWXR-O0hCZ3tDdXVPTnd_YUkSZjdBI35RUHV8dUkQbiFB/abr.m3u8
+Warner TV,https://lss.line-scdn.net/cc_tw/p/live/hOCumCXP2EW0ZeQ99IGwMWnNBHlk1LQI6cHYKX2gUTgg1LQA_dHYKDm4XSFhtcwRoJ3JXX20TR11lYVZpfCFbWGQVUFxkO1c5fW1fD2wLSF5uJFY7fXI/abr.m3u8
+CN卡通,https://lss.line-scdn.net/cc_tw/p/live/hapD8NPaOP14uLCFOETkiaUJBaW9WI39cTSMkal5BYDsEeCxdFSVxOwhBaWgHJXtdQyd5awxEYWwRcCoBFiRzbAlfYG5LcXoAWid0OENJa29VcHAJ/abr.m3u8
+八大综艺台,https://lss.line-scdn.net/cc_tw/p/live/hsb1Q-3bALUxcRTNcZFAwezcgey1ySmkTMEo2LyAocilxS25MOB5neCkrey91ETkeZ05rfikhcHVkGTgTYEcxKiA2cnw-GGgSL05hIzYvenYhGWoSMA/abr.m3u8	
+中天新闻台,https://lss.line-scdn.net/cc_tw/p/live/hNAF41ceTEG8pIA5_EzUNWEBFGwkCLwM-Qi8LXVtNTwoGdAE9RyJeCgtFTAlQLwVqECtWWlZITFxWOFdrT3haWl4YUV5XYlY7TjReClZSTF9XdlY5RiJe/abr.m3u8
+民视新闻台,https://lss.line-scdn.net/cc_tw/p/live/hAeNGquzuH0shUwFbG0YCfEg3Qn0KXApOTVwEfl8-QC4OBw4ZT1oGKARqQX5aDA4aG1hZfgI4SH5eS1hPRwtUKgRsXnpfEVkfRkdRLl4hQHhcBVkdTlFR/abr.m3u8
+民视无线台,https://lss.line-scdn.net/cc_tw/p/live/hSA4CCMglDW9YVxN_YUIQWDI4Wl13WE9vNFgWDC46Ugp0WU5vPVRBCiU9WlonWUNsNVxLWns5UF0sT0prPQxKCi0-TF4lFUs7PENDDS0lVFwvCko5PFw/abr.m3u8
+华视新闻资讯台,https://lss.line-scdn.net/cc_tw/p/live/hYcaRn4DvB00NRhldNFMaemd8X3wjGkMdY0kceH4rWCghEhYfYElBfXorXH0hE0lINE1BeCsoWXR4XkBJaB5MLnsoRnxwBEEZaVJJKHE0X3R6G0AbaU0/abr.m3u8
+中视新闻台,https://lss.line-scdn.net/cc_tw/p/live/hQhn7HO7UD0YBIxFWOzYScWgdB3F8d0FFbywUc3VOUCMudx4UbypDKHZMU3V3fhsQbihJc35GWXR-O0hCZ3tDdXVPTnd_YUkSZjdBI35RUHV8dUkQbiFB/abr.m3u8	
 
 [US News Channels]
 CNN,https://1828529515.rsc.cdn77.org/PzRY4LT8nvhAvzxEf4KNhw==,1573975542/LS-ATL-54548-9/index.m3u8
