@@ -247,6 +247,7 @@ BR Sued,http://livestreams.br.de/i/bfssued_germany@119890/master.m3u8
 BR HD,http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8
 BR alpha,http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8
 TV Aktuell,http://tvaktuellr.iptv-playoutcenter.de:1935/tvaktuellr/tvaktuellr.stream_3/.m3u8
+RAI News24,https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 TV3(Catalunya),https://directes-tv-es.ccma.cat/es/ngrp:tv3_web/playlist.m3u8
 TV3CAT(Catalunya),https://directes-tv-int.ccma.cat/int/ngrp:tvi_web/playlist.m3u8
 3-24(Catalunya),https://directes-tv-int.ccma.cat/int/ngrp:324_web/playlist.m3u8
