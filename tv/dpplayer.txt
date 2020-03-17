@@ -71,6 +71,7 @@ CBN,http://w1.livecdn.yicai.com/hls/live/CBN_sd/live.m3u8
 CBN,http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
 CBN,http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
 CBN,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225891/3.m3u8
+Yicai Live,http://t1.livecdn.yicai.com/live/100479044.m3u8
 ICS,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225972/3.m3u8
 Aniu TV,http://cclive.aniu.tv/live/anzb.m3u8
 Max Financial Media,http://xinl.live.maxtv.cn/live/zb/playlist.m3u8
