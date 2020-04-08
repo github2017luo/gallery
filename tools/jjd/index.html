@@ -3,9 +3,18 @@
 <head>
 <title>长图生成器-基金豆</title>
 <style type="text/css">
+@font-face {
+  font-family: "Alibaba-PuHuiTi-Regular";
+  src: url("Alibaba-PuHuiTi-Regular.woff2") format("woff2"),
+       url("Alibaba-PuHuiTi-Regular.woff") format("woff"),
+       url("Alibaba-PuHuiTi-Regular.ttf") format("truetype"),
+       url("Alibaba-PuHuiTi-Regular.eot") format("embedded-opentype"),
+       url("Alibaba-PuHuiTi-Regular.svg") format("svg");
+}
+
 body {margin:0px; padding: 0px;}
 table, tr, td, img {border:0px; margin:0px; padding: 0px;}
-body, td, p, input, textarea {font-family: "阿里巴巴普惠体"; color: #5F5E5C;}
+body, td, p, input, textarea {font-family: Alibaba-PuHuiTi-Regular, "阿里巴巴普惠体"; color: #5F5E5C;}
 </style>
 <script type="text/javascript" src="html2canvas.min.js"></script>
 </head>
@@ -17,7 +26,7 @@ body, td, p, input, textarea {font-family: "阿里巴巴普惠体"; color: #5F5E
 
 为保证图片效果的一致性，请在 Chrome 内核浏览器（谷歌、微软新版 Edge 浏览器、360 极速浏览器）等使用本工具。
 
-为保证图片效果的一致性，且避免字体侵权，请提前安装阿里巴巴普惠体，下载地址是：https://alibabafont.taobao.com/ 。
+为避免 Webfonts 未加载导致 Fallback 回微软雅黑，可能带来字体侵权，请在本机提前安装阿里巴巴普惠体，下载地址：https://alibabafont.taobao.com/ 。
 
 这段文字是可以随意替换的，将需要的文本内容直接粘贴进这里替换这段文字即可。
 
