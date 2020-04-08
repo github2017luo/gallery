@@ -3,32 +3,22 @@
 <head>
 <title>长图生成器-基金豆</title>
 <style type="text/css">
-@font-face {
-  font-family: "Alibaba-PuHuiTi-Regular";
-  src: url("fonts/Alibaba-PuHuiTi-Regular.woff2") format("woff2"),
-       url("fonts/Alibaba-PuHuiTi-Regular.woff") format("woff"),
-       url("fonts/Alibaba-PuHuiTi-Regular.ttf") format("truetype"),
-       url("fonts/Alibaba-PuHuiTi-Regular.eot") format("embedded-opentype"),
-       url("fonts/Alibaba-PuHuiTi-Regular.svg") format("svg");
-}
-
 body {margin:0px; padding: 0px;}
 table, tr, td, img {border:0px; margin:0px; padding: 0px;}
-body, td, p, input, textarea {font-family: Alibaba-PuHuiTi-Regular, "阿里巴巴普惠体"; color: #5F5E5C;}
+body, td, p, input, textarea {font-family: Alibaba-PuHuiTi-R, "阿里巴巴普惠体"; color: #5F5E5C;}
 </style>
 <script type="text/javascript" src="html2canvas.min.js"></script>
 </head>
 <body>
 <div style="text-align:center;width:990px;" id="container">
 <img src="header.png" />
-<div id="text-input" contenteditable="plaintext-only" style="display:inline-block;width: 740px;font-size: 40px; padding: 0 126px; border:none; background:transparent;text-align:justify; background:url('bg.png');">
+<div id="text-input" contenteditable="plaintext-only" style="display:inline-block;width: 740px;font-size: 40px; line-height: 54px; padding: 0 126px; border:none; background:transparent;text-align:justify; background:url('bg.png');">现在你不用安装 PS，甚至在手机上都可以随时生成今天的长图啦！
+
 使用说明：
 
-■ 为保证图片效果的一致性，请在 Chrome 内核浏览器（谷歌、微软新版 Edge 浏览器、360 极速浏览器）等使用本工具。 
+■ 文本在 iOS Safari 可能有折行，请注意换行。为保证图片效果的一致性，请在 Chrome 内核浏览器（谷歌、微软新版 Edge 浏览器、360 极速浏览器）等使用本工具。 
 
 ■ 为避免 Webfonts 未加载导致 Fallback 回微软雅黑，可能带来字体侵权，请在本机提前安装阿里巴巴普惠体，下载地址：https://alibabafont.taobao.com/ 。 
-
-■ 已安装阿里普惠体字体的机器可采用非 Webfonts 版本，加载速度更快：https://lishuhang.me/gallery/tools/jjd/nowebfonts.html 。
 
 ■ 这段文字是可以随意替换的，将需要的文本内容直接粘贴进这里替换这段文字即可。 
 
@@ -39,6 +29,8 @@ body, td, p, input, textarea {font-family: Alibaba-PuHuiTi-Regular, "阿里巴�
 ■ 点一下以后，在底部会生成长图图片文件。右键单击图片可以复制（再粘贴到微信）或另存到本地。生成的图片分辨率是足够大的，请放心。 
 
 ■ 如果要制作第二张图，请先刷新本页。
+
+■ 版本 v1.4 更新日期：2020.4.8
 
 </div>
 <img src="footer.png" type='button' id='but_screenshot' value='生成图片' onclick='screenshot();'/>
@@ -53,5 +45,24 @@ body, td, p, input, textarea {font-family: Alibaba-PuHuiTi-Regular, "阿里巴�
    });
   }
   </script>
+  <!--
+  <style type="text/css">
+  @font-face {
+  font-family: "Alibaba-PuHuiTi-R";
+  src: url("fonts/Alibaba-PuHuiTi-Regular.woff2") format("woff2"),
+       url("fonts/Alibaba-PuHuiTi-Regular.woff") format("woff"),
+       url("fonts/Alibaba-PuHuiTi-Regular.ttf") format("truetype"),
+       url("fonts/Alibaba-PuHuiTi-Regular.eot") format("embedded-opentype"),
+       url("fonts/Alibaba-PuHuiTi-Regular.svg") format("svg");
+}
+  </style>
+  -->
+  <script type="text/javascript" src="http://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
+<script type="text/javascript">
+   $webfont.load("body", "c77f68bfc0354806b5265526bf525b1c", "Alibaba-PuHuiTi-R");
+   /*$webfont.load("#id1,.class1,h1", "c77f68bfc0354806b5265526bf525b1c", "Alibaba-PuHuiTi-R");*/
+   /*．．．*/
+   $webfont.draw();
+</script>
 </body>
 </html>
