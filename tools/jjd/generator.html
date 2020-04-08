@@ -1,0 +1,27 @@
+<style type="text/css">
+body {margin:0px; padding: 0px;}
+table, tr, td, img {border:0px; margin:0px; padding: 0px;}
+body, td, p, input, textarea {font-family: "阿里巴巴普惠体"; color: #5F5E5C;}
+</style>
+<script type="text/javascript" src="html2canvas.min.js"></script>
+<body>
+<div style="text-align:center;width:990px;" id="container">
+<img src="header.png" />
+<div id="text-input" contenteditable="plaintext-only" style="display:inline-block;width: 740px;font-size: 40px; padding: 0 126px; border:none; background:transparent;text-align:justify; background:url('bg.png');">
+文本区域的文字可以随意替换，并可以用鼠标调整文本框的宽度和高度到合适的程度，且垂直滚动条消失时为止。请注意文本框是透明的，如果过度往右拉可能把图片撑开；请提前安装阿里巴巴普惠体。<p>
+</div>
+<img src="footer.png" type='button' id='but_screenshot' value='生成图片' onclick='screenshot();'/>
+</div>
+
+
+  <!-- Script -->
+  <script type='text/javascript'>
+  function screenshot(){
+    html2canvas(document.body, {
+  width: 990
+}).then(function(canvas) {
+    document.body.appendChild(canvas);
+   });
+  }
+  </script>
+</body>
