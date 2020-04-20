@@ -231,7 +231,7 @@ World Fashion Channel,http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v1a1/index.m3u
 Canada National TV(Chinese),https://wowzaprodhd84-lh.akamaihd.net/i/4ae6355d_1@505999/index_2150400_av-p.m3u8
 
 [United Kingdom]
-BBC World News,http://163.172.186.160:8081/02AygYWmZnxOW1Jac1xarT4INGVI2ND6dBQR82QrRdGr/live/bbcworld/mono.m3u8
+BBC World News,https://1636691764.rsc.cdn77.org/UYe6KJHsCyt33Vd_6Ii4lw==,1587218404/LS-ATL-54548-11/tracks-v1a1/mono.m3u8
 BBC News,https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/index.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8
