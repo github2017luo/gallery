@@ -103,6 +103,7 @@ Hope Channel,http://bcliveuniv-lh.akamaihd.net:80/i/Live_1@384161/index_500_av-p
 Weixin TV,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 
 [US News Channels]
+CNN International,https://itpolly.iptv.digijadoo.net/live/cnn/chunks.m3u8
 CBSN,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
 CBSN,https://www.cbsnews.com/common/video/cbsn_header_prod.m3u8
 CBSN,https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
