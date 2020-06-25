@@ -64,6 +64,7 @@ CGTN Arabic,https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 CGTN Russian,https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 
 [China Regional]
+CNC,http://livecdn1.news.cn/cnccn/manifest.m3u8
 东方卫视,http://ivi.bupt.edu.cn/hls/dfhd.m3u8
 东方卫视,http://ivi.bupt.edu.cn/hls/dftv.m3u8
 第一财经,http://w1.livecdn.yicai.com/hls/live/CBN_hd/live.m3u8
@@ -76,9 +77,10 @@ CGTN Russian,https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 
 [Hong Kong]
 TVB 翡翠台,http://m.567it.com/jade.m3u8
+TVB 翡翠台,http://144.48.240.144:2019/SunTv.php?name=XGFeiCui
 TVB Pearl,http://m.567it.com/Pearl.m3u8
-TVB 无线新闻台,http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
-TVB 无线财经·资讯台,http://www.liveviptv.xyz/tv/tvb.php?vid=wxzx
+TVB Pearl,http://144.48.240.144:2019/SunTv.php?name=XGMingZhu
+TVB 无线新闻台,http://danielwu.gz01.bdysite.com/IX83SH/wxxw.php
 TVB 赛马88台,http://tvbilive11-i.akamaihd.net/hls/live/494672/CH88/CH88-01.m3u8
 香港开电视,http://media.fantv.hk/m3u8/archive/channel2.m3u8
 有线新闻台,http://pull.leshantangjt.com/live/79231bc51121af01bf85c69b1/playlist.m3u8
@@ -90,6 +92,7 @@ RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1296_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 热血时报,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
+亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
 凤凰卫视中文台,http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
 凤凰卫视中文台,http://125.210.152.18:9090/live/FHZW_1200.m3u8
 凤凰卫视中文台,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
@@ -168,6 +171,7 @@ CBN News,http://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8
 
 [US Cable Channels]
 Red Bull TV,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+FOX Sports News,https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
 The Weather Channel,https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
 WeatherNation,http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
 Adult Swim Stream,https://media.cdn.adultswim.com/streams/playlists/live-stream.primary.v2.m3u8
