@@ -90,9 +90,6 @@ RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_1296_av-b.m3u8
 RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1296_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
-耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-热血时报,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
-亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
 凤凰卫视中文台,http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
 凤凰卫视中文台,http://125.210.152.18:9090/live/FHZW_1200.m3u8
 凤凰卫视中文台,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
@@ -102,8 +99,12 @@ RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
 凤凰卫视资讯台,http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8
 凤凰卫视香港台,http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
 MTV,http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 阳光卫视,https://stream.isuntv.com/680k/mid_video_index.m3u8
+创世电视,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8
+热血时报,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
+亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
 
 [Macau]
 澳视澳门,https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
@@ -181,7 +182,7 @@ Adult Swim Rick and Morty,https://adultswim-vodlive.cdn.turner.com/live/rick-and
 World Fashion Channel,http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v1a1/index.m3u8
 
 [United Kingdom]
-BBC World News,https://1636691764.rsc.cdn77.org/0LRrOda3gcTf9cso8uQ6AQ==,1593094694/LS-ATL-54548-11/index.m3u8
+BBC World News,https://1636691764.rsc.cdn77.org/vCK2Zos_ZJA3WpA_yWRcNQ==,1593570326/LS-ATL-54548-11/index.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 Sky News,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8
 
@@ -287,8 +288,6 @@ Bloomberg Event (Asia),https://liveprodapnortheast.akamaized.net/btv/desktop/ap_
 International Space Station,http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
 NHK Live 5,https://nhknewsreal5-i.akamaihd.net/hls/live/267603/nhknewsreal5/playlist.m3u8
 NHK Live 6,https://nhknewsreal6-i.akamaihd.net/hls/live/267604/nhknewsreal6/playlist.m3u8
-Visit-X,http://stream.visit-x.tv/vxtv/live_720p/playlist.m3u8
-Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/PAZ_Chega_de_Guerras.m3u8
 
 [ABC News]
 ABC News 1,https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8
@@ -454,3 +453,32 @@ Olympic Channel 14,https://ott-live.olympicchannel.com/out/u/OC14_2.m3u8
 Olympic Channel 14,https://ott-live.olympicchannel.com/out/u/OC14_3.m3u8
 Olympic Channel 14,https://ott-live.olympicchannel.com/out/u/OC14_4.m3u8
 Olympic Channel 14,https://ott-live.olympicchannel.com/out/u/OC14_5.m3u8
+
+[Adult IPTV]
+Visit-X,http://stream.visit-x.tv/vxtv/live_720p/playlist.m3u8
+Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/PAZ_Chega_de_Guerras.m3u8
+Anal,http://cdn.adultiptv.net/anal.m3u8
+Big Ass,http://cdn.adultiptv.net/bigass.m3u8
+Big Dick,http://cdn.adultiptv.net/bigdick.m3u8
+Big Tits,http://cdn.adultiptv.net/bigtits.m3u8
+Blonde,http://cdn.adultiptv.net/blonde.m3u8
+Blowjob,http://cdn.adultiptv.net/blowjob.m3u8
+Brunette,http://cdn.adultiptv.net/brunette.m3u8
+Compilation,http://cdn.adultiptv.net/compilation.m3u8
+Cuckold,http://cdn.adultiptv.net/cuckold.m3u8
+Fetish,http://cdn.adultiptv.net/fetish.m3u8
+Gangbang,http://cdn.adultiptv.net/gangbang.m3u8
+Gay,http://cdn.adultiptv.net/gay.m3u8
+Hardcore,http://cdn.adultiptv.net/hardcore.m3u8
+Interracial,http://cdn.adultiptv.net/interracial.m3u8
+Latina,http://cdn.adultiptv.net/latina.m3u8
+Lesbian,http://cdn.adultiptv.net/lesbian.m3u8
+Live Cams,http://cdn.adultiptv.net/livecams.m3u8
+MILF,http://cdn.adultiptv.net/milf.m3u8
+Pornstar,http://cdn.adultiptv.net/pornstar.m3u8
+POV,http://cdn.adultiptv.net/pov.m3u8
+Rough,http://cdn.adultiptv.net/rough.m3u8v
+Russian,http://cdn.adultiptv.net/russian.m3u8
+Teen,http://cdn.adultiptv.net/teen.m3u8
+Threesome,http://cdn.adultiptv.net/threesome.m3u8
+VOD,http://adultiptv.net/vods.m3u8
