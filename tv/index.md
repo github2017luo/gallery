@@ -40,7 +40,7 @@
 
 ## United Kingdom
 
-[BBC World News](https://1636691764.rsc.cdn77.org/uLo6HWZSa1Wo8rupre0LPg==](1593579245/LS-ATL-54548-11/index.m3u8) | [BBC World News](http://178.217.72.66/225.201.2.156/tracks-v1a1/mono.m3u8) | [BBC World News](http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8) | [BBC News](https://edge-1192-ch-gv.filmon.com/live/27.low.stream/playlist.m3u8) | [Sky News](https://cdn-laos.workpoint.news/uk-skynews_480/index.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8)
+[BBC World News](https://1636691764.rsc.cdn77.org/uLo6HWZSa1Wo8rupre0LPg==,1593579245/LS-ATL-54548-11/index.m3u8) | [BBC World News](http://178.217.72.66/225.201.2.156/tracks-v1a1/mono.m3u8) | [BBC World News](http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8) | [BBC News](https://edge-1192-ch-gv.filmon.com/live/27.low.stream/playlist.m3u8) | [Sky News](https://cdn-laos.workpoint.news/uk-skynews_480/index.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8) | [Sky News](http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8)
 
 ## Europe
 
