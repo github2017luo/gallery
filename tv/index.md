@@ -12,7 +12,7 @@
 
 ## China Regional
 
-[CNC](http://livecdn1.news.cn/cnccn/manifest.m3u8) | [东方卫视](http://ivi.bupt.edu.cn/hls/dfhd.m3u8) | [东方卫视](http://ivi.bupt.edu.cn/hls/dftv.m3u8) | [第一财经](http://w1.livecdn.yicai.com/hls/live/CBN_hd/live.m3u8) | [第一财经](http://w1.livecdn.yicai.com/hls/live/CBN_sd/live.m3u8) | [第一财经](http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8) | [第一财经](http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8) | [点掌财经](http://cclive.aniu.tv/live/anzb.m3u8) | [迈视TV](http://xinl.live.maxtv.cn/live/zb/playlist.m3u8) | [武汉新闻综合](http://stream.appwuhan.com/1tzb/sd/live.m3u8)
+[CNC](http://livecdn1.news.cn/cnccn/manifest.m3u8) | [东方卫视](http://ivi.bupt.edu.cn/hls/dfhd.m3u8) | [东方卫视](http://ivi.bupt.edu.cn/hls/dftv.m3u8) | [第一财经](https://w1live.livecdn.yicai.com/live/cbn.m3u8) | [第一财经](http://w1.livecdn.yicai.com/hls/live/CBN_sd/live.m3u8) | [第一财经](http://w1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8) | [第一财经](http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8) | [点掌财经](http://cclive.aniu.tv/live/anzb.m3u8) | [迈视TV](http://xinl.live.maxtv.cn/live/zb/playlist.m3u8) | [武汉新闻综合](http://stream.appwuhan.com/1tzb/sd/live.m3u8)
 
 ## Hong Kong
 
