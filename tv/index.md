@@ -4,7 +4,7 @@
 
 ## CCTV
 
-[RTHK33](https://3891.liveplay.myqcloud.com/live/3891_rthk33_785640.m3u8) | [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8) | [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1.m3u8) | [CCTV1](http://cctvksw.v.kcdnvip.com/live/cctv1_1/index.m3u8) | [CCTV2](http://ivi.bupt.edu.cn/hls/cctv2.m3u8) | [CCTV4](http://ivi.bupt.edu.cn/hls/cctv4.m3u8) | [CCTV4](http://cctvksw.v.kcdnvip.com/live/cctv4_1/index.m3u8) | [CCTV9](http://ivi.bupt.edu.cn/hls/cctv9.m3u8) | [CCTV9](http://cctvcnch5c.v.wscdns.com/live/cctvjilu_2/index.m3u8) | [CCTV9](http://cctvksw.v.kcdnvip.com/live/cctvjilu_1/index.m3u8) | [CCTV13](http://ivi.bupt.edu.cn/hls/cctv13.m3u8) | [CCTV13](http://cctvksw.v.kcdnvip.com/live/cctv13_1/index.m3u8) | [CCTV新科动漫](http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2_hd.m3u8)
+[RTHK33](https://3891.liveplay.myqcloud.com/live/3891_rthk33_305889.m3u8) | [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8) | [CCTV1](http://ivi.bupt.edu.cn/hls/cctv1.m3u8) | [CCTV1](http://cctvksw.v.kcdnvip.com/live/cctv1_1/index.m3u8) | [CCTV2](http://ivi.bupt.edu.cn/hls/cctv2.m3u8) | [CCTV4](http://ivi.bupt.edu.cn/hls/cctv4.m3u8) | [CCTV4](http://cctvksw.v.kcdnvip.com/live/cctv4_1/index.m3u8) | [CCTV9](http://ivi.bupt.edu.cn/hls/cctv9.m3u8) | [CCTV9](http://cctvcnch5c.v.wscdns.com/live/cctvjilu_2/index.m3u8) | [CCTV9](http://cctvksw.v.kcdnvip.com/live/cctvjilu_1/index.m3u8) | [CCTV13](http://ivi.bupt.edu.cn/hls/cctv13.m3u8) | [CCTV13](http://cctvksw.v.kcdnvip.com/live/cctv13_1/index.m3u8) | [CCTV新科动漫](http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2_hd.m3u8)
 
 ## CGTN
 
