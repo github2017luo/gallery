@@ -4,39 +4,43 @@
 [View domestic.txt]
 
 [CCTV]
-CCTV1,http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8
 CCTV1,http://140.207.241.3:8080/live/program/live/cctv1hd/4000000/mnf.m3u8
-CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
-CCTV1,https://229.icu/rthk33.m3u8
-CCTV2,http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8
-CCTV2,http://ivi.bupt.edu.cn/hls/cctv2.m3u8
+CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
+CCTV1,http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8
+CCTV2,http://live.centerch.com/cctv2.m3u8
+CCTV2,http://liveplay-kk.rtxapp.com/live/program/live/cctv2/1300000/mnf.m3u8
 CCTV2,http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8
-CCTV4,http://112.50.243.8/PLTV/88888888/224/3221225802/1.m3u8
-CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
+CCTV2,http://ivi.bupt.edu.cn/hls/cctv2.m3u8
+CCTV2,http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
-CCTV5,http://112.17.40.145/PLTV/88888888/224/3221226687/1.m3u8
+CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
+CCTV4,http://112.50.243.8/PLTV/88888888/224/3221225802/1.m3u8
+CCTV5,http://liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mnf.m3u8
+CCTV5,http://liveplay-kk.rtxapp.com/live/program/live/cctv5hd/4000000/mnf.m3u8
+CCTV5,http://liveplay-kk.rtxapp.com/live/program/live/cctv5/1300000/mnf.m3u8
+CCTV5,http://live.centerch.com/cctv5.m3u8
 CCTV5,http://140.207.241.3:8080/live/program/live/cctv5hd/4000000/mnf.m3u8
-CCTV5,http://ivi.bupt.edu.cn/hls/cctv5.m3u8
 CCTV5,http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
-CCTV5+,http://112.50.243.8/PLTV/88888888/224/3221226225/1.m3u8
+CCTV5,http://ivi.bupt.edu.cn/hls/cctv5.m3u8
+CCTV5,http://112.17.40.145/PLTV/88888888/224/3221226687/1.m3u8
 CCTV5+,http://140.207.241.3:8080/live/program/live/cctv5phd/4000000/mnf.m3u8
 CCTV5+,http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
-CCTV9,http://112.50.243.8/PLTV/88888888/224/3221225820/1.m3u8
-CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
+CCTV5+,http://112.50.243.8/PLTV/88888888/224/3221226225/1.m3u8
 CCTV9,http://ivi.bupt.edu.cn/hls/cctv9hd.m3u8
-CCTV13,http://112.50.243.8/PLTV/88888888/224/3221225817/1.m3u8
-CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
+CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
+CCTV9,http://112.50.243.8/PLTV/88888888/224/3221225820/1.m3u8
 CCTV13,http://ivi.bupt.edu.cn/hls/cctv13hd.m3u8
+CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
+CCTV13,http://112.50.243.8/PLTV/88888888/224/3221225817/1.m3u8
 
 [CGTN]
+CGTN,http://ivi.bupt.edu.cn/hls/cgtnhd.m3u8
 CGTN,https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
-CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
-CGTN,http://ivi.bupt.edu.cn/hls/cgtnhd.m3u8
 CGTN,https://live.wcetv.com/cache/cctvnews/live.master.m3u8
-CGTN Documentary,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 CGTN Documentary,http://ivi.bupt.edu.cn/hls/cgtndochd.m3u8
+CGTN Documentary,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 CGTN Documentary,https://live.wcetv.com/cache/cctv9/live.master.m3u8
 CGTN Espanol,https://live.wcetv.com/cache/cctve/live.master.m3u8
 CGTN Espanol,https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
@@ -56,32 +60,23 @@ CNC,http://livecdn1.news.cn/cnccn/manifest.m3u8
 第一财经,http://m1.livecdn.yicai.com/hls/live/CBN_ld/live.m3u8
 
 [Hong Kong]
-TVB 翡翠台,https://pullhls3948069e.live.126.net/live/9d88e741a5b5368cd86a43a617041a58/playlist.m3u8
 TVB 翡翠台,http://m.567it.com/jade.m3u8
-TVB 翡翠台,http://144.48.240.144:2019/SunTv.php?name=XGFeiCui
 TVB Pearl,http://m.567it.com/Pearl.m3u8
-TVB Pearl,http://144.48.240.144:2019/SunTv.php?name=XGMingZhu
-TVB 无线新闻台,https://pullhls3948069e.live.126.net/live/238d2e5cf72e9631546b2861d2b7b146/playlist.m3u8
-TVB 无线新闻台,http://kean-hoe.ga/dl/tvb/tvb.php?id=wxxwsd
-TVB 无线新闻台,http://kean-hoe.ga/dl/tvb/tvb.php?id=wxxw
-TVB 无线财经资讯台,http://kean-hoe.ga/dl/tvb/tvb.php?id=wxcj
-TVB 无线财经资讯台,http://kean-hoe.ga/dl/tvb/tvb.php?id=wxcjsd
-
-Now 新闻台,http://ewcdnsite06.nowe.com/session/09-e04193f2f037f93d7b12b44f256ba/Content/HLS/LIVE/Channel(HLS_CH332N)/Stream(01)/index.m3u8
-Now 直播台,http://ewcdnsite07.nowe.com/session/09-62355bab947e42b0d59650e059c7a/Content/HLS/LIVE/Channel(HLS_CH331)/Stream(03)/index.m3u8
 香港开电视,http://media.fantv.hk/m3u8/archive/channel2.m3u8
 有线新闻台,http://live-hwcdn.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94.m3u8
-有线财经资讯台,http://ottproxy1.mott.tv/livehls/MOB-NGW/index.m3u8
 RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_1296_av-b.m3u8
 RTHK 31,http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1296_av-b.m3u8
 RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
 
+凤凰卫视中文台,http://live.centerch.com/fhzw.m3u8
+凤凰卫视中文台,http://live.centerch.com/fhws.m3u8
+凤凰卫视中文台,http://223.82.250.72/live/fhchinese/1.m3u8
 凤凰卫视中文台,http://125.210.152.18:9090/live/FHZW_1200.m3u8
 凤凰卫视中文台,http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
 凤凰卫视中文台,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
 凤凰卫视中文台,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
-凤凰卫视中文台,http://223.82.250.72/live/fhchinese/1.m3u8
+凤凰卫视资讯台,http://live.centerch.com/fhzx.m3u8
 凤凰卫视资讯台,http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8
 凤凰卫视资讯台,http://125.210.152.18:9090/live/FHZX_1200.m3u8
 凤凰卫视资讯台,http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8
@@ -89,8 +84,13 @@ RTHK 32,http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
 凤凰卫视香港台,http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
 凤凰卫视香港台,http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
 
+National Geographic,http://hdtv.haust.edu.cn/hls/natlgeo.m3u8
 MTV,http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8
-Channel V,https://www.fanmingming.cn/hls/channelv.m3u8
+星空卫视,http://hdtv.haust.edu.cn/hls/startv.m3u8
+Channel V,http://hdtv.haust.edu.cn/hls/channelv.m3u8
+Now Sports Prime,http://teslagram.com/now_proxy.php?channel=3
+Aniplus HD,http://45.126.83.51/dr9445/h/h02/01.m3u8
+亚洲电视 A1,https://15813114727637862976168173814320.live.prod.hkatv.com/a1_cbr_lo.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 阳光卫视,https://stream.isuntv.com/680k/mid_video_index.m3u8
@@ -116,10 +116,12 @@ Canal Macau,http://61.244.22.4/ch2/ch2.live/playelist.m3u8
 华视,http://104.250.154.42:8080/ZZ_huashi/ZZ_huashi.m3u8
 年代新闻,http://104.250.154.42:8080/ZZ_niandaixinwen/ZZ_niandianxinwen.m3u8
 中天综合,http://104.250.154.42:8080/ZZ_zhongtianzonghe/ZZ_zhongtianzonghe.m3u8
+三立 iNews 新闻,http://seb.sason.top/sc/slinews_fhd.m3u8
+壹新闻,http://stream.nexttv.com.tw/n001/hd/live.m3u8
+东森新闻,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森新闻,http://192.200.120.82:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8
-民视新闻,https://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8
-民视新闻,http://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8
 民视新闻,http://210.61.56.23/hls/ftvtv/index.m3u8
+民视新闻,http://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8
 NTDTV China,https://live2.ntdimg.com/cnlive/playlist.m3u8
 NTDTV AP,https://live.ntdimg.com/aplive200/playlist.m3u8
 NTDTV AP,http://174.127.67.246/live330/playlist.m3u8
@@ -137,7 +139,7 @@ Weixin TV,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunk
 原视,https://live.wcetv.com/hls/master-titv.m3u8
 
 [US News Channels]
-CNN International,https://itpolly.iptv.digijadoo.net/live/cnn/chunks.m3u8
+CNN,http://1111296894.rsc.cdn77.org/ls-54548-1/tracks-v1a1/mono.m3u8
 CBSN,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
 CBSN,https://www.cbsnews.com/common/video/cbsn_header_prod.m3u8
 CBSN,https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -146,13 +148,15 @@ CBS Sports HQ,https://dai.google.com/linear/hls/event/lKh5_XooSbam79G4T7KvYQ/mas
 ET Live,https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 ABC News Live,https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8
 ABC News Live,https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+Fox News,https://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8
 Fox News,https://foxnewsuni-f.akamaihd.net/i/FNCGOPREV_40220@40220/master.m3u8
 Yahoo News,https://content.uplynk.com/channel/411ba7ca8cb6403a9e73509e49c3a77b.m3u8
 ABC 23,https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
-CNBC,https://edge-1192-ch-gv.filmon.com/live/4130.high.stream/playlist.m3u8?checkedby:iptvcat.com
+NBC,http://161.0.157.51/pltv/88888888/224/3221227040/01.m3u8
 NBC News Now,https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index_375.m3u8
 NBC News Now,http://nbcnews-lh.akamaihd.net/i/nbc_live11@183427/master.m3u8
 C-SPAN,https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8?fluxustv.m3u8
+Bloomberg,https://liveprodusphoenixeast.global.ssl.fastly.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
 Bloomberg,http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8
 Bloomberg,https://cdn-videos.akamaized.net/btv/desktop/fastly/asia/live/primary.m3u8
 Bloomberg,https://liveprodapnortheast.akamaized.net/btv/desktop/aus_live.m3u8
@@ -168,8 +172,8 @@ Cheddar News,https://livestream.chdrstatic.com/7ab3250ab8cbce90487ec1d6f5ab5b4de
 Cheddar Business,https://melive.chdrstatic.com/cheddar-42620/CheddarOwnedStream/cheddar/primary.m3u8
 Cheddar Business,https://live.chdrstatic.com/cheddar/index.m3u8
 NewsMax,https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-NewsMax,https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_1080.m3u8
 CBN News,http://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8
+VOA,https://voa-lh.akamaihd.net/i/voa_mpls_tvmc8@326847/master.m3u8
 
 [US Cable Channels]
 Red Bull TV,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
@@ -184,8 +188,10 @@ Adult Swim Rick and Morty,https://adultswim-vodlive.cdn.turner.com/live/rick-and
 [United Kingdom]
 BBC World News,https://1636691764.rsc.cdn77.org/3pRPbcdmIuEPWceLXGUUnw==,1605072717/LS-ATL-54548-11/tracks-v1a1/mono.m3u8
 BBC News,https://edge-1192-ch-gv.filmon.com/live/27.low.stream/playlist.m3u8
+BBC News,http://ott-cdn.ucom.am/s24/index.m3u8
 
 [Europe]
+Euronews,https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/EuroNews.m3u8
 France 24,http://static.france24.com/live/F24_EN_HI_HLS/live_tv.m3u8
 France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8
 France 24,http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
@@ -227,6 +233,7 @@ Mediacorp Vatantham,https://tglmp03.akamaized.net/out/v1/230bc7050839446b87c8626
 NHK-G,https://nhknewssimul-i.akamaihd.net/hls/live/226063/nhknewssimul/playlist.m3u8
 NHK World,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/domestic/playlist-akamaivtt.m3u8
+NHK World Japan,https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index_1M.m3u8
 NHK World,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 NHK World Chinese,https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
 NTV News 24,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
@@ -235,6 +242,7 @@ NTV News 24,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 Arirang,http://cdn-01.bonus-tv.ru:8080/arirang_edge/index.m3u8
 YTN Korean,http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/manifest.m3u8
+YTN Science,http://slive.sciencetv.kr:1935/science/yslive_20140419_1/chunklist_w2065795695.m3u8
 Korean Central TV,http://tv.nknews.org/tvhls/stream.m3u8
 CGNTV Chinese,http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_ch/chunklist_w1705401687.m3u8
 
@@ -403,7 +411,8 @@ OC 14,https://ott-live.olympicchannel.com/out/u/OC14_5.m3u8
 [Adult IPTV]
 Visit-X,http://stream.visit-x.tv/vxtv/live_720p/playlist.m3u8
 Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/PAZ_Chega_de_Guerras.m3u8
-Anal,http://cdn.adultiptv.net/anal.m3u8
+FashionTV Bikini,https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+A3 Bikini,https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8?fluxustv.m3u8Anal,http://cdn.adultiptv.net/anal.m3u8
 Big Ass,http://cdn.adultiptv.net/bigass.m3u8
 Big Dick,http://cdn.adultiptv.net/bigdick.m3u8
 Big Tits,http://cdn.adultiptv.net/bigtits.m3u8
@@ -423,7 +432,7 @@ Live Cams,http://cdn.adultiptv.net/livecams.m3u8
 MILF,http://cdn.adultiptv.net/milf.m3u8
 Pornstar,http://cdn.adultiptv.net/pornstar.m3u8
 POV,http://cdn.adultiptv.net/pov.m3u8
-Rough,http://cdn.adultiptv.net/rough.m3u8v
+Rough,http://cdn.adultiptv.net/rough.m3u8
 Russian,http://cdn.adultiptv.net/russian.m3u8
 Teen,http://cdn.adultiptv.net/teen.m3u8
 Threesome,http://cdn.adultiptv.net/threesome.m3u8
