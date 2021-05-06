@@ -1,0 +1,895 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='file://C://Users//James//AppData//Roaming//Typora/themes///fonts.googleapis.com/earlyaccess/notosanssc.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+
+
+
+
+/* 修改自 https://theme.typora.io/theme/Han/ 
+先下载思源黑体本地安装，如果没有可临时解锁：
+@import url();
+国内镜像：https://google-fonts.mirrors.sjtug.sjtu.edu.cn/earlyaccess/notosanssc.css
+*/
+
+:root {
+  --active-file-bg-color: #dadada;
+  --active-file-bg-color: rgba(32, 43, 51, 0.63);
+  --active-file-text-color: white;
+  --bg-color: #fff;
+  --text-color: #333;
+  --side-bar-bg-color: #f5f5f5;
+  --control-text-color: #666;
+}
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+  color: #333;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  font-size: 14px;
+  -webkit-font-smoothing: initial;
+}
+
+#write {
+  max-width: 960px;
+  padding-top: 2em;
+  padding-left: 60px;
+  padding-right: 60px;
+  min-height: calc(100vh - 6em);
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+.typora-node #write {
+  min-height: calc(100% - 6em);
+}
+
+pre.md-meta-block {
+  background: #f5f5f5;
+  padding: 1em;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+      font-size: 14px;
+    }
+
+    #write {
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    body, #footer-word-count-info {
+      background: #f5f5f5;
+    }
+
+    body.pin-outline,
+    .pin-outline #footer-word-count-info,
+    .pin-outline footer {
+      background: #fff;
+    }
+
+    #write {
+      max-width: 1000px;
+      padding: 40px 60px;
+      background: #fff;
+      margin: 3em auto 3em;
+      border: 1px solid #ddd;
+      border-width: 0 1px;
+    }
+
+    .pin-outline #write {
+      max-width: 1000px;
+      background: #fff;
+      margin: 0 0 0;
+      border: 0;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    footer {
+      background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body.pin-outline,
+    .pin-outline #footer-word-count-info,
+    .pin-outline footer {
+      background: #f5f5f5;
+    }
+
+    .pin-outline  #write {
+      max-width: 1000px;
+      padding: 40px 60px;
+      background: #fff;
+      margin: 3em auto 3em;
+      border: 1px solid #ddd;
+      border-width: 0 1px;
+    }
+
+    .pin-outline footer {
+      background-color: transparent;
+    }
+
+    #footer-word-count-info {
+      background: #f5f5f5;
+    }
+}
+
+
+/* 如果你的项目仅支持 IE9+ | Chrome | Firefox 等，推荐在 <html> 中添加 .borderbox 这个 class */
+html.borderbox *, html.borderbox *:before, html.borderbox *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body, button, input, select, textarea {
+  font: 300 1em/1.8 "思源黑体", "Source Han Sans",  "Noto Sans SC", "PingFang SC", "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans;
+}
+
+body {
+  font-family: "思源黑体", "Source Han Sans",  "Noto Sans SC", "PingFang SC", "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "思源黑体", "Source Han Sans",  "Noto Sans SC", "PingFang SC", "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans;
+  -webkit-font-smoothing: initial;
+  font-weight: 100;
+  color: var(--text-color);
+  line-height: 1.35; 
+  font-variant-numeric: lining-nums;
+  margin-bottom: 1em;
+}
+
+em {
+/*   font-family: Georgia-Italic, STSongti-SC-Light, serif; */
+}
+
+strong em,
+em strong {
+/*   font-family: Georgia-BoldItalic, STSongti-SC-Regular, serif; */
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 去除默认边框 */
+fieldset, img {
+  border: 0;
+}
+
+/* 块/段落引用 */
+blockquote {
+  position: relative;
+  color: #999;
+  font-weight: 400;
+  border-left: 1px solid #1abc9c;
+  padding-left: 1em;
+  margin: 1em 3em 1em 2em;
+}
+
+@media only screen and ( max-width: 640px ) {
+  blockquote {
+  /*  margin: 1em 0; */
+  }
+}
+
+/* Firefox 以外，元素没有下划线，需添加 */
+acronym, abbr {
+  border-bottom: 1px dotted;
+  font-variant: normal;
+}
+
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+abbr {
+  cursor: help;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
+ul, ol {
+  list-style: none;
+}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption, th {
+  text-align: left;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+/* 统一上标和下标 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+:root sub, :root sup {
+  vertical-align: baseline; /* for ie9 and other modern browsers */
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* 让链接在 hover 状态下显示下划线 */
+a {
+  /* color: #1abc9c; */'
+  color: #327CF8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#write a {
+  border-bottom: 1px solid #327CF8;
+}
+
+#write a:hover {
+  border-bottom-color: #555;
+  color: #555;
+  text-decoration: none;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins, a {
+  text-decoration: none;
+}
+
+/* 标记，类似于手写的荧光笔的作用 */
+mark {
+  background: #fffdd1;
+  border-bottom: 1px solid #ffedce;
+  padding: 2px;
+  margin: 0 5px;
+}
+
+/* 代码片断 */
+pre, code, pre tt {
+  font-family: Courier, 'Courier New', monospace;
+}
+
+#write .md-fences {
+  border: 1px solid #ddd;
+  padding: 1em 0.5em;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 一致化 horizontal rule */
+hr {
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 0.8em;
+  height: 10px;
+}
+
+#write strong {
+  /*font-weight: bolder;*/
+  font-weight: 700;
+  color: #000;
+}
+
+.code-tooltip.md-hover-tip strong {
+  color: white;
+}
+
+/* 保证块/段落之间的空白隔行 */
+#write p, #write .md-fences, #write ul, #write ol, #write dl, #write form, #write hr, #write figure,
+#write-p, #write-pre, #write-ul, #write-ol, #write-dl, #write-form, #write-hr, #write-table, blockquote {
+  margin-bottom: 1.2em
+}
+
+html {
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6,
+#write-h1, #write-h2, #write-h3, #write-h4, #write-h5, #write-h6 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.35;
+  color: #000;
+}
+
+/* 下列字重系手动添加 */
+
+#write h1, #write-h1 {
+  font-size: 2.4em;
+  font-weight: 900;
+  /* padding-bottom: 1em; */
+  padding-bottom: 0.5em;
+  /* border-bottom: 3px double #eee; */
+}
+
+#write h2, #write-h2 {
+  /* font-size: 1.8em; */
+    font-size: 26px;
+    font-weight: 900;
+    color: #327CF8;
+}
+
+#write h3, #write-h3 {
+  font-size: 1.6em;
+}
+
+#write h4, #write-h4 {
+  font-size: 1.4em;
+}
+
+#write h5, #write-h5 {
+  font-size: 1.2em;
+}
+/* h5 和 h6 原来都是 1.2em */
+
+#write h6, #write-h6 {
+  font-size: 0.8em;
+}
+
+/* 在文章中，应该还原 ul 和 ol 的样式 */
+#write ul, #write-ul {
+  margin-left: 1.3em;
+  list-style: disc;
+}
+
+#write ol, #write-ol {
+  list-style: decimal;
+  margin-left: 1.9em;
+}
+
+#write li ul, #write li ol, #write-ul ul, #write-ul ol, #write-ol ul, #write-ol ol {
+  margin-bottom: 0.8em;
+  margin-left: 2em;
+}
+
+#write li ul, #write-ul ul, #write-ol ul {
+  list-style: circle;
+}
+
+
+#write table th, #write table td {
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+  color: #666;
+}
+
+#write table .md-table-edit th {
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+#write table th, #write-table th {
+  background: #fbfbfb;
+}
+
+#write table thead th, #write-table thead th {
+  background: #f1f1f1;
+}
+
+#write table caption {
+  border-bottom: none;
+}
+
+#write em {
+  font-weight: inherit;
+  font-style: italic;
+}
+
+li>p {
+    margin-bottom: 0 !important;
+}
+
+/* Responsive images */
+#write img {
+  max-width: 100%;
+}
+
+a.md-toc-inner {
+    border-bottom: 0 !important;
+}
+
+.md-toc-h1:first-of-type:last-of-type{
+  display: none;
+}
+
+.md-toc {
+  font-size: inherit;
+}
+
+.md-toc-h1 .md-toc-inner {
+  font-weight: normal;
+}
+
+.md-table-edit th {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.mac-seamless-mode #write {
+  min-height: calc(100vh - 6em - 20px);
+}
+
+.typora-quick-open-item.active {
+    color: var(--active-file-text-color);
+}
+
+*.in-text-selection, ::selection {
+    background: var(--active-file-bg-color);
+    text-shadow: none;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #2d2d2d;
+    border-color: #020202;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #4e4c4e;
+    border: #4e4c4e;
+}
+
+#preference-dialog .modal-content{
+  background: #6e757a;
+  --bg-color: #6e757a;
+  --text-color: #f1f1f1;
+  color: #f1f1f1;
+}
+
+#typora-source,
+.typora-sourceview-on  {
+  --bg-color: #eee;
+  background: #eee;
+}
+
+.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
+    color: #116098;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #11987d;
+}
+
+.cm-s-typora-default .cm-em {
+  font-family: Georgia-Italic, STSongti-SC-Light, serif;
+  color: #6f6400;
+}
+
+.cm-s-typora-default .cm-em{
+    color: rgb(0, 22, 45);
+}
+
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
+    border-left: 3px solid #6e757a;
+}
+
+.cm-s-typora-default .CodeMirror-selectedtext,
+.typora-sourceview-on .CodeMirror-focused .CodeMirror-selected {
+    background: #6e757a;
+    color: white;
+}
+
+.file-node-icon.fa.fa-folder:before {
+  color: rgba(32, 43, 51, 0.49);
+}
+
+#preference-dialog .megamenu-menu-panel h1 {
+  margin-bottom: 1em;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+  background: transparent;
+}
+
+/*.file-node-icon.fa.fa-folder:before {
+  content: "\f114";
+}
+
+#typora-sidebar {
+
+}*/
+
+/*.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
+  color: #fffff1;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #86f9e2;
+    color: #e5f7eb;
+}
+
+.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
+    color: rgb(255, 199, 199);
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: #dec4c7;
+}
+
+.cm-s-typora-default  .cm-em {
+  font-family: Georgia-Italic, STSongti-SC-Light, serif;
+  color: #f3ff7e;
+}
+
+.typora-sourceview-on .CodeMirror-cursor {
+  border-left: 3px solid #ffffd6;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: #505050;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-variable,
+.typora-sourceview-on .cm-s-inner .cm-operator,
+.typora-sourceview-on .cm-s-inner .cm-property {
+    color: #b8bfc6;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-keyword {
+    color: #C88FD0;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-tag {
+    color: #7DF46A;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-attribute {
+    color: #7575E4;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-string {
+    color: #D26B6B;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-comment,
+.typora-sourceview-on .cm-s-inner.cm-comment {
+    color: #DA924A;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-header,
+.typora-sourceview-on .cm-s-inner .cm-def,
+.typora-sourceview-on .cm-s-inner.cm-header,
+.typora-sourceview-on .cm-s-inner.cm-def {
+    color: #8d8df0;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-quote,
+.typora-sourceview-on .cm-s-inner.cm-quote {
+    color: #57ac57;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-hr {
+    color: #d8d5d5;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-link {
+    color: #d3d3ef;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-negative {
+    color: #d95050;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-positive {
+    color: #50e650;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-string-2 {
+    color: #f50;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-meta,
+.typora-sourceview-on .cm-s-inner .cm-qualifier {
+    color: #b7b3b3;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-builtin {
+    color: #f3b3f8;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-bracket {
+    color: #997;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-atom,
+.typora-sourceview-on .cm-s-inner.cm-atom {
+    color: #84B6CB;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-number {
+    color: #64AB8F;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-variable {
+    color: #b8bfc6;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-variable-2 {
+    color: #9FBAD5;
+}
+
+.typora-sourceview-on .cm-s-inner .cm-variable-3 {
+    color: #1cc685;
+}
+
+.typora-sourceview-on .CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #b8bfc6;
+    z-index: 3;
+}
+
+.cm-s-typora-default .CodeMirror-selectedtext,
+.typora-sourceview-on .CodeMirror-focused .CodeMirror-selected {
+  background: #212324;
+}
+
+.typora-sourceview-on .CodeMirror-linenumber {
+    color: rgb(255, 255, 255);
+}*/
+
+
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style><title>母子健康手册</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='北京市母子健康手册宣教手册'><span>北京市母子健康手册：宣教手册</span></h1><p><span>北京市卫生和计划生育委员会</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/000.jpg" referrerpolicy="no-referrer"></p><h2 id='基本情况'><span>基本情况</span></h2><figure><table><thead><tr><th>&nbsp;</th><th><span>姓名</span></th><th><span>身份证号</span></th><th><span>户口所在地</span></th><th><span>工作单位</span></th><th><span>联系电话</span></th><th><span>年龄</span></th><th><span>职业</span></th><th><span>民族</span></th></tr></thead><tbody><tr><td><span>母亲</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><span>父亲</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p><span>家庭住址：</span></p><figure><table><thead><tr><th><span>宝宝姓名</span></th><th><span>胎次</span></th><th><span>身份证号</span></th><th><span>户口所在地</span></th><th><span>性别</span></th><th><span>出生日期</span></th><th><span>出生医学证明号</span></th><th><span>建册单位</span></th><th><span>建册日期</span></th></tr></thead><tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><h2 id='目录'><span>目录</span></h2><ul><li><p><span>一、寄语</span></p></li><li><p><span>二、婚前篇</span></p></li><li><p><span>三、孕前篇</span></p></li><li><p><span>四、孕产期篇</span></p><ul><li><span>（一）健康教育内容</span></li><li><span>（二）孕产期自我记录</span></li><li><span>（三）孕期体重自测表</span></li><li><span>（四）孕期体重管理曲线图</span></li><li><span>（五）胎动记录表</span></li><li><span>（六）孕妇学校听课记录</span></li><li><span>（七）分娩情况自我记录</span></li><li><span>（八）产褥期情况自我记录</span></li></ul></li><li><p><span>五、儿童篇</span></p><ul><li><span>（一）宝宝可享受的免费服务</span></li><li><span>（二）健康检查服务流程</span></li><li><span>（三）婴儿期健康教育内容</span></li><li><span>（四）婴儿期育儿记录</span></li><li><span>（五）幼儿期健康教育内容</span></li><li><span>（六）幼儿期育儿记录</span></li><li><span>（七）学龄前期健康教育内容</span></li><li><span>（八）学龄前期育儿记录</span></li><li><span>（九）儿童身长（身高）、体重标准曲线图</span></li><li><span>（十）家庭安全自评表</span></li></ul></li><li><p><span>六、预防接种篇</span></p><ul><li><span>（一）国家政策及须知</span></li><li><span>（二）接种反应的对症处理原则</span></li></ul></li></ul><h2 id='寄语'><span>寄语</span></h2><p><span>拥有一个健康、可爱、聪明的宝宝是每个准爸爸和孕妈妈共同的心愿。我国政府十分关注妇女儿童健康，为了保证您和家人享受国家的惠民政策和服务，获得相关的健康科普知识，并帮助您记录与宝宝共同成长的温馨时刻，北京市卫生计生委结合国家要求，组织专家编写《北京市母子健康手册》，并推广使用。</span></p><p><span>这本手册含婚前孕前保健、孕产期保健、出生记录、儿童保健、预防接种等方面的内容，将孩子印记、父母笔记与医生手记融为一体，是送给孩子最好的礼物。</span></p><p><span>在这里，您可以知晓政府提供的免费便民惠民妇幼健康服务项目，可以了解孕产期保健和儿童保健的相关知识，可以学习孕期和儿童期危急情况的早期预防和应对。</span></p><p><span>在这里，您可记录获知孕育新生命喜讯时的激动，可记录感受腹中新生命第一次活动瞬间的感觉，可记录听到新生命第一声天籁之音的感触，可记录孩子叫您爸爸妈妈时的幸福与快乐。</span></p><p><span>在这里，您可以展现作为父母的爱心和责任心。每次的孕期检查、每次的儿童保健、每次的预防接种，您都要带上它，记录它；每当回忆怀孕情况、出生时信息，您都会翻开它。它不像珠宝，丢失了可以再买。它的丢失，会使您失去一段美好的心情，丢失孩子珍贵的成长记录。</span></p><p><span>在这里，有您的爱情，有您的亲情，也有您与医护人员之间的友情。</span></p><p><span>请您从准备怀孕开始到宝宝6岁，定期接受医生对您和宝宝的监护和保健指导。特别是出现异常情况时，应听从医生的建议，适当增加检查内容和次数。希望这本手册陪伴着您和宝宝，共同度过人生中美好的时刻，并留下难忘的记忆。</span></p><p><span>好好珍惜这人生的第一册——《北京市母子健康手册》！</span></p><p><span>祝您和宝宝平安、健康！</span></p><h2 id='婚前篇'><span>婚前篇</span></h2><p><span>恭喜您们即将结为优俪，当您们携手走进结婚礼堂时，就翻开了人生中崭新的一页。婚姻生活作为人生的一个重要组成部分，她的成功与否直接影响到您一生幸福。祝您们的婚姻生活健康、和谐、幸福、美满！</span></p><p><span>步入新婚殿堂，是男女青年一生中最大的一次转折。青年夫妻的生理、心理健康，是建立幸福家庭的基础，更是今后生育健康宝宝的保证。在新婚之前，双方能得到一次健康保健咨询、接受一次系统的卫生保健指导、并接受一次以生殖系统检查为主的体格检查，是非常重要的。我们的婚前保健机构（俗称婚检科）可以提供这些服务。不知您是否接受了婚前保健服务？如果您没做，我们劝您去做一下，因为如果对自己及对方的健康状况不了解，极有可能影响今后的婚姻生活，甚至导致生育方面的不良后果。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/001.jpg" referrerpolicy="no-referrer"></p><h3 id='婚前保健有哪些好处'><span>婚前保健有哪些好处</span></h3><ol start='' ><li><span>了解双方健康情况，有助于婚后夫妇之间的相互关心、体贴。如女方有心脏病，需节制性生活、减少劳动量，有些心脏病甚至不宜生育，这时男方应主动做好避孕工作，并多承担一些家务劳动。</span></li><li><span>有利于发现早期无症状的疾病，如传染性肝炎、开放性结核，可及早治疗，以免影响本人、对方或下一代的健康。</span></li><li><span>可以发现遗传性疾病，阻断遗传病的延续，避免缺陷儿出生，有利于促进优生。</span></li><li><span>若发现一方有生理性缺陷，如男方患尿道下裂或女方患处女膜闭锁等，可以婚前先做手术矫治，甚至有些先天性畸形如先天性无阴道，手术治疗后虽不能生育，但可以有正常的性生活。由于双方婚前已有了了解，婚后虽不能生育亦不影响夫妻感情。</span></li><li><span>婚前医学检查的同时还可以得到婚前卫生指导、卫生咨询，包括优生知识、避孕知识、性知识咨询，并帮助青年选择合适的婚期、制定生育计划、选择最佳受孕时机，避免计划外妊娠和不必要的人工流产，对保障家庭幸福和子孙后代的健康、提高人口素质起到一定作用。</span></li></ol><h3 id='新婚性卫生应注意什么'><span>新婚性卫生应注意什么</span></h3><ol start='' ><li><span>每次性生活后，女方最好排尿一次，将尿道的细菌冲洗出来，这样可以减少发生“蜜月性”膀胱炎。初次性生活后，处女膜破裂，伤口会发生疼痛，最好暂停性生活4-5天，以待伤口愈合。</span></li><li><span>婚后要节制烟酒，因为婚后，一旦妊娠，烟酒会影响胎儿发育，如畸形、体重低下、低智力儿、流产或早产等情况。</span></li><li><span>经常保持外生殖器官清洁。性生活前，男方要将龟头上的包皮翻转，将其间所藏包皮垢洗净，它易使细菌生长繁殖而患龟头炎或包皮炎。在性生活时传给女方，引起尿道炎或妇科疾病。</span></li><li><span>月经期要避免性生活，以免盆腔充血后发生经血过多或导致盆腔炎。所以选择结婚佳期时应避开女方的月经期。</span></li></ol><h3 id='怎样做好新婚阶段避孕'><span>怎样做好新婚阶段避孕</span></h3><ol start='' ><li><span>男女双方刚开始共同生活，难免情绪激动，易于兴奋。性生活亦较频繁，不易做到每次性生活前都做好避孕准备，应使用高效、简便、不影响性生活的避孕方法。</span></li><li><span>女方阴道紧，弹性差，如果用子宫帽避孕，不易每次将子宫帽放置于阴道中正确位置。</span></li><li><span>男用避孕套方法安全有效、方便，可自行掌握。但有时男方嫌麻烦，不能坚持每次性生活前使用它，常会造成非意愿的妊娠。根据以上情况，新婚避孕方法以口服复方短效避孕药为首选；如每次性生活时坚持并正确使用避孕套避孕效果也非常可靠。</span></li></ol><h3 id='新婚阶段服用避孕药应该注意哪些事项'><span>新婚阶段服用避孕药应该注意哪些事项</span></h3><ol start='' ><li><span>在服药时要检查药片，如发现药片受潮或有裂隙就不宜再服用，以免影响避孕效果或引起不规则子宫出血。</span></li><li><span>少数服用者出现恶心、呕吐、头昏无力等现象，不用紧张，一般坚持服药几个月后，症状会逐渐减轻并消失，严重不良反应较罕见。</span></li><li><span>服药期间如丈夫或妻子本人外出，妻子仍要坚持把本周期的药服完，以免造成避孕失败或打乱正常的月经周期。如有漏服，应尽快补服1片并咨询医生。</span></li><li><span>各种短效避孕药虽作用相同，但最好选定一种服用，不要任意更换。现代新型口服避孕药，因其剂量和成分的改善，认为临床剂量的口服避孕药无明显的致畸作用。如有妊娠计划，停药后生育力多立即回复，停药即可怀孕。研究结果表明不增加胎儿先天性畸形风险。</span></li><li><span>服药期间，应定期随访或常规健康体检，如果没有禁忌症（如严重高血压、血栓、糖尿病、吸烟2 15支/天等），可不必定期停止使用，只有规律的服用才能预防妊娠。</span></li><li><span>服药期间，避免服用某些药物，否则会降低口服避孕药的效果。常见药物有利福平、抗惊厥药物等。如长期使用这些药物建议改用其他避孕方法；如短期使用，可在服用复方口服避孕药的同时加用其他避孕方法。</span></li></ol><h3 id='新婚使用工具避孕应注意哪些事项'><span>新婚使用工具避孕应注意哪些事项</span></h3><p><span>男用避孕套是常见的安全避孕方法之一。如果使用得当，避孕效果可靠。这一方法同时可防止性传播疾病。</span></p><h4 id='注意事项'><span>注意事项</span></h4><ol start='' ><li><span>避孕套有特大号、大号、中号、小号4种，应选择合适的型号。</span></li><li><span>性交时，在阴茎开始勃起时，即须将避孕套戴好，戴时先将前方小囊捏住，排除囊内空气，以免排精时避孕套内压力过高而涨破，再把卷折的部分向阴茎部分放开，套好。</span></li><li><span>射精后在阴茎未完全软缩前，用手按住避孕套口与阴茎同时抽出，避免避孕套遗留阴道内，精液溢出而失败。</span></li><li><span>取出后，要检查避孕套有无裂口，如发现破裂或避孕套滑脱阴道内，应立即采取补救措施。</span></li><li><span>必须坚持每次性交开始前都要及时使用避孕套。</span></li><li><span>避孕套为一次性使用，不要重复使用，用后弃去。</span></li><li><span>避孕套外再涂一些润滑剂，可增加润滑，减少异物感，还可以减少因套破裂而怀孕的情况。对乳胶过敏者、应用时阴茎不能保持在勃起状态者不能使用避孕套。</span></li><li><span>可以与外用杀精剂同时使用。</span></li></ol><h3 id='性传播性疾病与艾滋病'><span>性传播性疾病与艾滋病</span></h3><p><span>性传播性疾病指主要通过性活动传播的一类传染病，而艾滋病是性病的一种，具有潜伏期长、病死率高的特点，目前无法治愈。研究发现，性病患者更易感染艾滋病。</span></p><p><span>性病的主要传播方式为：性传播、血液传播、母婴垂直传播。安全性行为有助于预防性病及艾滋病，它包括：</span></p><ul><li><span>避免婚前性行为</span></li><li><span>重视一个性伴侣</span></li><li><span>每次性交都正确地使用高质量的避孕套</span></li></ul><p><span>艾滋病是可以预防的，新婚夫妇通过实施预防艾滋病传播措施，可以有效降低艾滋病传播几率，建议积极接受艾滋病咨询与检测服务，为全家的健康做好全面的准备。</span></p><h3 id='多次人工流产有哪些危害'><span>多次人工流产有哪些危害</span></h3><p><span>人工流产只能作为避孕失败后的补救措施，绝不能依靠人工流产来控制生育。从医学上讲，在妊娠的任何时期施行终止妊娠总是违反生理的，对妇女健康不利，尤其有高危因素者如哺乳期、剖宫产后6个月内或有反复人工流产手术史者，更容易引起出血、损伤及术后感染。少数人人工流产可能遗留一些疾病如慢性盆腔炎、月经失调、宫颈和宫腔的粘连等。人工流产后也可导致继发不孕。人工流产次数越多、间隔时间越短发生并发症和后遗症的可能性越大。所以，如果无妊娠计划一定要采取有效的避孕措施，特别是男方要主动配合，切不可存有怕麻烦和侥幸的心理。避孕成败的关键在于坚持避孕、方法得当、夫妻间的互相配合。</span></p><h3 id='避孕中发现意外情况怎么办'><span>避孕中发现意外情况怎么办</span></h3><p><span>在我们日常生活中，经常可以遇到诸如：</span></p><ul><li><span>反复或持续漏服复方口服避孕药</span></li><li><span>避孕套滑落、破裂或使用不当</span></li><li><span>安全期计算错误</span></li><li><span>体外排精控制失败，在阴道口或阴道内射精</span></li><li><span>未采取避孕措施</span></li></ul><p><span>的情况。此时，需要接受专业咨询，采取相应措施。</span></p><p><span>“紧急遊孕”是在没有保护的性生活后或避孕失败后采取的一种补救措施，可以避免非意愿妊娠的发生。如果途孕中发现意外情况，应采取“紧急避孕”措施，如使用紧急送孕药等。但紧急避孕药激素含量大，避孕有效率低，是补教性避孕措施，不能代替常规的避孕方法，服用紧急避孕药后应尽快落实常规避孕措施。</span></p><h3 id='性交疼痛和性交出血'><span>性交疼痛和性交出血</span></h3><p><span>不少女性朋友性交时会出现疼痛和出血，但由于缺乏相关知识而不知道该怎么办。其实碰到这种情况不需紧张，只要尽快到正规医院去做检查，请医生帮忙，针对病因进行处理后，性交疼痛或出血即可解决。</span></p><h4 id='性交疼痛'><span>性交疼痛</span></h4><p><span>女性性交疼痛的原因很多，可分为以下几方面。主要包括：</span></p><ol start='' ><li><span>外生殖器：阴唇、阴蒂、阴道口炎症，会发生局部疼痛，呈锐痛、接触性疼痛。</span></li><li><span>阴道感染性疾病或阴道创伤，疼痛多在阴道口、阴道内，呈锐痛或轻度疼痛。</span></li><li><span>存在子宫、卵巢相关病变或月经前期性交可引起深部疼痛。</span></li><li><span>外生殖器周围皮肤存在疱疹性、溃疡性感染时，可引起性交浅部疼痛。</span></li><li><span>阴道分泌物少，阴道干涩。</span></li></ol><p><span>在心理方面也会导致：</span></p><ol start='' ><li><span>性欲冲动形成困难，或在女方不情愿的情况下性交。</span></li><li><span>对性交有恐惧、厌恶心理，遇到性交可能就会出现精神紧张。</span></li><li><span>以前有过性交疼痛的经历，在心理上留下了阴影，当再次性交时就会把性交疼痛自然联系起来，可能真的发生性交疼痛。</span></li></ol><h4 id='性交出血'><span>性交出血</span></h4><p><span>对于年轻女性来说，常见的性交出血原因有：</span></p><ol start='' ><li><span>宫颈息肉：宫颈息肉源于慢性宫颈炎的刺激，逐渐向外突出而形成的，多为舌状，大小不一，常突出于宫颈外，表面有丰富的微血管，触碰时容易出血。</span></li><li><span>宫颈病变：一些宫颈病变因存在创面，性交时也容易出血。</span></li><li><span>阴道炎：常见的有阴道滴虫病和阴道假丝酵母菌病。炎症存在时，阴道壁和宫颈组织会充血和水肿，这种情况下的性交出血多半有性交疼痛，但随着炎症的好转，性交出血现象也会随之消失。</span></li><li><span>阴道壁损伤：性交时阴道渗出液少而使阴道变得干涩，如果不用润滑剂，再加上男方动作粗暴或性交不当，可造成性交疼痛和出血。</span></li></ol><h3 id='女性朋友感染了性病后会造成哪些危害'><span>女性朋友感染了性病后会造成哪些危害</span></h3><ol start='' ><li><p><span>对女性本身健康的影响</span></p><p><span>不仅会引起尿道炎、阴道炎、子宫颈炎、慢性下腹痛等疾病，造成许多痛苦，有些严重疾病还会影响生育。如梅毒没有在早期治愈，就会损害心脏和神经系统并危及生命。大多数性病虽可治愈，但如果不加以防范，还会出现复发。</span></p></li><li><p><span>对生殖系统健康的影响</span></p><p><span>有些女性患者感染性病后无症状，这样会延误诊疗，加重病情，有些性病感染还会破坏输卵管和子宫内膜，造成不孕症、宫外孕，以及流产、早产、死产，如尖锐湿疣、生殖道沙眼衣原体感染。</span></p></li><li><p><span>对后代的影响</span></p><p><span>有些性病感染还会殃及下一代。如果孕妇感染了淋病、褥毒、生殖道沙眼衣原体感染、生殖器疱疹及艾滋病中任何一种疾病均可道过母婴垂直传播对新生儿造成不同严重程度的疾病。</span></p></li></ol><h3 id='怀疑自己得了性病怎么办'><span>怀疑自己得了性病怎么办</span></h3><ol start='' ><li><span>如果感觉不适，应该及早到正规医院和诊所进行诊断和治疗，干万不要自己随意买药吃，不要乱用抗生素。</span></li><li><span>用药必须按照医呢，自行增加、减少药量或停药，都会造成不良后果。服用完药物后要到医院复查，即使您感觉已经好了。</span></li><li><span>切记不要到非法私人诊所去看病。很多人感染了性病之后，由于某些个人隐私原因，不愿到正规医院看病，这样做不仅得不到规范治疗，还延误了病语，对个人身体造成严重损害。</span></li><li><span>由于某些性病在女性患者身上没有明显症状，因此，要定期到正规医院或诊所进行检查。</span></li><li><span>全国各地都有一些性病和性健康咨询热线电话，如果您想咨询一些相关知识和想知道该到哪家医院看病均可拨打当地卫生机构热线电话。</span></li></ol><h3 id='性病预防中的错误认识和做法'><span>性病预防中的错误认识和做法</span></h3><p><span>尽可能的减少性伴侣，坚持每次发生性行为都使用避孕套，避孕套是预防性病、艾滋病的最有效方法。以下错误的认识和做法对预防性病是不利的。</span></p><ol start='' ><li><span>性交前后以及日常冲洗阴道都不能把细菌、病毒冲洗干净或杀灭，所以不能预防性病、艾滋病。不仅如此，阴道冲洗还很可能把阴道的细菌、病毒冲到子宫腔内，引起后者感染（这里指的是冲洗阴道里面，不是一般的擦洗外阴）。</span></li><li><span>相当一部分女性错误的认为，不管是否有病，都要定期服用或注射抗生素来预防疾病。这样做会造成细菌病毒的耐药性，并对身体造成其他危害，还会对以后疾病的治疗带来很大影响。</span></li><li><span>不要觉得对方生殖器表面上看起来干净就掉以轻心，因为很多性病可以没有症状，或者症状很轻，但却可以将疾病传染给其他人。</span></li><li><span>体外排精并不能预防性病，因为只要有生殖器的接触就有可能感染性病。</span></li><li><span>仅在射精前才戴上避孕套不能预防性病、艾滋病。因为在射精前会有分泌物分泌，其中会有一定量的细菌或病毒，所以，每次必须从性交开始时就要带避孕套。</span></li><li><span>性交后通过蹦跳或用手指将精液掏出也不能预防性病、艾滋病。</span></li></ol><h3 id='为什么冲洗阴道不能预防性病'><span>为什么冲洗阴道不能预防性病</span></h3><p><span>阴道冲洗是妇科治疗某些阴道感染时使用的辅助方法。但现在有一些女性喜欢用阴道冲洗的方法或者无论下身有病没病都习惯用一些药物洗液冲洗来预防性病/艾滋病。实际上，这些做法是错误的。正常情况下成年女性的阴道有一种“自我清洁”的能力，可以产生一些保护阴道的物质，抵抗有害病菌的生长，如果经常冲洗阴道，将会把这些抵抗病菌的物质冲掉。这种做法破坏了女性正常阴道的生理环境，还会使阴道感到干燥和不舒服等，更容易感染疾病。</span></p><h3 id='为了使婚检顺利进行在婚检时要做哪些准备'><span>为了使婚检顺利进行，在婚检时要做哪些准备</span></h3><ol start='' ><li><span>婚前检查的时间要选择在婚姻登记前1-2个月较为合适，这样在婚检中一旦发现问题需要进一步检查时，能有时间去解决，不至于影响结婚登记。</span></li><li><span>女方要避免在月经期接受婚检，这会影响到妇科检查及一些常规的化验结果。</span></li><li><span>当事人双方在检查的前几天一定要休息好，不能睡得太晚，不要劳累，更不要饮酒；当事人在去做检查的当天早晨禁食，需要空腹抽血，否则，会影响肝功的检查结果。</span></li><li><span>如果当事人婚前有性生活，检查前最好停止性生活至少2到5天，这样检查生殖系统的一些项目得出的结果更精确。</span></li><li><span>如果女方要做妇科超声检查，检查前需要憋尿。</span></li></ol><p><span>婚前保健是每一对夫妻不应回避的大事，在成立一个新家庭之前，准夫妇双方对各自的身体情况做一次检查，了解一些医学基本常识，对于维护将来家庭的幸福和谐、孕育健康后代，可以起到很重要的作用。为进一步做好北京市婚前保健服务工作，北京市已对辖区户籍的新人（任意一方户口所在地）免费提供规定项目的医学检查及婚前卫生咨询、指导服务。各位准新人如果想接受免费婚前保健服务，可以到下列妇幼保健机构进行咨询。在此我们再次希望您能了解、接受婚前保健服务。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/002.jpg" referrerpolicy="no-referrer"></p><h3 id='全市婚前保健单位一览表'><span>全市婚前保健单位一览表</span></h3><figure><table><thead><tr><th><span>单位名称</span></th><th><span>地址</span></th><th><span>咨询电话</span></th></tr></thead><tbody><tr><td><span>东城区（北院区）妇幼保健院</span></td><td><span>交南大街136号</span></td><td><span>64074598</span></td></tr><tr><td><span>东城区（南院区）妇幼保健院</span></td><td><span>法华南里25号楼</span></td><td><span>67122303-225</span></td></tr><tr><td><span>西城区妇幼保健院</span></td><td><span>平原里小区21号楼三层</span></td><td><span>63537985</span></td></tr><tr><td><span>朝阳区妇幼保健院</span></td><td><span>潘家园华威里25号</span></td><td><span>67719999-9205</span></td></tr><tr><td><span>海淀区妇幼保健院</span></td><td><span>苏州街53号（海淀妇幼保健院东南院区）</span></td><td><span>62538899-9427</span></td></tr><tr><td><span>丰台区妇幼保健院</span></td><td><span>右安门外开阳里三区1号</span></td><td><span>63804684</span></td></tr><tr><td><span>石景山区妇幼保健院</span></td><td><span>依翠园5号</span></td><td><span>68627201</span></td></tr><tr><td><span>门头沟区妇幼保健院</span></td><td><span>石龙北路10号</span></td><td><span>69842023-8017</span></td></tr><tr><td><span>房山区妇幼保健院</span></td><td><span>良乡苏庄东街5号、良乡西路10号（婚登处）</span></td><td><span>89372477、81316788</span></td></tr><tr><td><span>通州区妇幼保健院</span></td><td><span>玉桥中路124号</span></td><td><span>81587544</span></td></tr><tr><td><span>顺义区妇幼保健院</span></td><td><span>顺康路1号</span></td><td><span>89449108</span></td></tr><tr><td><span>大兴区妇幼保健院</span></td><td><span>英村镇兴丰大街三段56号、黄村兴政街双观巷2号（婚登处）</span></td><td><span>69252081-8034、60218568</span></td></tr><tr><td><span>昌平区妇幼保健院</span></td><td><span>北环路1号</span></td><td><span>89713005、69742706-8357</span></td></tr><tr><td><span>平谷区妇幼保健院</span></td><td><span>南岔子街49号</span></td><td><span>69962300-8020</span></td></tr><tr><td><span>怀柔区妇幼保健院</span></td><td><span>迎宾北路38号、北大街26号（婚登处）</span></td><td><span>89691883、15910840646</span></td></tr><tr><td><span>密云区妇幼保健院</span></td><td><span>新南路56号、新西路32号（婚登处）</span></td><td><span>69085978、69085971</span></td></tr><tr><td><span>延庆区妇幼保健院</span></td><td><span>庆园街8号</span></td><td><span>69184007</span></td></tr></tbody></table></figure><h3 id='北京市免费婚前医学检查项目'><span>北京市免费婚前医学检查项目</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/003.jpg" referrerpolicy="no-referrer"></p><h3 id='婚前健康检查记录'><span>婚前健康检查记录</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/004.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/005.jpg" referrerpolicy="no-referrer"></p><h2 id='孕前篇'><span>孕前篇</span></h2><p><span>恭喜您和爱人已经开始准备孕育一个新的生命了，这是一个幸福的开始，也将是一段非常美妙的人生体验。从此刻起，科学备孕、保持身心健康，为可爱的新生命创造一个健康的起点！</span></p><h3 id='一）健康教育内容'><span>（一）健康教育内容</span></h3><h3 id='计划生育政策'><span>计划生育政策</span></h3><ul><li><span>国家推行计划生育，使人口的增长同经济和社会发展计划相适应。</span></li><li><span>夫妻双方有实行计划生育的义务。</span></li><li><span>国家提倡一对夫妻生育两个子女；符合法律、法规规定条件的，可以要求安排再生育子女。</span></li><li><span>育龄夫妻自主选择计划生育避孕节育措施，预防和减少非意愿妊娠。</span></li><li><span>实行生育登记制度，对生育两个以内（含两个）孩子的，不实行审批，由家庭自主安排生育。</span></li><li><span>建立完善包括生育支持、幼儿养育、青少年发展、老人赡养、病残照料等在内的家庭发展政策，鼓励按政策生育。</span></li><li><span>国家对实行计划生育的夫妻，按照规定给予奖励。</span></li><li><span>妇女怀孕、生育和哺乳期间，按照国家有关规定享受特殊劳动保护并可以获得帮助和补偿。</span></li><li><span>公民实行计划生育手术，享受国家规定的休假；地方人民政府可以给予奖励。</span></li><li><span>符合法律、法规规定生育子女的夫妻，可以获得延长生育假的奖励或者其他福利待遇。</span></li></ul><h3 id='孕前保健国家有哪些惠民政策'><span>孕前保健，国家有哪些惠民政策？</span></h3><ol start='' ><li><span>免费孕前优生健康检查。为了帮助您孕育健康的宝宝，北京市为符合生育政策、准备怀孕的常住人口夫妇免费提供孕前优生健康检查。符合条件的准备怀孕的夫妇可在本地定点服务机构享受一次免费孕前优生健康检查。</span></li><li><span>待孕妇女免费增补叶酸。待孕妇女从准备怀孕前3个月开始到怀孕后3个月内，可以到辖区内指定机构领取免费叶酸片，服用后可预防胎儿神经管缺陷。</span></li></ol><h3 id='提前做好孕前优生健康检查'><span>提前做好孕前优生健康检查</span></h3><p><span>夫妇在准备要宝宝的前3-6个月，请及时去定点服务机构接受孕前优生健康检查，评估影响优生的风险因素，并听从医生的建议和指导，采取措施消除不利的风险因素，积极治疗影响怀孕的各种疾病。</span></p><p><span>孕前优生健康检查是为准备怀孕的夫妇在受孕之前提供的一系列优生保健服务，包括优生健康教育、病史询问、体格检查、临床实验室检查、影像学检查、风险评估、咨询指导等，具体内容为：</span></p><p><span>（一）女性</span></p><ol start='' ><li><span>疾病史、家族史、生活方式等基本信息采集；</span></li><li><span>身高、体重、心肺功能等体格检查；</span></li><li><span>生殖系统检查；</span></li><li><span>白带常规、淋球菌、沙眼衣原体检测；</span></li><li><span>血常规、血型检查、血糖测定；</span></li><li><span>尿常规检查；</span></li><li><span>肝功能（谷丙转氨酶）、肾功能（血肌酐）检测</span></li><li><span>甲状腺功能（促甲状腺激素）检测；</span></li><li><span>乙型肝炎血清学五项检测；</span></li><li><span>梅毒螺旋体检查；</span></li><li><span>风疹病毒、巨细胞病毒、弓形体感染检查；</span></li><li><span>妇科超声常规检查。</span></li></ol><p><span>（二）男性</span></p><ol start='' ><li><span>疾病史、家族史、生活方式等基本信息采集；</span></li><li><span>身高、体重、心肺功能等体格检查；</span></li><li><span>生殖系统检查；</span></li><li><span>血型检查；</span></li><li><span>尿常规检查；</span></li><li><span>肝功能（谷丙转氨酶）、肾功能（血肌酐）检测；</span></li><li><span>乙型肝炎血清学五项检测；</span></li><li><span>梅毒螺旋体检查。</span></li></ol><p><span>温馨提示：准备怀孕期间若有任何疑惑，请到医院咨询。如果备孕妈妈月经没来，请尽快到医院检查。</span></p><h3 id='孕前开始吃叶酸'><span>孕前开始吃叶酸</span></h3><h4 id='神经管缺陷是什么'><span>神经管缺陷是什么</span></h4><p><span>准爸爸准妈妈们，您们知道神经管缺陷是什么吗？</span></p><p><span>神经管缺陷是一种我国常见的严重的出生缺陷。它不仅会影响宝宝的健康，造成宝宝大脑和脊髓的破坏和损伤，往往还导致宝宝的死亡，即使没有死亡的宝宝经过手术治疗也会造成下肢的瘫痪，严重影响今后的生活、学习和工作。此外，神经管缺陷还给国家、社会及家庭造成很大的经济负担，我国每年因为神经管缺陷造成的经济损失高达2亿元。</span></p><p><span>神经管缺陷是怎样发生的呢？胚胎期形成宝宝中枢神经系统的原始结构叫神经管，在胚胎发育过程中神经管正常闭合就形成正常的中枢神经系统。如果在神经管形成过程中，由于遗传因素和环境因素的作用，神经管的闭合出现异常，就会出现神经管缺陷。神经管的头部不闭合会导致宝宝大脑发育异常，导致无脑儿及脑膨出，而神经管的尾部不闭合则出现脊柱发育异常，导致脊柱裂。</span></p><p><span>准爸爸准妈妈们了解了神经管缺陷的危害，就应该在准备怀孕时做好充分准备，为生育一个健康的宝宝而努力。</span></p><h4 id='造成神经管缺陷的原因'><span>造成神经管缺陷的原因</span></h4><p><span>神经管缺陷是一种多基因病，也就是遗传因素与环境因素都有可能导致宝宝患该种疾病。其中遗传因素包括准妈妈本身是神经管缺陷患者；准妈妈或家族中其他人曾经生育过神经管缺陷的孩子。环境因素包括叶酸缺乏；患有胰岛素依赖性糖尿病；患有癫痫病，使用抗癫痫药物，如丙戊酸钠和卡马西平等；患有临床诊断明确的肥胖症；在怀孕早期暴露于高温中，如持续高热、使用热水盆浴、洗桑拿等。由于造成神经管缺陷的原因很多而且很复杂，因此原则上讲每一位准妈妈都有生育神经管缺陷儿的可能。目前还很难预测哪位准妈妈将会生育神经管缺陷儿，95%的神经管缺陷儿的妈妈并不是一位神经管缺陷患者，也没有生育过神经管缺陷儿的家族史。</span></p><p><span>因此，每位准妈妈都应该尽量避免可能造成神经管缺陷儿的环境因素，为生育一个健康的宝宝做好准备。</span></p><h4 id='神经管缺陷儿的预防'><span>神经管缺陷儿的预防</span></h4><p><span>神经管缺陷将影响宝宝健康，并给家庭、社会带来沉重负担，有很大危害，因此预防显得格外重要。</span></p><p><span>准妈妈们一定要知道神经管缺陷是可以预防的。目前，全世界公认的最有效的预防方法就是孕前3个月到孕后3个月补充小剂量的叶酸，同时摄入富含叶酸的健康食物，可以有效预防至少70%以上的神经管缺陷儿的发生。</span></p><p><span>此外，准妈妈怀孕后，还可以在孕15-20周进行血清学筛查，通过妈妈血清中的AFP值筛查出可能怀有神经管畸形的患儿。在孕20-24周还可以通过超声筛查，进一步排除怀神经管缺陷儿的可能。</span></p><p><span>需要说明的是，任何的检查方法都不能检测到所有的神经管缺陷。各位准妈妈一定要在孕前及孕期采取有效措施，做好神经管缺陷儿的预防工作。</span></p><h4 id='叶酸是什么'><span>叶酸是什么</span></h4><p><span>首先，准妈妈应了解叶酸是什么？叶酸是一种B族水溶性维生素，是新细胞产生和维持所必需的物质，参与体内许多重要物质如蛋白质等的台成。但是，人体不能合成叶酸，又不能大量在体内储存，每天必须从外界获得才能满足机体功能的需要。孕期的妇女叶酸的需要量还要增加。</span></p><p><span>在自然界中，叶酸主要存在于以下食品中：绿色蔬菜，如菠菜、芦笋；豆类，如扁豆、豌豆；动物肝脏及鸡蛋；水果，如哈密瓜、草萄；橙汁；坚果及干果，如瓜子、花生等。</span></p><p><span>准妈妈在准备怀孕时一定要多吃富含叶酸的食品，注意营养的均衡。</span></p><h4 id='导致叶酸缺乏的原因'><span>导致叶酸缺乏的原因</span></h4><p><span>叶酸缺乏往往发生在人体对叶酸需求增加时，如食物中的叶酸吸收不足、身体排泄过多、药物干扰身体利用叶酸等情况。下列一些情况可以导致叶酸缺乏：叶酸需求增加或吸收减少，如：妊娠和哺乳；吸烟；胃肠疾病、肝脏疾病患者等。</span></p><p><span>使用可能抑制叶酸吸收或干扰叶酸利用的药物，如：抑酸药或抑制溃疡药；治白血病和其他肿瘤的甲氨蝶呤；抗癫痫药物（如卡马西平、苯妥英钠、苯巴比妥等）；非甾体抗炎药；口服降糖药等。</span></p><h4 id='为什么要补充合成叶酸'><span>为什么要补充合成叶酸</span></h4><p><span>准妈妈一定会问，我在饮食中已经注意多吃含有叶酸的食品，是否还要补充人工合成的叶酸？答案是肯定的，现在就来给您说说原因。</span></p><p><span>叶酸有两种形式，即食物中天然叶酸和人工合成叶酸。食物中天然叶酸分子颗粒较大，需要在人体小肠被加工后才能被身体吸收，其吸收率仅有50%；而合成叶酸的分子颗粒较小，能被直接吸收而不需要在人体肠道加工，其吸收率可以达到100%。此外，富含天然叶酸的食品在烹调过程中容易因为加热而造成50-70%的损失；合成叶酸则比较稳定，因此合成叶酸比食物中天然叶酸的利用度高。</span></p><p><span>准妈妈仅靠服用富含叶酸的食品远远满足不了身体的需要，一定要同时服用人工合成的小剂量叶酸片才能起到预防神经管畸形的作用。</span></p><h4 id='补充叶酸的方法'><span>补充叶酸的方法</span></h4><p><span>准妈妈在补充叶酸片时要记住以下几点：</span></p><ol start='' ><li><span>服用时间：应该在孕前3个月到孕后3个月服用。从孕前开始服用是因为叶酸要起到预防神经管畸形的作用，必须在体内达到一定浓度，这需要一定的时间；神经管畸形发生的时间是在末次月经第一天后的35-42天（即受精后21-28天）间，这时准妈妈们往往还没有意识到已经怀孕，如果发现怀孕后再服用叶酸已经起不到预防的作用，并且有一些准妈妈是没有计划的意外受孕，因此没有怀孕的妇女都应在孕前就常规进行叶酸的补充。</span></li><li><span>服用剂量：0.4mg/片的叶酸片，正常育龄妇女每天服用量不超过1mg。</span></li><li><span>服用次数：每日服用1次。</span></li></ol><p><span>请准妈妈们一定牢记，保证有效得到足够量叶酸的方法是：每天服用1片0.4mg叶酸，并且要坚持每天吃！</span></p><h4 id='服用叶酸还有哪些好处'><span>服用叶酸还有哪些好处</span></h4><p><span>准妈妈在补充叶酸预防神经管缺陷的同时，还会得到其他许多好处。</span></p><p><span>首先，每天补充叶酸可以提高准妈妈的受孕率；</span></p><p><span>其次，服用叶酸还可以预防其他出生缺陷发生的风险，如唇裂、腭裂、某些先天性心脏病及泌尿系缺陷、肢体缺陷；</span></p><p><span>此外，补充叶酸还可以预防因叶酸缺乏导致的准妈妈及胎儿的贫血，并促进胎盘和胎儿的生长。</span></p><p><span>为了您和胎儿的健康，请您尽快开始服用叶酸吧！</span></p><h4 id='记住每天服用叶酸'><span>记住每天服用叶酸</span></h4><p><span>准妈妈们，您们如何记住每天都能坚持服用叶酸呢？我们给您出出主意。</span></p><ul><li><span>您可以在每天都要去的地方，如卫生间、冰箱上、厨房等显著位置粘贴提醒标志。</span></li><li><span>您可以将叶酸药瓶放在床头、厨房的柜子、餐桌等方便自己取用的地方。</span></li><li><span>您可以告诉家人、好友、同事服用叶酸的好处，让他们帮忙提醒您服用，特别应让自己的丈夫了解这一点。</span></li><li><span>您可以在电脑中设定提醒服用叶酸的提示语或屏幕保护。</span></li><li><span>您可以利用手机设定定点提醒，帮助您坚持服用叶酸。</span></li></ul><p><span>为了宝宝的健康，相信您一定会克服困难，坚持每天服用叶酸。</span></p><h4 id='高风险的准妈妈怎样补充叶酸'><span>高风险的准妈妈怎样补充叶酸</span></h4><p><span>准妈妈已经知道，某些遗传因素和环境因素会造成神经管缺陷儿的发生危险增高，尤其是曾经生育过一个神经管畸形患儿或有癫痫病，服用抗癫痫药物的准妈妈，更应该积极预防神经管畸形儿的发生，她们服用叶酸的剂量也与其他准妈妈不同。</span></p><p><span>对于有高风险因素的准妈妈在准备怀孕前应首先找医生咨询，了解叶酸预防神经管畸形的重要性。在医生的指导下，应加大补充叶酸的剂量，至少在怀孕前3个月开始直到怀孕后3个月每天服用4.0mg叶酸，这一剂量是正常的准妈妈补充叶酸剂量的10倍。通过这种补充叶酸的方法，可以在高风险的准妈妈中预防70%的神经管缺陷儿的发生。</span></p><p><span>此外，还要提醒这些准妈妈们，除了补充人工叶酸片，还应该通过进食富含叶酸的食物提高叶酸的摄入量。</span></p><h4 id='增补叶酸并不能预防所有的神经管缺陷'><span>增补叶酸并不能预防所有的神经管缺陷</span></h4><p><span>神经管缺陷发生的原因很多，一些遗传因素和环境因素都可以影响胎儿，包括家族的基因以及孕期接触的环境因素，如服用抗癫痫药丙戊酸，孕早期处于高温环境等。叶酸缺乏是其中最明确、最主要的原因。每天服用叶酸有助于降低神经管缺陷的风险，降低比例可以达70%。但必须提醒大家的是这并不保证能够预防所有的神经管缺陷的病例，因为除叶酸缺乏外，其他因素也可能导致神经管缺陷的发生。</span></p><p><span>北京市增补叶酸预防神经管缺陷项目告诉各位准妈妈一个好消息，北京市政府为了使大家拥有一个健康的宝宝，已经启动了一个重大的公共卫生项目，即《北京市增补叶酸预防神经管缺陷项目》。各位准妈妈将免费领取到6个月的叶酸片。各位准妈妈完全可以放心服用这些叶酸，因为这些叶酸片是由北京市卫生和计划生育委员会统一购买的，绝对保证药品的安全可靠。此外，准妈妈在领取叶酸片时也是本着自愿的原则进行的，政府承诺绝对不会因为准妈妈没有领取叶酸片而遭到任何歧视和报复，也不会影响准妈妈的医疗待遇和权益。准妈妈在服药过程也可以随时停止服用。</span></p><p><span>各位准妈妈如果想领取免费叶酸，可以到居住地的乡镇卫生院、社区卫生服务机构进行咨询，还可以登陆北京市公共卫生信息中心网站进行查询（</span><a href='http://www.phic.org.cn' target='_blank' class='url'>www.phic.org.cn</a><span>）。</span></p><p><span>温馨提示：请准妈妈们一定牢记，保证有效得到足够量叶酸的方法是：每天服用1片0.4mg叶酸，并且要坚持每天吃！</span></p><p><span>您可以填写服用情况记录卡，以便监督自己是否每天都坚持服用叶酸了。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/006.jpg" referrerpolicy="no-referrer"></p><h3 id='坚持健康的生活方式'><span>坚持健康的生活方式</span></h3><ul><li><span>增加营养，不偏食，不挑食。饮食清淡，少油少盐，粗细荤素指配均衡，坚持每天喝奶，吃大豆或豆制品，多吃蔬菜、水果、碧类，适当增加海产品的摄入。</span></li><li><span>注意居住环境。不住新装修的房间，孕前及孕期都要远离不利环境（包括农药、铅、汞等重金属、射线、噪音和高温），如反复接触剧毒农药和化学品，需至少脱离接触3个月后受孕。尽量不染发，不密切接触猫狗，不用电热毯，不洗桑拿浴。</span></li><li><span>避免“坐上喜”，即避免新婚当月受孕；避免蜜月旅游中受孕；避免产后、流产后立即受孕。</span></li><li><span>保持健康行为。早睡早起，戒烟戒酒，远离吸烟人群和毒品。保持心态平和、放松。</span></li></ul><p><span>温馨提示：备孕，丈夫也要积极参与。未来宝宝的质量不仅取决于卵子，也取决于精子。</span></p><ul><li><span>戒烟戒酒远离射线</span></li><li><span>暂别时尚生活</span></li><li><span>补充叶酸</span></li><li><span>保持好情绪</span></li></ul><h3 id='控制慢性病'><span>控制慢性病</span></h3><p><span>患有高血压、糖尿病、甲状腺功能亢进、甲状腺功能减低症等慢性病的女性，如果怀孕会成为高危孕产妇，严重者会危及生命。这些患病女性妊娠也可能导致胎儿发育不良、流产、早产、死胎、死产，甚至导致胎儿发生出生缺陷，后果严重。准备怀孕夫妇如患慢性病，应在专业医师指导下先行治疗，待病情控制稳定后再怀孕。</span></p><h3 id='谨防感染性疾病'><span>谨防感染性疾病</span></h3><p><span>患艾滋病、梅毒、乙肝等传染性疾病的女性，怀孕会通过母婴垂直传播导致胎儿感染。女性患有这些疾病时，一定不要急于怀孕，应积极治疗，待病情得到控制或在医师的指导下怀孕。男方也要做相应检查和治疗。</span></p><h3 id='合理用药'><span>合理用药</span></h3><p><span>药物在人体内代谢需要一定的时间。有些药物代谢速度比较慢，即使孕前较长时间使用，到怀孕时可能体内还有一定药物残留。因此，若准备怀孕，夫妇最好提前几个月避免服用药物。有些中草药和非处方药也对生育质量有不良影响，不能掉以轻心。</span></p><h3 id='口腔健康不容忽视'><span>口腔健康不容忽视</span></h3><p><span>龋齿和牙周炎都由细菌感染引起。患有龋齿和牙周病的女性如果怀孕，存在于牙周中的细菌释放毒素，通过母体影响胎儿，可能导致早产和低体重儿。因此，备孕期要做一次全面的口腔检查，发现口腔疾病要及时治疗，避免增加孕期感染、早产和低休重儿等的发生风险。</span></p><h3 id='保持最佳的体重'><span>保持最佳的体重</span></h3><p><span>太瘦或太胖都不利于成功受孕，备孕的女性应该积极锻炼，努力将体重调整到正常范畴。您究竟是胖了还是瘦了，可通过下面的公式来得到答案。</span></p><p><span>孕前体质指数（BMI）计算公式：BMI=体重（kg）/身高（m）^2</span></p><ul><li><span>BMI &lt; 18.5 低体重</span></li><li><span>BMI 18.5-24.9 标准体重</span></li><li><span>BMI 25.0-29.9 超重</span></li><li><span>BMI ≥ 30.0 肥胖</span></li></ul><p><span>简单计算的体重公式：身高（cm）-105=标准体重（kg）</span></p><ul><li><span>标准体重 ±10% 为正常体重</span></li><li><span>标准体重 ±10%-20% 为体重偏重或偏轻</span></li><li><span>标准体重 ±20% 以上为肥胖或体重不足</span></li></ul><h3 id='适龄生育不要错过女性生育的黄金年龄'><span>适龄生育，不要错过女性生育的“黄金”年龄</span></h3><p><span>对于健康女性来说，25-29岁是生育力最旺盛的阶段。这一时期女性卵子质量较好，受孕成功较高，妊娠期、分娩期和产后期并发症最少，胎儿发生出生缺陷的风险也较低，有利于母婴健康。</span></p><h3 id='剖宫产史备孕妈妈注意事项'><span>剖宫产史备孕妈妈注意事项</span></h3><p><span>剖宫产手术会在子宫上留有瘢痕，有剖宫产史的女性再次妊娠时发生胎盘植入、前置胎盘、子宫破裂、产后出血等问题的风险明显增加。如果您是一位有过剖宫产史的备孕妈妈，最好在剖宫产手术满两年后再怀孕。准备怀孕前，一定要去正规医院进行妇科和B超检查，确定子宫恢复良好再计划受孕。此外，怀孕早期就需要去医院进行B超检查，确定孕囊着床是够靠近子宫瘢痕部位，以便及早采取应对措施，确保孕育安全。</span></p><h3 id='停用避孕药多久可以怀孕'><span>停用避孕药多久可以怀孕？</span></h3><p><span>一般短效避孕药停服后下一月经周期结束即可怀孕；长效避孕药停药后或皮下埋剂取出后6个月再怀孕。</span></p><h3 id='取出宫内节育器后多久可以怀孕'><span>取出宫内节育器后多久可以怀孕？</span></h3><p><span>宫内节育器俗称“避孕环”。女性取出避孕环后，应在下一月经周期结束后再怀孕，在此期间建议夫妻采用避孕套进行避孕。</span></p><h3 id='对备孕妈妈而言如何把握好受孕的最佳时机呢'><span>对备孕妈妈而言，如何把握好受孕的最佳时机呢？</span></h3><p><span>大多数女性的卵巢每个月会排出一个卵子，一般在下次月经前的第14天，这个过程叫做排卵。女性的卵子在排出之后只能存活12-24小时，所以受孕最佳时间为排卵日的前后两天。越靠近排卵期有性生活，受孕的几率就越大。</span></p><p><span>排卵日标志是排卵后基础体温会升高0.3-0.5℃。您可以在每天早晨起床活动前测量基础体温并记录，这样坚持几个月，您就可以知道自己的排卵规律了。</span></p><h3 id='月经周期体温变化图'><span>月经周期体温变化图</span></h3><p><span>两次月经第1日的间隔时间称一个月经周期，成人月经周期一股为21-35天，平均28天。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/007.jpg" referrerpolicy="no-referrer"></p><p><span>横轴每一小格代表一天</span></p><ul><li><span>月经期：每次月经持续时间</span></li><li><span>安全期：与易孕期相比怀孕概率较低</span></li><li><span>易孕期：怀孕概率较高，建议备孕女性在这段时间同房</span></li><li><span>排卵日：基础温由低到高跳变的那一天</span></li></ul><h3 id='二）孕前期自我记录'><span>（二）孕前期自我记录</span></h3><h3 id='备孕爸妈自我记录'><span>备孕爸妈自我记录</span></h3><p><span>结婚年龄：备孕妈妈  岁 备孕爸爸  岁</span></p><p><span>计划怀孕年龄：备孕妈妈  岁 备孕爸爸  岁</span></p><h4 id='备孕妈妈基本情况'><span>备孕妈妈基本情况</span></h4><p><span>身高：cm 体重：kg BMI：</span></p><p><span>您的身材属于：口正常体重口超重口肥胖口低体重</span></p><p><span>孕前检查结果：口健康 口疾病（名称）</span></p><h4 id='备孕爸爸基本情况'><span>备孕爸爸基本情况</span></h4><p><span>身高：cm 体重：kg BMI：</span></p><p><span>您的身材属于：口正常体重口超重口肥胖口低体重</span></p><p><span>孕前检查结果：健康 疾病（名称）</span></p><h4 id='请记录您在备孕过程中的感想'><span>请记录您在备孕过程中的感想</span></h4><h3 id='备孕期月经周期与基础体温自测记录表'><span>备孕期月经周期与基础体温自测记录表</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/008.jpg" referrerpolicy="no-referrer"></p><p><span>备注：您可在此表相应日期位置标注自己月经来满的第一天、月经结束以及同房的时间，方便您计算排卵期。</span></p><h3 id='北京市孕前优生健康检查机构名录'><span>北京市孕前优生健康检查机构名录</span></h3><figure><table><thead><tr><th><span>单位名称</span></th><th><span>地址</span></th><th><span>咨询电话</span></th></tr></thead><tbody><tr><td><span>东城区（北院区）妇幼保健院</span></td><td><span>交南大街136号</span></td><td><span>64048899-8168</span></td></tr><tr><td><span>东城区（南院区）妇幼保健院</span></td><td><span>法华南里25号楼</span></td><td><span>67163491-225</span></td></tr><tr><td><span>西城区妇幼保健院</span></td><td><span>平原里小区21号楼三层</span></td><td><span>63537985</span></td></tr><tr><td><span>朝阳区妇幼保健院</span></td><td><span>潘家园华威里25号</span></td><td><span>67719999-2221</span></td></tr><tr><td><span>海淀区妇幼保健院</span></td><td><span>苏州街53号（海淀妇幼保健院东南院区）</span></td><td><span>62538899-9427</span></td></tr><tr><td><span>丰台区妇幼保健院</span></td><td><span>右安门外开阳里三区1号</span></td><td><span>63804684</span></td></tr><tr><td><span>石景山区妇幼保健院</span></td><td><span>依翠园5号</span></td><td><span>68627201</span></td></tr><tr><td><span>门头沟区妇幼保健院</span></td><td><span>石龙北路10号</span></td><td><span>69820056</span></td></tr><tr><td><span>房山区妇幼保健院</span></td><td><span>良乡苏庄东街5号</span></td><td><span>81316930</span></td></tr><tr><td><span>通州区妇幼保健院</span></td><td><span>玉桥中路124号</span></td><td><span>81592823</span></td></tr><tr><td><span>顺义区妇幼保健院</span></td><td><span>顺康路1号</span></td><td><span>89449108</span></td></tr><tr><td><span>大兴区妇幼保健院</span></td><td><span>英村镇兴丰大街三段56号</span></td><td><span>69252081-8166</span></td></tr><tr><td><span>昌平区妇幼保健院</span></td><td><span>北环路1号</span></td><td><span>89713005</span></td></tr><tr><td><span>平谷区妇幼保健院</span></td><td><span>南岔子街49号</span></td><td><span>69971790</span></td></tr><tr><td><span>怀柔区妇幼保健院</span></td><td><span>迎宾北路38号</span></td><td><span>89691883</span></td></tr><tr><td><span>密云区妇幼保健院</span></td><td><span>新南路56号</span></td><td><span>69085971</span></td></tr><tr><td><span>延庆区妇幼保健院</span></td><td><span>庆园街8号</span></td><td><span>51057828</span></td></tr></tbody></table></figure><h3 id='北京市免费孕前优生健康检查项目'><span>北京市免费孕前优生健康检查项目</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/009.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/010.jpg" referrerpolicy="no-referrer"></p><h3 id='孕前优生健康检查记录'><span>孕前优生健康检查记录</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/011.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/012.jpg" referrerpolicy="no-referrer"></p><h2 id='孕产期篇'><span>孕产期篇</span></h2><p><span>恭喜您怀孕了！这是您全家人最幸福与甜蜜的时刻。但新生命的开始并不意味着可以高枕无忧，十月怀胎，胎宝宝需要您和家人的悉心呵护。</span></p><h3 id='在职妈妈在怀孕及哺乳期间应该享受哪些权利'><span>在职妈妈在怀孕及哺乳期间应该享受哪些权利</span></h3><p><span>2012年国务院颁布的《女职工劳动保护特别规定》对在职孕妈妈产检、休假及宝宝照料方面提出了明确规定。</span></p><ol start='' ><li><p><span>用人单位不得在女职工孕期及哺乳期降低工资、辞退或解除合同。</span></p></li><li><p><span>女职工在孕期不能适应原劳动的，用人单位予以减轻劳动量或者安排其他能够适应的劳动。</span></p></li><li><p><span>对怀孕7个月以上的女职工，用人单位不得延长劳动时间或者安排夜班，并在劳动时间内安排一定的休息时间。</span></p></li><li><p><span>怀孕女职工在劳动时间内进行产前检查，所需时间计入劳动时间。</span></p></li><li><p><span>女职工生育享受98天产假，其中产前可以休假15天，难产的，增加产假15天；生育多胞胎的，每多生育1个婴儿，增加产假15天。</span></p></li><li><p><span>女职工产假期间的生育津贴，参加生育保险的，由生育保险基金支付；未参加生育保险的，按产假前工资标准由用人单位支付。</span></p></li><li><p><span>对哺乳未满一周岁的女职工，用人单位不得延长劳动时间或安排夜班工作。用人单位应在每天的劳动时间内为哺乳期女职工安排1小时哺乳时间；女职工生育多胞胎的，每多哺乳1个婴儿，每天增加1小时哺乳时间。</span></p></li><li><p><span>怀孕女职工禁忌从事的劳动包括：</span></p><ol start='' ><li><span>空气中铅、汞及其化合物、苯、镉、铍、砷、氰化物、氮氧化物、一氧化碳、二硫化碳、氟、已内酰胺、氮丁二烯、氯乙烯、环氧乙烷、苯胺、甲醛等有毒物质浓度超过国家卫生标准的作业；</span></li><li><span>从事抗癌药物、己烯雌酚生产，接触麻醉剂气体等的作业；</span></li><li><span>非密闭源放射性物质的操作，核事故与放射事故的应急处置；</span></li><li><span>分级标准中规定的高处、冷水、低温作业；</span></li><li><span>高温、噪声、体力劳动强度分级标准中规定的第三级、第四级的作业；</span></li><li><span>在密闭空间、高压室或者潜水作业，伴有强烈震动或者需要频繁弯腰、攀高、下蹲的作业。</span></li></ol></li><li><p><span>哺乳期的女职工禁忌从事的劳动包括：</span></p><ol start='' ><li><span>有毒物质超过国家卫生标准的作业（包括铅、汞及其化合物、苯、镉、铍、砷、氰化物、氨氧化物、一氧化碳、二硫化碳、氯、已内酰胺、氯丁二烯、氯乙烯、环氧乙烷、苯胺、甲醛、甲醇、锰、氟、溴、有机磷化合物、有机氯化合物等）；</span></li><li><span>孕期禁忌劳动范围的第三项；</span></li><li><span>体力劳动强度分级标准中规定的第三级、第四级的作业。</span></li></ol></li></ol><h3 id='您的产检及分娩费用可以报销吗'><span>您的产检及分娩费用可以报销吗？</span></h3><p><span>如果您参加了医疗保险或生育保险，大部分必要的产检项目及分娩费用都是可以报销的。</span></p><p><span>如果您是农村户口，并参加了新型农村合作医疗（简称“新农合&quot;），您除享受上述国家惠民政策外，还可以享受一定比例的&quot;新农合&quot;补助。</span>
+<span>请找相关人员询问您产检及分娩报销范围及比例。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/013.jpg" referrerpolicy="no-referrer"></p><h2 id='孕期分娩期'><span>孕期、分娩期</span></h2><h3 id='如何建立北京市母子健康手册'><span>如何建立《北京市母子健康手册》</span></h3><p><span>北京市为所有本市户籍孕妇和在北京常住并准备在京分娩的非本市户籍孕妇建立《北京市母子健康手册》（以下简称“建册&quot;），每位孕妇应在怀孕6周后到基层医疗卫生机构建册，这也是孕妇到分娩医院建档时必须向分娩机构提供的资料之一。</span></p><ol start='' ><li><span>孕妇本人为北京市户籍，需携带本人身份证及户口本到本人户口所在地基层医疗卫生机构建册；</span></li><li><span>孕妇本人为非北京市户籍，但丈夫为北京市户籍的，孕妇需携带本人及丈夫身份证、丈夫户口本和证明孕妇户籍地的相关材料，到丈夫户口所在地基层医疗卫生机构建册；</span></li><li><span>夫妻双方均为非北京市户籍，孕妇需携带本人身份证及在京居住证到居住地基层医疗卫生机构建册。</span></li></ol><p><span>特别提示：建立《北京市母子健康手册》时，孕妇应与基层医疗卫生机构保健科工作人员确认是否具有享受北京市孕产妇产前始查和产后访视补贴政策资格。</span></p><h3 id='保持健康生活方式'><span>保持健康生活方式</span></h3><p><span>孕早期是胎儿致畸的敏感期，胎儿易受外界不良因素影响。孕给妈只有坚持健康的生活方式，你的“小天使&quot;才能在优良的环境中健康成长。</span></p><ul><li><span>不熬夜，每天保证睡眠不少于8小时。</span></li><li><span>戒烟戒酒（包括远离吸烟环境），不吸毒。勤洗澡，避免盆浴，每日洗外阴，勤换内裤。</span></li><li><span>保持口腔卫生，每天刷牙，饭后漱口，怀孕后做孕期口腔保健。孕期性生活要安全、适度，性生活前后注意清洗外阴。如不舒服或阴道出血应暂时避免性生活。</span></li><li><span>注意睡姿，孕7个月后尽量左侧卧位，不仰卧。</span></li><li><span>孕期用药要谨慎，孕妈妈可以到医院寻求医生的指导。</span></li><li><span>尽量不接触猫狗等宠物。</span></li><li><span>避免接触放射线、农药、有毒有害物质。</span></li><li><span>孕早、晚期禁止性生活，以免发生流产或早产；孕中期性生活应适度。</span></li><li><span>衣着宽大舒适，乳房要用宽松的乳罩托起；不宜穿高跟鞋。</span></li></ul><h3 id='缓解孕吐有妙招'><span>缓解孕吐有妙招</span></h3><ul><li><span>在孕早期，不少孕妈妈都会经历孕吐的困扰。如何才能缓解孕吐的症状呢？</span></li><li><span>不必强制进食，可以少量多餐。忌油腻食物，多吃谷类和水果。</span></li><li><span>要避免饭后弯腰和平躺。</span></li><li><span>多一些户外运动，保持心情舒畅。注意多休息，及时转移注意力。在医师指导下口服维生素B。</span></li><li><span>准爸爸可以为妻子按摩、安抚情绪。</span></li></ul><h3 id='准爸爸的任务'><span>准爸爸的任务</span></h3><p><span>妻子怀孕的10个月也是丈夫成为爸爸的准备时间，准爸爸要不断地加强学习，努力适应这一新的角色。</span></p><ul><li><span>关注孕妈妈的身体健康和心理变化，给她更多的关爱和照顾。</span></li><li><span>承担更多的家务和责任，戒烟、戒酒，营造温馨、和谐的生活氛围。</span></li><li><span>经常陪伴孕妈妈活动，去医院检查，一起参加孕妇学校的讲座。</span></li><li><span>如医院允许，分娩时要陪伴在孕妈妈身边，为她按摩，并鼓励她。</span></li><li><span>宝宝出生后，丈夫要陪伴、安慰、关心产妇；分担家务；照料宝宝。</span></li></ul><h3 id='那些甜蜜的时刻'><span>那些甜蜜的时刻</span></h3><figure><table><thead><tr><th><span>时刻</span></th><th><span>记录</span></th></tr></thead><tbody><tr><td><span>第一次听到医生说“您要当妈妈”</span></td><td>&nbsp;</td></tr><tr><td><span>第一次听到胎心音的日子</span></td><td>&nbsp;</td></tr><tr><td><span>第一次感觉到胎动的日子</span></td><td>&nbsp;</td></tr></tbody></table></figure><h3 id='妊娠过程图'><span>妊娠过程图</span></h3><p><span>恭喜您怀孕了！十月怀胎，请您在喜悦之时，先了解一下怀孕10个月的奇妙过程吧。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/014.jpg" referrerpolicy="no-referrer"></p><h3 id='北京市产前检查医疗服务参考项目'><span>北京市产前检查医疗服务参考项目</span></h3><p><span>孕期未发现异常孕妇应当检查10-12次。如果孕期有异常情况要听医生建议增加检查次数及检查内容。</span></p><p><span>早孕期（孕11周前）1次</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>确定是否妊娠，建立产科病历</span></td><td><span>1</span></td></tr><tr><td><span>采集病史，体格检查（包括心肺检查、测血压、量体重）及产科检查（包括测宫高、腹围、听胎心、内诊）</span></td><td><span>1</span></td></tr><tr><td><span>高危妊娠风险评估</span></td><td><span>-</span></td></tr><tr><td><span>化验——生化全项、凝血五项、甲功三项、血脂、血常规、尿常规、血型（+Rh*）；不规则抗体</span></td><td><span>1</span></td></tr><tr><td><span>心电图（多导联）</span></td><td><span>-</span></td></tr><tr><td><span>超声检查</span></td><td><span>-</span></td></tr><tr><td><span>必要时阴道分泌物检查——霉菌、滴虫</span></td><td><span>1</span></td></tr></tbody></table></figure><p><span>孕11周到13周</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>超声NT检查</span></td><td><span>1</span></td></tr></tbody></table></figure><p><span>孕13周到27周（4周复查1次，共4次）</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>（1）询问健康情况</span><br><span>（2）每次测量体重、血压、听胎心检查宫高、腹围、胎方位、胎心、先露入盆情况，记录并绘制妊娠图</span></td><td><span>4</span></td></tr><tr><td><span>化验 血常规1次，尿常规4次</span></td><td><span>-</span></td></tr><tr><td><span>孕24周OGTT检查</span></td><td><span>1</span></td></tr><tr><td><span>&lt;35岁唐氏筛查1次，≥35岁产前诊断</span></td><td><span>1</span></td></tr><tr><td><span>B超：孕20-24周产前超声筛查彩超</span></td><td><span>1</span></td></tr><tr><td><span>≥40岁超声心动</span></td><td><span>1</span></td></tr><tr><td><span>高危追访</span></td><td><span>4</span></td></tr></tbody></table></figure><p><span>28周至36周（2周复查一次，共4次）</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>（1）询问健康情况</span><br><span>（2）每次测量体重、血压、听胎心检查宫高、腹围、胎方位、胎心、先露入盆情况，记录并绘制妊娠图</span></td><td><span>4</span></td></tr><tr><td><span>骨盆内诊骨盆测量（孕34周），了解骨盆形态，有无骨盆狭窄</span></td><td><span>1</span></td></tr><tr><td><span>化验——血常规1次，尿常规4次，梅毒、乙肝、HV检测，生化全项、心电图</span></td><td><span>1</span></td></tr><tr><td><span>复查B超（28-32周，34-37周）</span></td><td><span>2</span></td></tr><tr><td><span>胎心监护</span></td><td><span>1</span></td></tr><tr><td><span>高危评估</span></td><td><span>1</span></td></tr><tr><td><span>高危追访</span></td><td><span>4</span></td></tr></tbody></table></figure><p><span>37周至40周（1周复查一次，共4次）</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>（1）询问健康情况</span><br><span>（2）每次测量体重、血压、听胎心检查宫高、腹围、胎方位、胎心、先露入盆情况，记录并绘制妊娠图。</span></td><td><span>4</span></td></tr><tr><td><span>孕37周复查骨盆，估计胎儿大小，初步决定分娩方式</span></td><td><span>1</span></td></tr><tr><td><span>化验——血常规1次，尿常规4次，凝血五项</span></td><td><span>1</span></td></tr><tr><td><span>复查B超</span></td><td><span>2</span></td></tr><tr><td><span>胎心监护每周1次，至少4次</span></td><td><span>4</span></td></tr><tr><td><span>高危追访</span></td><td><span>4</span></td></tr></tbody></table></figure><p><span>40周后3天检查一次</span></p><figure><table><thead><tr><th><span>检查项目</span></th><th><span>次</span></th></tr></thead><tbody><tr><td><span>（1）询问健康情况</span><br><span>（2）每次测量体重、血压、听胎心检查宫高、腹围、胎方位、胎心、先露入盆情况，记录并绘制妊娠图</span></td><td><span>2</span></td></tr><tr><td><span>B超复查</span></td><td><span>1</span></td></tr><tr><td><span>胎心监护</span></td><td><span>2</span></td></tr></tbody></table></figure><h3 id='温馨提示怎样做到预防出生缺陷'><span>温馨提示：怎样做到预防出生缺陷？</span></h3><p><span>孕前检查、叶酸补充、孕早期NT及头臀长测量，孕中期的唐氏综合征筛查和胎儿畸形超声筛查以及高风险孕妈妈的产前咨询和产前诊断，均是预防出生缺陷的重要措施。</span></p><h4 id='产前咨询对象'><span>产前咨询对象</span></h4><p><span>孕妈妈若有下列情况，请立即到医院进行产前咨询，产前咨询对象包括但不限于：</span></p><ol start='' ><li><span>预产期年龄达35岁以上（包括35岁）的高龄孕妇。</span></li><li><span>生过先天畸形儿者，包括代谢病、染色体疾病儿。</span></li><li><span>有原因不明习惯性流产史、死胎史及新生儿死亡史的夫妇。</span></li><li><span>先天性智力低下者及其血缘亲属。</span></li><li><span>有遗传病家族史的夫妇。</span></li><li><span>有致時因素接触史的孕妇。</span></li><li><span>原发性闭经和原因不明的继发性闭经史、不孕史。</span></li><li><span>生育过母儿血型不合引起新生儿核黄疸致智力障碍或死亡者。</span></li><li><span>近亲婚配者。</span></li><li><span>其他需要进行产前咨询者。</span></li></ol><h4 id='产前诊断对象'><span>产前诊断对象</span></h4><p><span>若有下列情况，请尽快到有产前诊断资质医院进行产前诊断，产前诊断对象包括但不限于：</span></p><ol start='' ><li><span>羊水过多或者过少者。</span></li><li><span>胎儿发育异常或有可疑畸形者。</span></li><li><span>孕早期接触过可能导致胎儿先天缺陷的物质者。</span></li><li><span>有遗传病家族史或者曾经分娩过先天性严重缺陷婴儿者。</span></li><li><span>曾经有2次以上不明原因的流产、死胎或新生婴儿死亡者。</span></li><li><span>母亲年龄（预产期时）超过35周岁者。</span></li><li><span>产前筛查结果异常者。</span></li></ol><h4 id='产前筛查内容及其时限'><span>产前筛查内容及其时限</span></h4><p><span>产前筛查包括血生化筛查与超声筛查。血生化筛查是指在孕15-20(+6)周时通过抽血并结合孕妇年龄、体重等信息，通过计算机软件评估孕妇可能怀有唐氏综合征胎儿的风险。</span></p><p><span>超声筛查包括孕11-13(+6)周的进行胎儿NT及头臀长测量，孕20-24周对胎儿严重结构畸形的扫查。这些检查必须在规定的孕周进行，如果错过孕周，孕妇就会错失筛查严重出生缺陷的机会。</span></p><h4 id='唐氏综合征筛查注意事项'><span>唐氏综合征筛查注意事项</span></h4><p><span>唐氏综合征筛查一方面抽取准妈妈的血液进行一些生化指标的检测，另外还需要结合孕妇年龄、体重、受孕方式等信息，逼过计算机软件评估胎儿患21三体、18三体及神经管缺陷的风险性。因此，孕妇一定要如实向医生提供真实的出生年月日、抽血当日空腹体重等资料。着重提醒大家，抽血当日必须空腹，否则会使检测结果造成偏差。</span></p><h4 id='唐氏综合征筛查高风险后怎么办'><span>唐氏综合征筛查高风险后怎么办？</span></h4><p><span>唐氏筛查检测结果如为21三体或18三体任意一项高风险，建议孕妈妈进行后续的胎儿染色体核型分析，做羊水穿刺术；筛查结果如为神经管缺陷（NTD）高风险，建议孕妈妈进行胎儿超声诊断。</span></p><h4 id='孕妇外周血胎儿游离dna产前筛查与诊断告知'><span>孕妇外周血胎儿游离DNA产前筛查与诊断告知</span></h4><p><span>孕妇外周血胎儿游离DNA产前筛查与诊断是应用高通量基因测序等分子遗传技术检测孕期母体外周血中胎儿游离DNA片段，以评估胎儿常见染色体非整倍体异常风险。</span></p><p><span>根据目前技术发展水平，孕妇外周血胎儿游离DNA产前筛查与诊断的目标疾病为3种常见胎儿染色体非整倍体异常，即21三体综合征、18三体综合征、13三体综合征。检测适宜孕周为孕12-22(+6)周。</span></p><p><span>适用人群主要有：</span></p><ol start='' ><li><span>血清学筛查显示胎儿常见染色体非整倍体风险值介于高风险切割值与1/1000之间的孕妇。</span></li><li><span>有介入性产前诊断禁忌证者（如先兆流产、发热、出血倾向、慢性病原体感染活动期、孕妇Rh阴性血型等）。</span></li><li><span>孕20(+6)周以上，错过血清学筛查最佳时间，但要求评估21三体综合征、18三体综合征、13三体综合征风险者。</span></li></ol><p><span>孕妇在符合上述条件的基础上应选择有资质的医疗保健机构接受该项检测服务，有资质的机构名单请在北京市卫生和计划生育委员会官网进行浏览。孕妇如选择无资质的检测机构，一方面会降低检测的准确性，另一方面后续的产前诊断也将无法得到实施，将无法得到准确的咨询。</span></p><h4 id='孕妇外周血胎儿游离dna高风险后可以直接引产吗'><span>孕妇外周血胎儿游离DNA高风险后可以直接引产吗？</span></h4><p><span>孕妇外周血胎儿游离DNA产前筛查技术在临床上应用日益广泛，根据目前该项筛查技术发展水平，检测目标疾病为3种常见胎儿染色体非整倍体异常，即21三体综合征、18三体综合征、13三体综合征。检测适宜孕周为孕12-22(+6)周。虽然外周血游离DNA检测技术能够提高部分染色体疾病的检出率，但它仍然只是一种筛查技术，检测结果不能保证百分之百的正确，筛查高风险的胎儿中约有10%为正常胎儿，因而它还不能完全替代传统的细胞学产前诊断技术，出现高风险后应选择产前诊断而不是直接引产。</span></p><h4 id='产前超声筛查与诊断告知'><span>产前超声筛查与诊断告知</span></h4><p><span>产前超声筛查主要为检出是否存在胎儿严重畸形或异常。产前超声诊断重点对胎儿可疑异常部位进行检查。由于受各方面因素的影响（孕妇腹壁厚度、胎儿在宫内的姿势、羊水量、病程发展等），产前超声筛查与诊断不能发现及诊断所有的胎儿畸形，胎儿畸形不同类型的诊断率也不一样，即使最好条件的医疗单位检查率及诊断率也达不到100%。受到胎儿骨骼声影、胎动、羊水量及超声仪器及操作者技术水平等多种因素的影响，出生后明显可见的畸形如唇腭裂、手脚畸形、眼耳异常等，也可能在宫内超声时显示困难，漏诊难以避免。有些胎儿异常可能在胎儿发育过程中或后期受外界因素影响才表现出来，如长骨发育不良、肾脏异常、心脏异常等，此外，有些胎儿异常在连续动态观察后方能明确诊断。根据国家相关部门的规定，禁止非医学需要的胎儿性别鉴定。</span></p><p><span>产前超声诊断的重要意义是对出生缺陷的识别。从目前影像图像分析与缺陷诊断率来看，三维、四维超声和二维超声对胎儿畸形的检出率基本相同。更重要的是三维、四维超声筛查所花费的时间更久，探头产生的热效应更大，相对于胎儿的安全性略差，费用也高出不少，目前，国际妇产科超声学会依然明确提出，如没有必要的医学指征，不建议进行胎儿三维四维的超声筛查。</span></p><h4 id='nt筛查的作用'><span>NT筛查的作用</span></h4><p><span>NT是指在早孕期利用超声观察到胎儿颈后部皮下组织内液体积聚的厚度，一般大于等于3mm为NT增厚。利用超声测定颈后透明层厚度有着十分重要的临床意义，厚度增加，发生胎儿异常的可能性也增加。NT增厚与胎儿21三体（唐氏综合症）等染色体异常及胎儿先天性心脏病等畸形有关。</span></p><h4 id='超声筛查能检出所有畸形吗'><span>超声筛查能检出所有畸形吗？</span></h4><p><span>孕中期超声筛查是通过超声扫查，主要检出是否存在胎儿的严重结构畸形，如无脑儿、脑膨出、脑积水、开放性脊柱裂、胸腹壁缺损及内脏外翻、单腔心、致命性软骨发育不全等。虽然超声筛查非常重要，但并不是万能的，由于受各方面因素的影响，产前超声筛查与诊断不能发现所有的胎儿畸形，不同类型的胎儿畸形的诊断率也不一样，即使条件最好的医疗单位检查率及诊断率也达不到100%。在孕早期和孕中期发现超声异常后，孕妈妈应持筛查机构开具的超声转会诊单及时转诊至对应的产前诊断机构进行超声诊断，根据情况接受后续的产前诊断服务。</span></p><h3 id='孕期饮食注意事项'><span>孕期饮食注意事项</span></h3><h4 id='养成健康的饮食习惯'><span>养成健康的饮食习惯</span></h4><p><span>清淡饮食，少油少盐，食物多样化，注重粗细荤素搭配；不偏食、挑食，不贪食；孕早期少食多餐，预防孕吐；不吃发霉、腌制和生冷食物；孕4个月后注意增加富含蛋白质的食物。</span></p><ol start='' ><li><span>孕早期：每日总能量在1800kcal以上，主食至少要150-200g以上，豆类及豆制品50-100g，牛奶或酸奶200-250ml，蔬菜300-400g，水果50-100g，肉禽蛋鱼类100-150g，油脂类20g，可加些干果类食物作为零食如瓜子、花生、核桃孕早期胎儿生长速度相对较慢，但孕早期妊娠反应使其消化功能发生改变，多数妇女怀孕早期可出现恶心、呕吐、食欲下降等症状。因此，怀孕早期的膳食应富营养、少油腻、易消化及适口。</span></li><li><span>孕中期：每日总热量要增加到2100-2300kca以上，谷类食物300-400 g，豆类及豆制品100-150g，奶300ml，蔬菜400-500g，水果100-200g，肉禽蛋鱼类150-200g，油脂类25g，多食绿色蔬菜、虾皮、紫菜、海带等补充微量营养素。</span></li><li><span>孕晚期：每日总热量要增加到2100-2300kca以上，谷类食物300-400g，豆类及豆制品100-150g，奶或豆浆250-500ml，蔬菜400-500g，水果100-200g，肉禽蛋鱼类150-200g，油脂类25g，多食绿色蔬菜、虾皮、紫菜、海带等补充微量营养素。</span></li></ol><h4 id='食物补铁积极预防贫血'><span>食物补铁，积极预防贫血</span></h4><p><span>孕4个月开始孕妈妈容易发生贫血，因此要增加铁的摄入，多摄入含铁丰富的食物。同时增加富含维生素C的新鲜蔬菜、水果的摄入，以便促进铁的吸收，必要时可在医生得指导下服用铁剂。</span></p><p><span>温馨提示：含铁丰富的食物有动物肝脏、血及血制品、瘦肉、蛋黄、豆类、油菜、荠菜、雪里红、菠菜、莴笋叶等。</span></p><h4 id='注重补钙满足胎儿所需'><span>注重补钙，满足胎儿所需</span></h4><p><span>从孕4个月起，孕妈妈要特别注重补钙。钙的最好来源是奶及奶制品、豆类及豆制品，绿叶蔬菜、芝麻酱和虾皮等海产品。每日至少食用300毫升牛奶或奶制品，同时补充300毫克钙；或饮用500毫升牛奶或奶制品，满足身体需求。</span></p><h4 id='注意补碘预防甲状腺功能不足'><span>注意补碘，预防甲状腺功能不足</span></h4><p><span>对孕期妇女而言，碘通过甲状腺素影响胎儿体格和智力发育，在孕期不同阶段，碘缺乏引起的甲状腺功能低下导致的神经学损害不同，孕早期更为严重。目前我国采用食盐强化碘预防高危人群碘缺乏，此外，在孕期建议每周进食一次富碘食物。</span></p><h4 id='患糖尿病的孕妈妈饮食注意事项'><span>患糖尿病的孕妈妈饮食注意事项</span></h4><p><span>患有妊娠期糖尿病的孕妈妈，要定期到营养科接受医生的专业指导。饮食上三餐正餐的主食分为6餐，少食多餐，可多吃一些粗粮、杂粮、杂豆以及口味偏酸的水果（如苹果、柚子、樱桃）等不宜引起血糖升高的食物，同时餐后1小时进行适当的运动30分钟，有利于降低餐后2小时的血糖。</span></p><h3 id='孕期也要坚持运动'><span>孕期也要坚持运动</span></h3><p><span>孕妈妈不仅要吃得对，还要合理运动，这样才更有利于胎儿的健康发育。运动项目：孕妈妈可以根据实际情况选择适合自己的运动方式，如：散步、游泳（慢），孕妇体操、瑜伽等。</span></p><p><span>温馨提示：严重心肺功能异常、前置胎盘、胎膜早破、妊娠期高血压疾病（如重度子痫前期）等病情不稳定的孕妈妈不宜运动。</span></p><h3 id='胎教'><span>胎教</span></h3><p><span>进入孕中期，孕妇听音乐、与胎儿对话、抚摸胎儿，有利于胎儿智力发育，促使胎儿健康成长。胎教要持之以恒，每天定时做1-2次，每次10-15分钟。丈夫也要积极参与胎教。</span></p><ul><li><span>音乐胎教：孕妇听轻柔、舒畅的音乐。</span></li><li><span>语言胎教：温柔地和肚里的宝宝说话，讲故事，叫宝宝的名字，朗诵诗歌。</span></li><li><span>抚摸胎教：可坐着或平卧床上，用手抚摸腹部。如遇上震动或较大的声音，告诉胎儿不用怕。可与语言胎教同时进行。</span></li><li><span>大自然胎教：每天到有树林、花草的地方，沐浴大自然的清新空气和温暖阳光。保持生活规律，心情舒畅。</span></li></ul><h3 id='解决便秘的烦恼'><span>解决便秘的烦恼</span></h3><p><span>便秘尤其钟爱孕中、晚期的孕妈妈，如何才能度过一个“通畅”无烦恼的孕期呢？</span></p><ol start='' ><li><span>养成良好的生活规律，每天定时排便。</span></li><li><span>每天喝足量水（1500ml左右），晨起空腹喝一杯温开水。</span></li><li><span>多吃富含纤维素的食物，以刺激肠道蠕动，如香蕉、梨、苹果、芹菜、油菜等果蔬。</span></li><li><span>益生菌可调理肠道菌群、预防便秘，适当吃些富含乳酸菌、双歧杆菌的食物，如乳酸菌酸奶和奶酪。</span></li><li><span>适量运动，促进排便。</span></li></ol><h3 id='启动孕期体重管理模式'><span>启动孕期体重管理模式</span></h3><p><span>孕期体重增加过多或过少对孕妈妈及宝宝都会有不良影响，孕妈妈需要合理地控制体重。</span></p><h4 id='孕期体重增长值推荐量根据孕前bmi）'><span>孕期体重增长值推荐量（根据孕前BMI）</span></h4><figure><table><thead><tr><th><span>孕前体重状态</span></th><th><span>BMI(kg/m2)</span></th><th><span>孕期总增重范围（kg）</span></th><th><span>孕中、晚期增重速率（平均范围，kg/周）</span></th></tr></thead><tbody><tr><td><span>低体重</span></td><td><span>&lt; 18.5</span></td><td><span>12.5-18.0</span></td><td><span>0.51（0.44-0.58）</span></td></tr><tr><td><span>标准体重</span></td><td><span>18.5-24.9</span></td><td><span>11.5-16.0</span></td><td><span>0.42（0.35-0.50）</span></td></tr><tr><td><span>超重</span></td><td><span>25.0-29.9</span></td><td><span>7.0-11.5</span></td><td><span>0.28（0.23-0.33）</span></td></tr><tr><td><span>肥胖</span></td><td><span>≥ 30.0</span></td><td><span>5.0-9.0</span></td><td><span>0.22（0.17-0.27）</span></td></tr></tbody></table></figure><p><span>*BMI计算方式参照孕前</span></p><p><span>请您准备体重秤，每周在家自测体重，并记录在附图&quot;孕期体重自测表”中，如果连续两周增长过多或过少，应去医院检查。</span></p><p><span>温馨提示：体重测量要准确，可在清晨测量，穿单衣、空腹、排便排尿后再测量体重。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/015.jpg" referrerpolicy="no-referrer"></p><h3 id='孕期常见危险症状'><span>孕期常见危险症状</span></h3><p><span>孕期无小事，处处要小心！如果您在孕期出现以下情况，</span><strong><span>请务必马上就医。</span></strong></p><ul><li><span>阴道出血</span></li><li><span>严重浮肿</span></li><li><span>头痛眼花</span></li><li><span>胎动异常</span></li></ul><p><strong><span>危险症状还包括：</span></strong></p><ul><li><span>短时间体重增加过多</span></li><li><span>腹痛</span></li><li><span>发热</span></li><li><span>剧烈呕吐</span></li><li><span>不能进食</span></li><li><span>心慌</span></li><li><span>憋气</span></li><li><span>血压升高（血压&gt; 140/90mmHg）</span></li><li><span>阴道流水</span></li></ul><p><strong><span>危险状况早识别，发现异常去医院</span></strong></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/016.jpg" referrerpolicy="no-referrer"></p><h3 id='妊娠期高血压疾病'><span>妊娠期高血压疾病</span></h3><p><span>临床表现为妊娠20周后出现高血压。因妊娠期高血压疾病可能会影响脑血管、肾脏、肝脏、血液、子宫胎盘血流等脏器灌注，视病变程度不同，轻者可无症状或有轻度头晕，血压轻度升高，或轻微蛋白尿；重者出现头痛、眼花、恶心、呕吐、持续性右上腹疼痛等，血压明显升高，蛋白尿增多，甚至昏迷、抽搐。</span></p><p><span>妊娠期高血压孕妇应注意休息，并取侧卧位。保证摄入充足的蛋白质和热量，适度限制食盐摄入。为保证充足睡眠，必要时可睡前口服地西泮（安定）2.5-5mg。血压&gt;140/90mmHg的高血压患者应遭医嘱使用降压药治疗，一定要遵医嘱按时产检。</span></p><h3 id='妊娠期糖尿病'><span>妊娠期糖尿病</span></h3><p><span>妊娠期间的糖尿病有两种情况，一种为妊娠前已确诊患糖尿病，称&quot;糖尿病合并妊娠”；另一种为妊娠前糖代谢正常或有潜在糖耐量减退、妊娠期才出现或确诊的糖尿病，又称为“妊娠期糖尿病”。糖尿病患者于妊娠前应确定糖尿病严重程度。严重糖尿病一旦妊娠，对母儿危险均较大，应避孕，不宜妊娠。若已妊娠应尽早终止。</span></p><p><span>妊娠期可能有（或不明显）三多症状（多饮、多食、多尿），或外阴、阴道假丝酵母菌感染反复发作，孕妇体重&gt;90kg，本次妊娠可并发羊水过多或巨大胎儿。从孕前开始，在医生协助下严格控制血糖值，确保受孕前、妊娠期及分娩期血糖在正常范围。</span></p><h3 id='凶险性前置胎盘'><span>凶险性前置胎盘</span></h3><p><span>凶险性前置胎盘是指胎盘附着于疤痕子宫的子宫前壁下段或子宫颈口。随剖宫产率以及人工流产率不断增加，凶险性前置胎盘发生率增加，由于该处子宫肌层菲薄，收缩力弱，部分胎盘植入，导致开放血窦不易关闭，常发生难以控制的致命大出血。</span></p><h3 id='提前做好分娩准备'><span>提前做好分娩准备</span></h3><ul><li><span>准备好物品：临近预产期4-5周时将住院所需物品集中装好，包括《北京市母子健康手册》、母儿衣物、洗漱用品，孕妇身份证、户口本、保险卡等。</span></li><li><span>做好监测：白带带血丝或不规律的子宫收缩应密切自我监护，以防出现意外。</span></li><li><span>及时住院：初产妇出现规律子宫收缩（每隔5-6分钟一次阵痛，一次阵痛持续30秒以上），经产妇阵痛间隔10-15分钟，或者出现阴道流水等，都应该立即去医院。</span></li><li><span>做好母乳喂养准备：孕晚期要做好乳房准备和母乳喂养的心理准备。</span></li></ul><h3 id='自然分娩好处多'><span>自然分娩好处多</span></h3><p><span>如果您和宝宝无异常情况，应选择自然分娩，以最自然的方式迎接宝宝的到来。</span></p><ul><li><span>出血少，恢复快。</span></li><li><span>影响产妇未来健康和生活质量消化的并发症少，如产后出血、盆腹腔粘连、子宫内膜异位症。</span></li><li><span>有利于宝宝建立正常呼吸，减少窒息的发生。</span></li><li><span>新生儿并发症少，如新生儿呼吸窘迫综合征、新生儿湿肺、新生儿吸入性肺炎。</span></li><li><span>有利于宝宝生长及智力发育，减少儿童感觉统合失调症发生的可能性。</span></li></ul><p><span>温馨提示：在产程中，产妇应少量多次进食，进食牛奶、巧克力、香蕉等一些易消化、高热量的食物，并多饮水，保持充足体力；及时排空小便；待产期间可以变换体位，采取最舒服的姿势；分娩过程中还可以采取缓慢呼吸、听音乐、看电视等放松方法以转移注意力，减轻疼痛。</span></p><h2 id='产褥期'><span>产褥期</span></h2><h3 id='科学坐月子'><span>科学坐“月子”</span></h3><p><span>生育是对女人身体的一次极大考验，产后42天内为产褥期，此期间科学坐“月子”对身体的恢复非常关键。</span></p><ul><li><span>保持良好环境。保持居室环境的清洁、舒适、安静，经常开窗通风，保持室内空气新鲜；夏天注意防暑，冬天注意保暖。</span></li><li><span>注意个人卫生。产后尽早排大小便，会阴、腹部伤口拆线后可用清水冲洗。月子期间可洗澡，但不可盆浴；勤换衣服、被褥和卫生巾；每天用温开水清洁外阴；注意口腔卫生。</span></li><li><span>坚持健康生活方式。与婴儿同步休息，每天争取保证有8-9个小时的累计睡眠时间；产后尽早下床活动；坚持产后运动，促进身体恢复；忌烟酒；产后42天内禁止性生活。</span></li><li><span>保证充足营养。保证食品多样化，适当增加汤水的摄入；每天多吃2-3两的鱼或肉，增加1个鸡蛋，保证摄入充分的优质蛋白；多吃含铁及含钙丰富的食物；每天喝1斤奶，吃1斤以上的新鲜绿叶蔬菜和水果。</span></li><li><span>做好心理调试。学会自我调整，抓紧时间休息，保持心情舒畅，远离产后抑郁。注重家庭关怀，家人、丈夫多给予关心、照顾，必要时寻求医生的帮助。</span></li><li><span>母乳喂养。树立母乳喂养的信心，坚持6个月的纯母乳喂养。</span></li></ul><p><span>温馨提示：产后容易出现心情烦躁、流泪、多汗、睡眠不足、恶露不净，这些只是暂时现象，以后会逐渐好转。如果心理状态持续异常，请看心理医生。</span></p><h3 id='做好产后康复及避孕'><span>做好产后康复及避孕</span></h3><h4 id='坚持产后康复训练'><span>坚持产后康复训练</span></h4><p><span>新妈妈应掌握科学的产后康复方法，促进身体恢复，缩肛运动可帮助促进产后恢复。</span></p><p><span>缩肛运动方法：将阴道、尿道肌肉紧绷进行收缩，持续5秒，然后放松。上述运动可不受时间和体位限制，每天1-2组，每组做10次。</span></p><h4 id='接受产后访视及产后42天复查'><span>接受产后访视及产后42天复查</span></h4><p><span>出院后1周内和分娩后28-30天，应接受基层医疗卫生机构医生家庭产后访视。产后42天，产妇和宝宝一起去分娩医院进行产后42天产后检查，妊娠高血压疾病、糖尿病、贫血、甲状腺疾病等妊娠合并症的妈妈，应及时、定期复查。</span></p><h4 id='恢复性生活后注意避孕'><span>恢复性生活后注意避孕</span></h4><p><span>经过产后42天复查，确认身体恢复正常后，可以恢复性生活。产后、哺乳期避孕应选择不影响泌乳、哺乳和婴儿生长发育的方法。可以选择的避孕方法有（1）避孕套（2）自然分娩后42天恶露干净会阴伤口愈合后放置宫内节育器（3）剖宫产者术后6个月放置宫内节育器，可在月经干净后3-7天放置，哺乳期放置应先排除妊娠。产后、妊娠期不宜使用复方口服避孕药及“安全期&quot;避孕。</span></p><h3 id='母乳喂养好'><span>母乳喂养好</span></h3><p><span>对宝宝的好处</span></p><ul><li><span>母乳是婴儿最理想的天然食品</span></li><li><span>母乳含有抗感染的物质，可以提高婴儿抗病能力</span></li><li><span>母乳有利于婴儿大脑发育</span></li><li><span>母亲的乳头可促进婴儿牙齿的发育</span></li><li><span>母乳喂养有助于宝宝一生的情感健康</span></li></ul><p><span>对母亲的好处</span></p><ul><li><span>增加母亲对婴儿的感情</span></li><li><span>有利于母亲体形的回复和健美</span></li><li><span>有助于子宫收缩，减少阴道流血</span></li><li><span>减少母亲卵巢癌和乳腺癌的发生</span></li></ul><p><span>注意要点</span></p><ol start='' ><li><span>体位：母亲坐着、侧卧着喂都可以，只要放松，舒适就行。婴儿胸腹部贴近母亲，下颌碰到乳房，母亲用手臂托着婴儿的臀部。</span></li><li><span>早开奶：在产后1时内，让母婴皮肤早接触，婴儿早吸吮，可促进母亲早泌乳，多泌乳。</span></li><li><span>按需哺乳：即不限制喂乳的时间和次数，只要婴儿饥饿或母亲奶胀，就随时喂。</span></li><li><span>喂奶方法：母亲可用乳头接触婴儿的面颊和口周，当婴儿张嘴后，将乳头和大部分乳晕送入婴儿口中。母亲的拇指放在乳房上方，另外四指放在下方托起整个乳房。</span></li><li><span>如何保证母亲有充足的乳汁：除做到上述四点外，母婴24小时同室，不给婴儿喂母乳以外的其他食物（除了有医学指征），母亲要保持心情舒畅，合理营养，适当休息，就能分泌足够的乳汁。</span></li><li><span>乳头疼或皲裂，可继续喂，先喂健侧，喂完后，留一滴奶涂在乳头上。</span></li></ol><h3 id='新生儿抚触'><span>新生儿抚触</span></h3><p><span>注意要点</span></p><ol start='' ><li><span>房间温度适宜，可放柔和的音乐作背景。</span></li><li><span>一边按摩一边与宝宝说话，进行感情交流，不受外界打扰。</span></li><li><span>手法从轻开始，慢慢增加力度，以宝宝舒服合作为宜。</span></li><li><span>按摩时间从5分钟开始，以后逐渐延长到15-20分钟，每天1一2次。</span></li><li><span>最好选择宝宝洗澡后或穿衣服的过程中进行。</span></li><li><span>按摩前先温暖双手，将婴儿润肤液倒在掌心，不要将油直接倒在宝宝身上。</span></li><li><span>提前预备好毛巾，尿布以及替换衣服。</span></li></ol><p><span>按摩手法</span></p><ol start='' ><li><p><span>头部</span></p><p><span>（1）用两手拇指从前额中央向两侧滑动。</span></p><p><span>（2）用两手拇指从下颏中央向外侧、向上方滑动。</span></p><p><span>（3）两手掌面从前额发际向上、后滑动，至后下发际，并停止与两耳后乳突处，轻轻按压。</span></p></li><li><p><span>胸部</span></p><p><span>两手分别从胸部的外下侧向对侧的外上侧滑动。</span></p></li><li><p><span>腹部</span></p><p><span>（1）两手分别从腹部的右下侧经中上腹滑向左上腹。</span></p><p><span>（2）右手指自右上腹滑向右下腹：右手指腹自右上腹经左上腹滑向左下腹：右手指腹自右下腹经右上腹、左上腹滑向左下腹。</span></p></li><li><p><span>四肢</span></p><p><span>双手抓住上肢近端，边挤边滑向远端，并揉搓大肌肉群及关节：下肢与上肢同。</span></p></li><li><p><span>手足</span></p><p><span>两手拇指指腹从手掌面跟侧依次推向指侧，并提捏各个手指关节。足与手相同。</span></p></li><li><p><span>背部</span></p><p><span>婴儿呈俯卧位，两手掌分别于脊柱两侧由中央向两侧滑动。</span></p></li></ol><p><img src="https://lishuhang.me/img/2021/parental-handbook/017.jpg" referrerpolicy="no-referrer"></p><h3 id='准妈妈的基本情况'><span>准妈妈的基本情况</span></h3><p><span>当您成为准妈妈时，请填写以下信息！</span></p><figure><table><thead><tr><th><span>准妈妈工作情况</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>职业</span></td><td>&nbsp;</td></tr><tr><td><span>工作环境</span></td><td><span>□ 安静 □ 一般 □ 嘈杂</span></td></tr><tr><td><span>上、下班交通工具</span></td><td>&nbsp;</td></tr><tr><td><span>上班单程时间（小时）</span></td><td>&nbsp;</td></tr><tr><td><span>怀孕后工作变更情况</span></td><td>&nbsp;</td></tr><tr><td><span>家庭居住环境</span></td><td><span>□ 安静 □ 一般 □ 嘈杂</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>医疗建档情况</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>建册单位（或保健医生）电话</span></td><td>&nbsp;</td></tr><tr><td><span>建册时间</span></td><td>&nbsp;</td></tr><tr><td><span>计划分娩医院</span></td><td>&nbsp;</td></tr><tr><td><span>产后计划休养地址</span></td><td>&nbsp;</td></tr><tr><td><span>产后访视单位电话</span></td><td>&nbsp;</td></tr><tr><td><span>孕妇医疗保障类型</span></td><td><span>□ 自费 □ 医疗保险 □ 公费医疗 □ 生育保险 □ 新农合 □ 商业保险</span></td></tr><tr><td><span>请记录您在备孕过程中的感想</span></td><td>&nbsp;</td></tr></tbody></table></figure><h3 id='孕1～3月自我记录'><span>孕1～3月自我记录</span></h3><figure><table><thead><tr><th><span>孕1～3月自我记录</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>末次月经</span></td><td><span>年、月、日</span></td></tr><tr><td><span>预产期</span></td><td><span>年、月、日</span></td></tr><tr><td><span>您的体重增长范围</span></td><td><span>□ 正常 □ 超重 □ 不足</span></td></tr><tr><td><span>在孕妇学校听课</span></td><td><span>□ 已听 □ 未听</span></td></tr><tr><td><span>这一时期您有高危因素吗？</span></td><td><span>□ 无 □ 有（具体情况：）</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>在这段时期您如果出现以下任何症状</span></th><th><span>请记录下第一次出现的时间，并及时去医院就诊！</span></th></tr></thead><tbody><tr><td><span>阴道流血</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>腹痛</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>发热</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>剧烈呕吐，不能进食</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>请教医生的问题</span></td><td>&nbsp;</td></tr><tr><td><span>医生建议</span></td><td>&nbsp;</td></tr></tbody></table></figure><p><span>准妈妈随笔</span></p><h3 id='孕4～7月自我记录'><span>孕4～7月自我记录</span></h3><figure><table><thead><tr><th><span>孕4～7月自我记录</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>胎动最早出现的日期</span></td><td><span>年、月、日、孕周</span></td></tr><tr><td><span>孕中期做B超的日期</span></td><td><span>年、月、日、孕周</span></td></tr><tr><td><span>您的体重增长范围</span></td><td><span>□ 正常 □ 超重 □ 不足</span></td></tr><tr><td><span>这一时期您有高危因素吗？</span></td><td><span>□ 无 □ 有（具体情况：）</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>在这段时期您如果出现以下任何症状</span></th><th><span>请记录下第一次出现的时间，并及时去医院就诊！</span></th></tr></thead><tbody><tr><td><span>阴道流血</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>腹痛</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>发热</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>恶心、呕吐</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>头晕、头痛、视物不清</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>心慌、憋气</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>血压&gt;140/90mmHg</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>短时间体重增加过多</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>请教医生的问题</span></td><td>&nbsp;</td></tr><tr><td><span>医生建议</span></td><td>&nbsp;</td></tr></tbody></table></figure><p><span>在这一时期您可以感觉到胎动了，您可以将此时的感受和想跟宝宝要说的话，以及这一时期觉得有意义的事情记录下来。</span></p><h3 id='孕8～10月自我记录'><span>孕8～10月自我记录</span></h3><figure><table><thead><tr><th><span>孕8～10月自我记录</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>选择分娩地点</span></td><td><span>XX 医院</span></td></tr><tr><td><span>每天数胎动吗？</span></td><td><span>□ 是 □ 否</span></td></tr><tr><td><span>您的体重增长范围</span></td><td><span>□ 正常 □ 超重 □ 不足</span></td></tr><tr><td><span>这一时期您有高危因素吗？</span></td><td><span>□ 无 □ 有（具体情况：）</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>在这段时期您如果出现以下任何症状</span></th><th><span>请记录下第一次出现的时间，并及时去医院就诊！</span></th></tr></thead><tbody><tr><td><span>阴道流血</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>腹痛</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>阴道流水</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>浮肿</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>头晕、头痛、视物不清</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>心慌、气短、夜间不能平卧</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>血压&gt;140/90mmHg</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>胎动异常</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>孕周≥41周</span></td><td><span>□ 无 □ 有，出现时间</span></td></tr><tr><td><span>请教医生的问题</span></td><td>&nbsp;</td></tr><tr><td><span>医生建议</span></td><td>&nbsp;</td></tr></tbody></table></figure><p><span>准妈妈随笔／给宝宝的话</span></p><h3 id='孕期体重自测表'><span>孕期体重自测表</span></h3><figure><table><thead><tr><th><span>孕周</span></th><th><span>日期</span></th><th><span>体重（kg）</span></th><th><span>和上周比体重增长</span></th></tr></thead><tbody><tr><td><span>5-40周，每周记录一次</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p><span>孕期体重管理曲线图</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/018.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/019.jpg" referrerpolicy="no-referrer"></p><h3 id='胎动记录表'><span>胎动记录表</span></h3><figure><table><thead><tr><th><span>孕周</span></th><th><span>日期</span></th><th><span>胎动</span></th></tr></thead><tbody><tr><td><span>每周记录一次</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p><span>温馨提示:</span></p><ol start='' ><li><span>此表由孕妈妈填写，记录每天12小时的胎动数。</span></li><li><span>孕妈妈选择舒适体位，每天早、中、晚在相对固定时间集中精力数胎动。每时段各数1小时，将3小时胎动数相加后乘以4，就是12小时胎动总数。</span></li><li><span>如果≥30次/12小时为正常，&lt;20次/12小时说明胎动异常，&lt;10次/12小时说明胎儿宫内缺氧；或者胎动计数≥3次小时（胎动计数≥6次/2小时）为正常，&lt;3次/小时（&lt;6次12小时）、胎动数比平时减少50%、胎动幅度明显减弱、或胎动频繁之后忽然减少均提示胎儿缺氧可能，应立即去医院。</span></li></ol><h3 id='孕妇学校听课记录'><span>孕妇学校听课记录</span></h3><p><span>孕期保健知识可在医院的孕妇学校获得。孕期怎么吃、分娩有什么技巧、平时运动注意什么……孕妈妈也需要及时“充电”，请您把孕期的每次听课内容记录在下面吧。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/020.jpg" referrerpolicy="no-referrer"></p><figure><table><thead><tr><th><span>听课日期</span></th><th><span>课目</span></th><th><span>主要内容</span></th><th><span>备注</span></th></tr></thead><tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><h3 id='分娩情况自我记录'><span>分娩情况自我记录</span></h3><p><span>恭喜您当上了妈妈！请记录下您的分娩记忆！</span></p><figure><table><thead><tr><th><span>我的阵痛开始时间</span></th><th><span>陪同的人</span></th><th><span>宝宝出生时间</span></th></tr></thead><tbody><tr><td><span>年、月、日、时、分</span></td><td>&nbsp;</td><td><span>年、月、日、时、分</span></td></tr></tbody></table></figure><p><span>请记录您和爸爸在待产及分娩过程中的心情及感受，及第一次看到宝宝时的感受。</span></p><p><span>妈妈的感受：</span></p><p><span>爸爸的感受：</span></p><h3 id='产褥期情况自我记录'><span>产褥期情况自我记录</span></h3><figure><table><thead><tr><th><span>产褥期情况自我记录</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>喂养方式</span></td><td><span>□ 母乳喂养 □ 人工喂养 □ 混合喂养</span></td></tr><tr><td><span>首次哺乳时间</span></td><td><span>产后 X 小时</span></td></tr><tr><td><span>产后阴道流血持续天数</span></td><td><span>X 天</span></td></tr><tr><td><span>产后访视结果</span></td><td><span>□ 正常 □ 异常（具体描述）</span></td></tr><tr><td><span>产后42天检查结果</span></td><td><span>□ 正常 □ 异常（具体描述）</span></td></tr><tr><td><span>产后42天体重（kg）</span></td><td>&nbsp;</td></tr><tr><td><span>月经是否恢复</span></td><td><span>□ 未恢复 □ 恢复（恢复日期）</span></td></tr><tr><td><span>产后有无避孕</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>避孕方法</span></td><td><span>□ 避孕套 □ 宫内节育器 □ 避孕药 □ 皮下埋植</span></td></tr><tr><td><span>产后其他情况</span></td><td><span>□ 无 □ 有（具体描述）</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>您是否有以下症状，请在相应处画&quot;√&quot;</span></th><th><span>如果出现其中任何一种，请赶快去医院！</span></th></tr></thead><tbody><tr><td><span>腹痛</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>发热</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>阴道分泌物臭味</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>乳房红肿热痛</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>伤口愈合不良、疼痛、感染</span></td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>情绪低落、易哭泣</span></td><td><span>□ 无 □ 有</span></td></tr></tbody></table></figure><p><span>请您将需要咨询医生的问题列在下面</span></p><p><span>问题：</span></p><p><span>医生建议：</span></p><p><span>新妈妈及爸爸育儿心得：</span></p><p><strong><span>好好珍惜这人生的第一册——《母子健康手册》，祝您和宝宝平安、健康</span></strong></p><h2 id='儿童篇'><span>儿童篇</span></h2><p><span>恭喜您家又添新成员！</span></p><p><span>宝宝呱呱坠地，承载了所有人的期待，更增添了所有人的乐趣。每一个新生的宝宝都寄托着一个新的希望，当你抱着他（她）软绵绵的身子，看着他（她）天真无邪的笑容时，你会觉得整个世界都敞亮了，之前的一切辛苦都是为了迎接他（她）的到来，为了新的希望，加油吧！</span></p><h3 id='宝宝能够享受哪些免费的服务'><span>宝宝能够享受哪些免费的服务？</span></h3><ol start='' ><li><p><span>新生儿疾病筛查。新生儿疾病筛查是指在新生儿期对严重危害新生儿健康的先天性、遗传性疾病施行专项检查，提供早期诊渐和治疗的母婴保健技术。新生儿先天性、遗传性疾病如果得到早期诊断和治疗，患儿的身心发育可能达到正常同龄儿童的水平。《中华人民共和国母婴保健法》、《新生儿疾病筛查管理办法》等法律法规明确规定了应当对所有符合条件的新生儿进行听力和先天性遗传代谢病笼查。</span></p><p><span>新生儿疾病筛查对于减少出生缺陷和残疾的发生，以及改善疾病预后，都有重要的意义。因此，为了孩子的健康，所有宝宝出生后都需要做新生儿疾病筛查。</span></p><p><span>针对先天性遗传代谢病筛查，助产机构负责采集孩子的足跟血进行筛查，在采血后1个月左右，筛查结果会以短信形式告诉家长，家长也可以在北京卫生信息网</span><a href='http://wjw.bejing.gov.cn/new_baby/' target='_blank' class='url'>http://wjw.bejing.gov.cn/new_baby/</a><span>，输入筛查编号（见助产机构发放的《新生儿疾病筛查证明》）、母亲姓名即可查询筛查结果，结果异常者可前往北京妇幼保健院新筛门诊进一步诊治。</span></p><p><span>针对耳聋基因筛查，助产机构负责采集孩子的足跟血进行筛查，在采血后3个月左右，筛查结果会以短信形式告知家长，家长可以在收到短信后访问北京卫生信息网 </span><a href='http://www.xinshai.net/dgs3/query/' target='_blank' class='url'>http://www.xinshai.net/dgs3/query/</a><span> ，输入筛查编号（见短信内容或助产机构发放的《新生儿疾病筛查证明》）、母亲姓名即可实现结果查询并打印。耳聋基因筛查结果显示“未通过”者，须持筛查结果按照筛查报告单上已告知的诊治机构电话咨询或就诊。</span></p><p><span>针对新生儿听力筛查，助产机构负责在孩子出生48小时后采用耳声发射仪开展初筛，初筛未通过者42天回助产机构采用耳声发射仪和/或听觉脑干反应仪复筛。因病情需要出生后进入NICU（新生儿重症监护病房）的住院儿童，在出院前病情稳定后由助产机构采用耳声发射仪和/或听觉脑干反应仪开展听力筛查。复筛仍未通过或NICU筛查未通过者，助产机构须告知家长在3月龄前带孩子转诊至对口的北京市儿童听力障碍诊治机构，同时告知预约电话、就诊地址及注意事项，方便就诊。</span></p></li><li><p><span>国家基本公共卫生服务。从出生到满6周岁，宝宝可以享受由社区卫生服务中心/乡镇卫生院提供的免费健康检查和指导服务，这有助于动态监测宝宝的生长发育状况，及时发现异常情况并处理，促进宝宝健康成长。</span></p></li><li><p><span>接种国家免疫规划疫苗。宝宝应按照免疫程序在卫生计生行政部门确定的合格预防接种单位进行预防接种，提高抵抗传染性疾病的能力。</span></p></li></ol><p><span>希望爸爸妈妈们按时带宝宝接受儿童保健和预防接种服务，遇到问题及时去医疗保健机构咨询。</span></p><p><span>为了宝宝的健康成长，努力吧！</span></p><h3 id='儿童健康检查服务流程'><span>儿童健康检查服务流程</span></h3><p><span>让孩子定期接受儿童保健服务，是孩子健康成长的重要保障。社区卫生服务中心/乡镇卫生院将为您的孩子提供保障服务，满月后第1年至少4次，第2年、第3年每年至少2次，以后每年至少1次。</span></p><p><strong><span>请您在这些年龄段带孩子定期体检！</span></strong></p><p><span>出院后1周内、满月、2-3月、5-6月、8-9月、11-12月、17-18月、23-24月、29-30月、35-36月、4岁、5岁、6岁</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/021.jpg" referrerpolicy="no-referrer"></p><h2 id='0-1岁婴儿期'><span>0-1岁：婴儿期</span></h2><h3 id='及时为宝宝办理出生医学证明'><span>及时为宝宝办理《出生医学证明》</span></h3><p><span>《出生医学证明》是宝宝重要的身份证明，请母亲尽快携带有效身份证件到分娩机构办理。如领证人不是母亲本人，则需携带母亲签宇的委托书和领证人本人的有效身份证件。</span></p><p><span>有效身份证件包括居民身份证、护照、港澳居民来往内地通行证、台湾居民来往内地通行证或居民户口簿。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/022.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/023.jpg" referrerpolicy="no-referrer"></p><p><span>【宝宝手印、足印】</span></p><h3 id='家庭树'><span>家庭树</span></h3><figure><table><thead><tr><th><span>姥姥</span></th><th><span>姥爷</span></th><th><span>奶奶</span></th><th><span>爷爷</span></th><th><span>妈妈</span></th><th><span>爸爸</span></th><th><span>⭐宝宝</span></th><th><span>兄弟</span></th><th><span>姐妹</span></th></tr></thead><tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><h3 id='母乳喂养好处多'><span>母乳喂养好处多</span></h3><p><span>母乳是宝宝最好的食物，应纯母乳喂养至6个月，继续母乳喂养至2岁。</span></p><h4 id='母乳喂养的好处'><span>母乳喂养的好处</span></h4><ul><li><span>母乳营养全面、充足，容易消化吸收。</span></li><li><span>母乳含有多种免疫物质，有助于预防宝宝生病和过敏。</span></li><li><span>母乳喂养促进宝宝神经发育，使宝宝更聪明。</span></li><li><span>母乳喂养可促进母亲和宝宝之间建立起亲密的关系，使母亲更有满足感，使宝宝更有安全感。</span></li><li><span>母乳喂养可减少宝宝出生后1-2年生长迟缓或肥胖，有利于预防成年慢性病的发生。</span></li><li><span>·母乳喂养可促进子宫收缩，有助于母亲的产后恢复，并减少乳腺癌、卵巢癌的发病机会。</span></li></ul><h4 id='母乳喂养的方法'><span>母乳喂养的方法</span></h4><p><span>宝宝出生后尽早进行皮肤接触和吸吮，1小时内开始喂母乳。哺乳时使宝宝的头和身体保持一条直线，身体贴近母亲，头和颈部得到支撑，鼻尖对着乳头。母亲用手托起乳房，用乳头轻触宝宝的嘴唇，直到宝宝嘴张大后将乳头和大部分乳晕放到宝宝口中。</span></p><p><span>按需哺喂，每天母乳喂养不少于8次。</span></p><p><span>每次哺乳时应吸空一侧乳房，再吸吮另一侧，下次哺乳则从未喂空的一侧乳房开始，以便使宝宝能吃到前奶和后奶。</span></p><p><span>喂奶后，应将宝宝竖抱拍嗝。</span></p><h3 id='注意补充维生素d'><span>注意补充维生素D</span></h3><p><span>维生素D是参与体内钙磷代谢的重要维生素，使骨骼正常生长，维生素D缺乏可导致佝偻病。</span></p><p><span>维生素D食物来源少，宝宝应在出生后数天开始补充，每天补充400国际单位，至少补充至2岁。</span></p><p><span>温馨提示：母乳和配方奶中钙含量丰富，只要新生儿正常吃奶就不需要额外补充钙剂。</span></p><h3 id='多与宝宝交流玩耍'><span>多与宝宝交流玩耍</span></h3><p><span>婴儿期是脑重量增加最快的时期，要给宝宝各种看、听和四肢自由活动的机会，鼓励宝宝多看、多听、多触摸、多嗅、多尝、多动、多说。根据宝宝的年龄特点引导宝宝进行大动作和精细动作的训练，玩适当的游戏。</span></p><h3 id='爸爸的重要作用'><span>爸爸的重要作用</span></h3><p><span>爸爸、妈妈在宝宝养育上各有所长，对宝宝的健康成长都是不可或缺的。爸爸要积极参与宝宝的养育，经常与宝宝玩耍和交流。</span></p><p><span>爸爸从精神上鼓励妈妈、关爱妈妈也是非常重要的，要注意妈妈的情绪变化，多与妈妈沟通。</span></p><h3 id='婴儿喂养建议'><span>婴儿喂养建议</span></h3><figure><table><thead><tr><th><span>月龄</span></th><th><span>母乳</span></th><th><span>加餐</span></th><th><span>主食</span></th><th><span>副食</span></th><th><span>蛋</span></th><th><span>肉</span></th></tr></thead><tbody><tr><td><span>0-2个月</span></td><td><span>鼓励母乳喂养，按需哺乳，每天不少于8次</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td></tr><tr><td><span>3-5个月</span></td><td><span>鼓励母乳喂养，定时喂养，每天约6次</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td></tr><tr><td><span>满6个月时</span></td><td><span>继续母乳喂养，并开始添加辅食</span></td><td><span>尝试食物逐渐增加至1餐，每餐由1勺增2-3勺</span></td><td><span>强化铁的米粉，稠粥，烂面条</span></td><td><span>菜泥、果泥</span></td><td><span>-</span></td><td><span>-</span></td></tr><tr><td><span>7-9个月</span></td><td><span>继续喂母乳或其他乳类</span></td><td><span>每天2-3次食物，每餐2/3碗</span></td><td><span>稠粥，烂面条，馒头片</span></td><td><span>菜末，果泥</span></td><td><span>蛋黄</span></td><td><span>肉泥，鱼泥，肝/血</span></td></tr><tr><td><span>10-12个月</span></td><td><span>继续喂母乳或其他乳类</span></td><td><span>每天2-3次食物，1次加餐；每餐3/4碗</span></td><td><span>软米饭，馄饨，包子</span></td><td><span>碎菜，水果</span></td><td><span>蛋</span></td><td><span>肉末，肝/血</span></td></tr></tbody></table></figure><p><span>一勺10毫升；一碗250毫升</span></p><h3 id='婴儿发育进程及促进方法'><span>婴儿发育进程及促进方法</span></h3><figure><table><thead><tr><th><span>月龄</span></th><th><span>发育进程</span></th><th><span>促进方法</span></th></tr></thead><tbody><tr><td><span>1个月</span></td><td><span>俯卧时尝试抬头，对铃声有反应，头转向声源。</span></td><td><span>早开奶、勤哺喂；多抱宝宝、多抚摸。</span><br><span>多对宝宝说话、微笑。</span><br><span>每天给宝宝一些俯卧的机会。</span></td></tr><tr><td><span>2个月</span></td><td><span>垂直位时能竖头一会儿，能发出和谐的喉音，有面部表情，双眼跟随物体转动。</span></td><td><span>每天让宝宝俯卧2-3次，并经常变换睡觉的位置。</span><br><span>训练宝宝眼睛追视移动的物体，触摸抓握玩具。</span></td></tr><tr><td><span>3个月</span></td><td><span>俯卧时能抬胸，会咿呀发音，头可随着看到的物体或听到的声音转动180度，会注意自己的手。</span></td><td><span>多和宝宝说话，积极回应宝宝的发音。</span><br><span>帮助宝宝用手拍打、够取眼前的玩具。</span><br><span>带宝宝到户外晒太阳，呼吸新鲜空气。</span></td></tr><tr><td><span>4个月</span></td><td><span>试翻身，在俯卧时能用双手支撑起全身，会笑出声来，自己会玩手，见食物会表示喜悦。</span></td><td><span>帮宝宝练习翻身。</span><br><span>鼓励宝宝多抓和玩颜色鲜艳的玩具，两手相握玩耍。</span><br><span>多和宝宝聊天，逗宝宝出声笑。</span></td></tr><tr><td><span>5个月</span></td><td><span>扶着两侧腋下可以站立，能发出&quot;Da，ba&quot;等单调音节，会伸手拍物，能辨别人声，望镜中人笑。</span></td><td><span>和宝宝说感兴趣的东西，告诉宝宝物品和图片的名称。</span><br><span>鼓励宝宝伸手抓和拍玩具。</span><br><span>和宝宝玩照镜子，用毛巾玩“躲猫猫”。</span></td></tr><tr><td><span>6个月</span></td><td><span>能独坐一会儿，会伸手抓玩具，能认识熟人和陌生人，对别人表情有回应。</span></td><td><span>多给宝宝与其他人接触的机会，让宝宝识别不同的情绪表情。</span><br><span>引导宝宝练习抓握小东西。</span><br><span>帮助宝宝练习从靠坐到独坐。</span></td></tr><tr><td><span>7个月</span></td><td><span>会熟练翻滚，自己独坐，会发出“爸爸”“妈妈”等音节，但无意识，能听懂自己的名字，自握饼干吃。</span></td><td><span>多和宝宝坐着玩，鼓励宝宝翻身坐起来。</span><br><span>学习用动作表示欢迎、再见等。</span><br><span>培养按时入睡的好习惯。</span></td></tr><tr><td><span>8个月</span></td><td><span>会爬，会自己坐起来，能重复大人发出的简单音节，注意观察大人的行为，会敲打、传递玩具。</span></td><td><span>用玩具鼓励、引导宝宝练习爬行。</span><br><span>鼓励宝宝用杯喝水，抓指状食物自喂。</span><br><span>用温柔的声音和微笑鼓励宝宝好的行为。</span><br><span>用严肃的声音和表情制止宝宝的不当行为，宝宝出现负性情绪时转移其注意力。</span></td></tr><tr><td><span>9个月</span></td><td><span>扶着栏杆能站立，尝试自己坐下来，能懂几个词句如“再见”等，看见熟人会伸出手来要抱。</span></td><td><span>示范、引导宝宝攀拉矮桌或栏杆站起来。</span><br><span>让宝宝练习拇食指拿捏小东西。</span><br><span>引导宝宝看图片，模仿成人的发音。</span><br><span>鼓励宝宝理解大人的动作和表情。</span></td></tr><tr><td><span>10个月</span></td><td><span>能独站片刻，扶椅或推车能走几步，开始用单词，能模仿成人的动作，招手表示“再见&quot;，能拍手。</span></td><td><span>鼓励宝宝扶着沙发等牢固的家具学习走路。</span><br><span>练习扶着栏杆蹲下捡拾玩具。</span><br><span>让宝宝学习将手中的小东西投入到大的容器中。</span><br><span>带宝宝玩娃娃，学习关心他人。</span></td></tr><tr><td><span>11个月</span></td><td><span>能一手扶栏弯下身体拾东西，能说出一些单字词，会用杯子喝水。</span></td><td><span>练习独立行走和手膝爬行。</span><br><span>让宝宝学习用手指翻书，搭积木，藏找东西。</span><br><span>选择简单的儿歌念给宝宝听，鼓励宝宝学说话，模仿小动物叫声。</span></td></tr><tr><td><span>12个月</span></td><td><span>独走，会蹲下拾东西，能主动说出一些单字词汇（如妈妈）。会指出自己的手和眼，对人和物有喜憎之分，穿衣能合作。</span></td><td><span>让宝宝指认身体部位，学会听指令拿东西。</span><br><span>鼓励、支持、满足宝宝肢体运动的需要，引导宝宝体验满足的喜悦。</span><br><span>有意识地扩大宝宝的社会交往范围，提高宝宝对陌生环境及陌生人的适应能力。</span></td></tr></tbody></table></figure><h3 id='婴儿期睡眠特点'><span>婴儿期睡眠特点</span></h3><p><span>宝宝越小，睡的时间就越长。随着月龄的增加，睡眠节律开始慢慢形成。</span></p><figure><table><thead><tr><th><span>月龄</span></th><th><span>宝宝睡眠特点</span></th><th><span>每日睡眠时间（小时）</span></th></tr></thead><tbody><tr><td><span>新生宝宝</span></td><td><span>宝宝刚离开妈妈肚子时，还未形成睡眠昼夜节律。宝宝每天除了吃奶与排泄外，其余时间均处在睡眠状态。</span></td><td><span>16-18</span></td></tr><tr><td><span>1-3个月</span></td><td><span>宝宝逐渐熟悉了这个新奇世界的秩序，睡眠与外周环境越来越同步，白天清醒的时间延长，睡眠更多集中于夜晚。</span></td><td><span>14-16</span></td></tr><tr><td><span>4-6个月</span></td><td><span>一旦宝宝夜醒，大部分需要30分钟以上的时间才能重新入睡。宝宝夜间醒来后不要急于应答，观察3-5分钟，尽量让其自行入睡，确定宝宝有需求时再行处理。</span></td><td><span>13-14</span></td></tr><tr><td><span>7~12个月</span></td><td><span>随着年龄的增长，宝宝夜醒的次数逐渐减少。父母要开始减少宝宝夜晚喂奶的次数，以培养宝宝夜晚连续睡眠的能力。宝宝到1岁时，基本上可以建立较稳定的睡眠模式，即长时间的夜间睡眠和白天2次短暂的小睡模式。</span></td><td><span>12-13</span></td></tr></tbody></table></figure><h3 id='需及时带宝宝就医的情形'><span>需及时带宝宝就医的情形</span></h3><p><span>如果你的宝宝出现以下任何情况</span><strong><span>必须马上去医院看病</span></strong><span>。</span></p><ul><li><span>任何生病的宝宝：如果不能喝水或喂母乳；如果病情加重；如果体温超过38.5℃</span></li><li><span>腹泻的宝宝：如果大便有脓血；如果喝水差</span></li><li><span>咳嗽的宝宝：如果呼吸困难；如果呼吸增快（注：2个月以下，60次/分钟以上；2-12个月，50次/分钟以上；1-5岁，40次/分钟以上）</span></li><li><span>吃奶差的宝宝</span></li></ul><p><img src="https://lishuhang.me/img/2021/parental-handbook/024.jpg" referrerpolicy="no-referrer"></p><h3 id='常见病的家庭护理'><span>常见病的家庭护理</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/025.jpg" referrerpolicy="no-referrer"></p><p><strong><span>1、发热</span></strong></p><p><span>发热往往有助于机体对疾病的抵抗。当宝宝腋下体温不超过35℃时，只要松解包被、适量多喝水，用温热的软毛巾轻擦宝宝的四肢、背部即可，不要随便使用退热药物。若体温超过38.5℃请及时就医。</span></p><p><strong><span>2、感冒</span></strong></p><p><span>如果宝宝出现轻微的咳嗽、鼻塞、流涕和嗓子疼，没有呼吸增快和胸凹陷，一般只是感冒，不需要吃抗生素。只要在家中注意护理，多喝水，保证睡眠充足，多开窗换气，地面洒水增加家中的湿度等，宝宝很快就能恢复正常。</span></p><p><strong><span>3、腹泻</span></strong></p><p><span>为了预防宝宝腹泻，在准备食物和喂养宝宝前，家长和宝宝都需要认真用肥皂和流动水洗手；应在安全、干净的地方储存宝宝的食物；要使用干净的餐具和杯子盛食物和液体，如果使用奶瓶和橡皮奶头，注意清洗和煮沸消毒。</span></p><p><span>腹泻宝宝排稀水样大便但其中无脓血，则不需要吃抗生素，只要注意预防脱水、继续母乳喂养、加强家庭护理即可。如果出现脓血便或脱水表现（烦躁、眼窝凹陷、喝水很急、皮肤捏起后恢复原状缓慢），应立刻去医院。</span></p><p><span>预防脱水的主要方法：继续母乳喂养、宝宝每次腹泻后及时补充口服补液盐（ORS）和液体或汤类，同时给予容易消化的食物。</span></p><p><strong><span>4、咳嗽</span></strong></p><p><span>因为上呼吸道感染而有咳嗽症状的宝宝，很容易因剧烈咳嗽引起呛咳甚至呕吐，需要少量进食，增加喂养次数，并且食物要软而易咽，不能因为食物质地和大小不适“招惹”宝宝咳嗽加剧。充足的水分除了满足身体正常代谢需求，还有助于稀释痰液，帮助痰液的咳出。因此，除了多饮水，饮食中还要安排含水量大的蔬菜汤、米汤、羹类食物。</span></p><p><span>干燥的空气会加剧宝宝咳嗽，可地面洒水或使用加湿器来增加空气湿度，帮助润滑宝宝的呼吸道。</span></p><p><span>可叠一块小毯子呈坡形放在宝宝上半身下面，把头、肩、背部抬高，让宝宝采取半卧姿势睡觉，能够很好地缓解气道刺激。</span></p><p><strong><span>5、缺铁性贫血</span></strong></p><p><span>为预防贫血和保障宝宝营养素均衡，宝宝6个月以后应及时添加富含铁的食物，有条件者可添加营养包。</span></p><p><span>动物肝脏、血、瘦肉、鱼是含铁丰富又容易吸收的食物。蛋黄、豆类、坚果、深绿色蔬菜含铁量高但不易吸收，可与西红柿、橙子等维生素C含量高的食物同吃，以促进铁的吸收。</span></p><h3 id='新生儿早期育儿记录'><span>新生儿早期育儿记录</span></h3><figure><table><thead><tr><th><span>日龄</span></th><th><span>喂养方式</span></th><th><span>吃奶次数</span></th><th><span>小便次数</span></th><th><span>大便次数</span></th><th><span>体重（克）</span></th><th><span>皮肤黄染</span></th></tr></thead><tbody><tr><td><span>1天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>2天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>3天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>4天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>5天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>6天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr><tr><td><span>7天</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><span>□ 无 □ 有</span></td></tr></tbody></table></figure><ul><li><span>宝宝第一针乙肝疫苗接种时间：（）年（）月（）日</span></li><li><span>宝宝卡介苗接种时间：（）年（）月（）日</span></li><li><span>新生儿疾病筛查：□ 有 □ 无</span></li><li><span>耳聋基因筛查：□ 有 □ 无</span></li><li><span>新生儿听力筛查：□ 有 □ 无</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='1个月育儿记录'><span>1个月育儿记录</span></h3><p><span>宝宝于（）年（）月（）日满月</span></p><ul><li><span>脐带脱落的时间：（）天</span></li><li><span>皮肤黄染消退的时间：（）天</span></li><li><span>每天吃奶次数（）小便次数（）大便次数（）</span></li><li><span>喂养方式∶□纯母乳 □混合 口人工</span></li><li><span>吃奶情况怎么样？□好□不好</span></li><li><span>听到较大声响时，有无因受惊伸动手脚或开始哭泣？</span></li><li><span>经常哭闹不易安慰吗？</span></li><li><span>补维生素D或AD了吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='3-个月育儿记录'><span>3 个月育儿记录</span></h3><ul><li><span>喂养方式∶□纯母乳 □混合 口人工</span></li><li><span>吃奶情况怎么样？□好□不好</span></li><li><span>继续补维生素D或AD吗？□是□否</span></li><li><span>是否经常和宝宝说话？ □是□否</span></li><li><span>每天户外活动时间∶（）</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>对很大声音有反应吗？□是□否</span></li><li><span>逗引时发音或微笑吗？□是□否</span></li><li><span>会注视人脸或追视移动的人吗？□是□否</span></li><li><span>俯卧位时会抬头吗？□是□否</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='6个月育儿记录'><span>6个月育儿记录</span></h3><p><span>开始添加辅食的时间∶ </span><strong><span>_</span></strong><span> 月</span><strong><span>__</span></strong><span> 天</span></p><p><span>宝宝会翻身的时间∶  月</span><strong><span>__</span></strong><span>_ 天</span></p><p><span>为宝宝准备的玩具∶</span><strong><span>__</span></strong><span> 件</span></p><p><span>是否经常与宝宝玩耍？□是□否</span></p><p><span>以下出现后一项请尽早就诊。</span></p><ul><li><span>会发音和笑出声吗？</span></li><li><span>会伸手抓物品吗？</span></li><li><span>还紧握拳吗？□否□是</span></li><li><span>能扶坐吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='8-个月育儿记录'><span>8 个月育儿记录</span></h3><ul><li><span>给宝宝添加肉类的时间∶（）月</span></li><li><span>给宝宝添加蛋类的时间∶（）月</span></li><li><span>宝宝出第一颗牙的时间∶（）月</span></li><li><span>是否与宝宝玩&quot;躲猫猫&quot;游戏？□是□否</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>听到声音有应答吗？</span></li><li><span>会区分生人和熟人吗？</span></li><li><span>双手间会传递玩具吗？</span></li><li><span>会独坐吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='保护宝宝的牙齿'><span>保护宝宝的牙齿</span></h3><h4 id='注意清洁宝宝的口腔'><span>注意清洁宝宝的口腔</span></h4><p><span>宝宝通常在 4~10 个月开始出牙。牙齿萌出后，要每天1～ 2次用温开水浸湿消毒纱布、棉签或指套牙刷轻轻擦洗宝宝牙齿。</span></p><p><span>夜间睡眠前可喂服 1 ～ 2 口温开水清洁口腔。</span></p><p><span>当多颗牙齿萌出后，可选用婴幼儿牙刷每天为宝宝刷牙 2 次。</span></p><p><span>请将出牙的日期记在下图（开始长牙∶个月时）</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/026.jpg" referrerpolicy="no-referrer"></p><h2 id='1-3岁幼儿期'><span>1-3岁：幼儿期</span></h2><h3 id='培养良好的饮食习惯'><span>培养良好的饮食习惯</span></h3><p><span>1 岁以后是宝宝饮食习惯形成的关键时期。宝宝膳食品种宜多样化、口味清淡。让宝宝开始练习自己用勺进食。</span></p><p><span>进餐应定时、定点、定量，细嚼慢咽，每次进餐时间为 20~30分钟。建议家庭围坐就餐，为宝宝提供轻松、愉悦的良好就餐氛围，进食过程中避免宝宝边吃边玩或看电视，更不要追逐喂食。</span></p><h3 id='训练手指精细动作'><span>训练手指精细动作</span></h3><p><span>到12~15 个月时，宝宝手部的小肌肉开始发育，精细动作趋于灵活和准确，开始用勺，乱翻书，乱涂画。到18 个月时，宝宝能叠 2~3 块方积木，会自己脱手套、袜子，可以画重叠的线或弧圈等。</span></p><p><span>家长注意为宝宝提供可促进小肌肉动作协调发育的玩具，如积木、笔、球等，以训练宝宝的手指精细动作，有助于促进宝宝神经行为的发育。</span></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/027.jpg" referrerpolicy="no-referrer"></p><h3 id='注意看护预防宝宝发生伤害'><span>注意看护，预防宝宝发生伤害</span></h3><p><span>1 岁后的宝宝会走路了，活动范围扩大，对周围的世界充满了好奇，到处走，到处跑，并伸手拿所有的东西，但还没有识别危险和自我保护的能力。家长要将药物、热水等危险物品放到宝宝够不到的地方，并时刻注意看护，预防溺水、跌落、烧烫伤、中毒、气管异物等伤害的发生。</span></p><h3 id='抓住语言发展关键期'><span>抓住语言发展关键期</span></h3><p><span>2 岁起是宝宝语言发育的关键时期，他/她对周围环境好奇心增大，要多给宝宝看画报、讲故事、教儿歌。平时跟宝宝说话时，要注意面带微笑、态度和蔼、语气亲切，要鼓励宝宝多说话、多回答问题。</span></p><h3 id='1岁育儿记录'><span>1岁育儿记录</span></h3><p><span>宝宝于（）年（）月（）日 满 1 岁</span></p><ul><li><span>是否继续母乳喂养 ？</span></li><li><span>宝宝吃饭情况怎么样？□好 □不好</span></li><li><span>宝宝每天吃饭次数：（）次</span></li><li><span>宝宝出牙数∶（）颗</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>呼唤名字有反应吗？</span></li><li><span>会模仿&quot;再见&quot;或&quot;欢迎&quot;吗？</span></li><li><span>会用拇食指对捏小物品吗？</span></li><li><span>会扶物站立吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写1岁生日寄语吧！</span></p><h3 id='1岁-6个月育儿记录'><span>1岁 6个月育儿记录</span></h3><ul><li><span>能自己拿勺学吃饭吗？ </span></li><li><span>能自己拿着杯子喝水吗？</span></li><li><span>经常与宝宝玩游戏吗？</span></li><li><span>宝宝能独立行走的时间∶（）月</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>会有意识地叫&quot;爸爸&quot;或&quot;妈妈&quot;吗？□会 □否</span></li><li><span>会按要求指人或物吗？□会 □否</span></li><li><span>与人有目光交流吗？□有 □无</span></li><li><span>会独走吗？□会 □否</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h3 id='2岁育儿记录'><span>2岁育儿记录</span></h3><p><span>孩子于（）年（）月（）日 满 2 岁</span></p><ul><li><span>每天吃乳类的量∶（）ml</span></li><li><span>每周吃肉的次数∶（）次</span></li><li><span>每天吃蔬菜吗？</span></li><li><span>饭后漱口吗？</span></li><li><span>教孩子握笔画画玩儿吗？</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>会说3 个物品的名称吗？</span></li><li><span>会按吩咐做简单的事情吗？</span></li><li><span>会用勺吃饭吗？</span></li><li><span>会扶栏上楼梯或台阶吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写2岁生日寄语吧！</span></p><h3 id='2岁-6个月育儿记录'><span>2岁 6个月育儿记录</span></h3><ul><li><span>有偏食、挑食的习惯吗？ □有（不爱吃：）□无</span></li><li><span>出牙数量∶（）颗</span></li><li><span>能说出的身体部位的数量 ∶（）个</span></li><li><span>经常给宝宝看图画书吗？ </span></li></ul><p><span>以下出现后一项请尽早就诊。</span></p><ul><li><span>会说 2~3个字的短语吗？</span></li><li><span>兴趣单—、刻板吗？□否□是</span></li><li><span>会示意大小便吗？</span></li><li><span>会跑吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><h2 id='3-6岁-学龄前期'><span>3-6岁 学龄前期</span></h2><h3 id='帮助宝宝结交朋友'><span>帮助宝宝结交朋友</span></h3><p><span>一般 3~4 岁是宝宝喜欢和朋友在一起玩耍，希望和朋友做相同事情的时期。要给宝宝创造和朋友一起玩耍的机会。帮助宝宝学会遵守游戏时&quot;轮流&quot;等规则。</span></p><h3 id='让宝宝学会刷牙'><span>让宝宝学会刷牙</span></h3><p><span>3 岁以后，家长可开始教宝宝自己选用适合年龄段的牙刷，培养宝宝早晚及餐后刷牙的习惯。用最简单的&quot;画圈法&quot;刷牙，其要领是将刷毛放置在牙面上，轻压使刷毛屈曲，在牙面上画圈，每部位反复画圈 5次以上，牙齿的各个面均应刷到。此外，家长还应每日帮宝宝刷牙1次（最好是晚上），保证刷牙的效果。当宝宝学会含漱时，建议使用儿童含氟牙膏。</span></p><h3 id='口腔不良习惯应尽早戒除'><span>口腔不良习惯应尽早戒除</span></h3><p><span>宝宝口腔不良习惯会造成上颌前突、牙齿排列不齐、&quot;地包天&quot;等畸形。如果宝宝在3岁之后仍然有吮手指、吐舌、咬物（如铅笔）等口腔不良习惯，家长应尝试与宝宝沟通，帮助宝宝克服这些不良习惯。如果宝宝自己难以控制，家长可以带宝宝就医，寻找更为合适的方法。</span></p><h3 id='注意保护宝宝视力'><span>注意保护宝宝视力</span></h3><p><span>宝宝持续近距离注视时间每次不宜超过 30 分钟，操作各种电子视频产品时间每次不宜超过20 分钟，每天累计时间不超过1小时，家长也不要过于热衷于电子视频产品。看电视时，宝宝的眼睛与电视荧光屏的距离一般为屏面对角线的5~7 倍，屏面略低于眼高，培养宝宝养成电视节目结束后主动关闭电视机的习惯。</span></p><h3 id='3岁育儿记录'><span>3岁育儿记录</span></h3><p><span>孩子于（）年（）月（）日 满 3 岁</span></p><ul><li><span>入幼儿园了吗？□未入 □日托 □全托</span></li><li><span>吃东西时有细嚼的习惯吗？</span></li><li><span>每天晚上睡前刷牙吗？</span></li><li><span>每天饭前洗手吗？</span></li><li><span>看东西时是否眯眼或靠得很近？</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>会说自己的名字吗？</span></li><li><span>会玩&quot;拿棍当马骑&quot;等假想游戏吗？</span></li><li><span>会模仿画圆吗？</span></li><li><span>会双脚跳吗？</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写3岁生日寄语吧！</span></p><h3 id='4-岁育儿记录'><span>4 岁育儿记录</span></h3><p><span>孩子于（）年（）月（）日 满 4 岁</span></p><ul><li><span>入幼儿园了吗？□未入 □已入</span></li><li><span>能使用儿童剪刀剪东西吗?</span></li><li><span>能独立上厕所吗?</span></li><li><span>能讲简单的小故事吗?</span></li><li><span>每天看电子视频产品的时间：（）</span></li><li><span>每天户外活动的时间：（）</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>会说带形容词的句子吗?</span></li><li><span>能按要求等待或轮流吗?</span></li><li><span>会独立穿衣吗?</span></li><li><span>会单脚站立吗?</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写4岁生日寄语吧！</span></p><h3 id='5-岁育儿记录'><span>5 岁育儿记录</span></h3><p><span>孩子于（）年（）月（）日 满 5 岁</span></p><ul><li><span>每天握笔画画吗?</span></li><li><span>能辨别红、黄、绿、蓝颜色吗?</span></li><li><span>已习惯幼儿园的集体生活了吗?</span></li><li><span>能自己穿脱衣服吗?</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>能简单叙说事情经过吗?</span></li><li><span>知道自己的性别吗?</span></li><li><span>会用筷子吃饭吗?</span></li><li><span>会单脚跳吗?</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写5岁生日寄语吧！</span></p><h3 id='6-岁育儿记录'><span>6 岁育儿记录</span></h3><p><span>孩子于（）年（）月（）日 满 6 岁</span></p><ul><li><span>会帮忙做简单的家务吗?</span></li><li><span>好吃的食物能分享给长辈吗?</span></li><li><span>做游戏时能遵守规则或约定吗?</span></li><li><span>能写自己的名字吗?</span></li></ul><p><span>以下出现 □否 请尽早就诊。</span></p><ul><li><span>会表达自己的感受或想法吗?</span></li><li><span>会玩角色扮演的集体游戏吗?</span></li><li><span>会画方形吗?</span></li><li><span>会奔跑吗?</span></li></ul><p><span>在育儿方面美好的体验、担心的事情、患过的疾病，希望保留的记录感想等，请随意记录。</span></p><p><span>请父母填写6岁生日寄语吧！</span></p><h3 id='头围体重身高标准示意图'><span>头围、体重、身高标准示意图</span></h3><p><img src="https://lishuhang.me/img/2021/parental-handbook/028.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/029.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/030.jpg" referrerpolicy="no-referrer"></p><p><img src="https://lishuhang.me/img/2021/parental-handbook/031.jpg" referrerpolicy="no-referrer"></p><h3 id='家庭安全自评表'><span>家庭安全自评表</span></h3><p><span>2 岁以前</span></p><ul><li><span>小孩子睡觉时，嘴巴和鼻子都要在被子外面，天冷的时候也这样</span></li><li><span>花生米、瓜子、豌豆等坚果类食物捣碎后才能喂给小孩子</span></li><li><span>窗台边没有可攀爬的凳子或桌子，并且孩子很难打开窗户</span></li><li><span>热水瓶、装有热水或热汤的锅和火炉都要放在孩子不容易拿到的地方</span></li><li><span>电源插座要放在孩子不容易接触到的地方</span></li><li><span>酒精、汽油、清洁剂、农药、灭鼠药等有毒物品不能装在饮料瓶或者食品袋里，并且要放到孩子拿不到的地方</span></li><li><span>不把孩子一个人留在家里</span></li></ul><p><span>2~5岁</span></p><ul><li><span>没有大人陪同，孩子不在马路上行走或玩耍</span></li><li><span>没有大人陪同，孩子不在池塘、江河里或井边、大水缸边玩耍</span></li><li><span>不给孩子玩剪刀、小刀等锐利的物品，以及小玻璃球等玩具</span></li><li><span>经常给孩子讲交通安全、火灾预防等知识</span></li></ul><h2 id='预防接种篇'><span>预防接种篇</span></h2><h3 id='预防接种国家政策'><span>预防接种国家政策</span></h3><ul><li><span>国家实行有计划的预防接种制度。</span></li><li><span>国家对儿童实行预防接种证制度。</span></li><li><span>国家免疫规划疫苗实行免费接种。</span></li><li><span>儿童出生后 1个月内，其监护人应当到儿童居住地承担预防接种工作的接种单位为其办理预防接种证。</span></li><li><span>儿童入托、入学时，托幼机构和学校须查验预防接种证。</span></li><li><span>儿童监护人应当配合预防接种单位，保证儿童及时接种疫苗。</span></li></ul><h3 id='预防接种须知'><span>预防接种须知</span></h3><ul><li><span>按照规定的免疫程序接种疫苗，是预防相关传染病最经济、最有效、最方便的措施。</span></li><li><span>医疗机构、疾病控制机构与儿童监护人应当相互配合，保证儿童及时接受预防接种，请家长（或监护人）协助医疗机构、疾病控制机构做好您孩子的预防接种工作。</span></li><li><span>家长带孩子进行预防接种时，需携带《儿童预防接种证》，并按照预约的时间接种疫苗。</span></li><li><span>在儿童办理入托、入学时需查验预防接种证，预防接种证需妥善保存，如有损坏或遗失，应及时到发证、接种单位补办。</span></li><li><span>接种疫苗后，应在接种单位留观 30 分钟。</span></li><li><span>接种疫苗后，如果怀疑发生了预防接种不良反应，请及时向预防接种单位报告。</span></li><li><span>带孩子去接种疫苗前，应换上柔软宽松的衣服，以便接种疫苗。带孩子去接种疫苗前，应让孩子吃好、休息好。</span></li><li><span>带孩子去接种疫苗前，应注意孩子身体和精神状况，近几天有无发热、腹泻、咳嗽等症状，如果有以上症状或者怀疑的健康问题，一定要告诉接种医生，让接种医生决定是否能接种疫苗。</span></li><li><span>如果孩子在前一次疫苗接种后出现了高热、皮疹等反应，要告诉医生。</span></li></ul><p><img src="https://lishuhang.me/img/2021/parental-handbook/032.jpg" referrerpolicy="no-referrer"></p><h3 id='正确理解预防接种禁忌'><span>正确理解预防接种&quot;禁忌&quot;</span></h3><p><span>接种或不接种都有风险，这种风险是客观存在的事实。在各种疫苗的告知及说明书中，均提到了禁忌。从字面意思理解，禁忌就是禁止接种的情况，其真实含义是指与健康者相比，禁忌证者接种后发生负面影响的风险更大。</span></p><p><span>儿童常见的预防接种禁忌包括∶</span></p><ol start='' ><li><span>已知对该疫苗的任何成分，包括辅料以及抗生素过敏者。 </span></li><li><span>发热者，患急性疾病、严重慢性疾病、慢性疾病的急性发作期。</span></li><li><span>免疫缺陷，免疫功能低下或正在接受免疫抑制治疗者。</span></li><li><span>未控制的癫痫和其他进行性神经系统疾病者。</span></li></ol><p><span>对待禁忌的正确态度应该是在预防接种工作人员的帮助下进行风险分析，监护人权衡接种与不接种的风险，再做出决定。</span></p><p><span>接种反应的对症处理原则</span></p><p><span>如果孩子在接种疫苗后的几天内出现发烧、出疹子等异常情况， 他可能不是生病了，多半是接种疫苗之后出现的不良反应。预防接种 —般反应分为全身反应和局部反应:</span></p><p><strong><span>全身反应</span></strong></p><p><span>反应类型及情况描述</span></p><ul><li><span>发热：少数受种者预防接种灭活疫苗后24小时内可能出现发热，一般持续1〜2天。预防接种减毒活疫苗后，出现发热的时间比预防接种灭活疫苗稍晚，如预防接种麻疹疫苗后 6〜10天可能会出现发热。</span></li><li><span>身体不适症状：少数受种者接种疫苗后，除出现发热症状外，还可能岀现头痛、头晕、乏力、全身不适等情况，一般持续1〜2天。</span></li><li><span>胃肠道症状：个别受种者可岀现恶心、呕吐、腹泻等胃肠道症状 •一般以预防接种当天多见。</span></li></ul><p><span>处理原则：</span></p><ul><li><span>受种者发热在 ≤37.5°C 时，应加强观察，适当休息，多饮水，防止继发其他疾病；</span></li><li><span>受种者发热 ＞37.5°C 或 ≤37.5°C 并伴有其他全身症状、 异常哭闹等情况，应及时到医院诊治。</span></li><li><span>轻微的胃肠道症状一般不必进行特殊处理。</span></li></ul><p><strong><span>局部反应</span></strong></p><p><span>反应类型及情况描述</span></p><ul><li><span>局部出现红肿， 伴疼痛：少数受种者在接种疫苗后数小时至 24 小时或稍后，局部出现红肿， 伴疼痛。红肿范围一般不大，仅有少数人红肿直径&gt; 30mm。一般在 24~48 小时逐步消退。</span></li><li><span>硬结：部分受种者预防接种含吸附剂的疫苗，会出现因注射部位吸附剂未完全吸收，刺激结缔组织增生，而形成硬结。</span></li><li><span>红肿浸润，随后化脓，形成小溃疡：接种卡介苗2周左右，局部可出现红肿浸润，随后化脓，形成小溃疡。大多在 8～ 12 周后结痂。一般不需处理，但要注意局部清洁，防止继发感染。</span></li></ul><p><span>处理原则：</span></p><ul><li><span>红肿直径和硬结＜15mm 的局部反应，一般不需任何处理。红肿直径和硬结在 15～ 30mm 的局部反应，可用干净的毛巾热敷，每日数次，每次10～15分钟。</span></li><li><span>红肿直径和硬结＞30mm 的局部反应，应及时到医院就诊。</span></li><li><span>接种卡介苗出现的局部红肿，不能热敷。</span></li></ul></div></div>
+</body>
+</html>
