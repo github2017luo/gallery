@@ -1,7 +1,90 @@
 ﻿Note:Add to generated HTML
 <base target="_blank"><link rel=icon href=favicon.png><link rel="apple-touch-icon" href="favicon.png"><link rel="mask-icon" href="favicon.png" color="#121212">
 
-[View domestic.txt]
+[TVFix CCTV]
+
+CCTV4K,http://iptv.tvfix.org/hls/cctv4k.m3u8
+CCTV1,http://iptv.tvfix.org/hls/cctv1.m3u8
+CCTV1,http://iptv.tvfix.org/hls/cctv1hd.m3u8
+CCTV1,http://iptv.tvfix.org/hls/cctv1hdhk.m3u8
+CCTV2,http://iptv.tvfix.org/hls/cctv2.m3u8
+CCTV2,http://iptv.tvfix.org/hls/cctv2hd.m3u8
+CCTV3,http://iptv.tvfix.org/hls/cctv3.m3u8
+CCTV3,http://iptv.tvfix.org/hls/cctv3hd.m3u8
+CCTV4,http://iptv.tvfix.org/hls/cctv4.m3u8
+CCTV4,http://iptv.tvfix.org/hls/cctv4hd.m3u8
+CCTV5,http://iptv.tvfix.org/hls/cctv5.m3u8
+CCTV5,http://iptv.tvfix.org/hls/cctv5hd.m3u8
+CCTV5+,http://iptv.tvfix.org/hls/cctv5phd.m3u8
+CCTV6,http://iptv.tvfix.org/hls/cctv6.m3u8
+CCTV6,http://iptv.tvfix.org/hls/cctv6hd.m3u8
+CCTV7,http://iptv.tvfix.org/hls/cctv7.m3u8
+CCTV7,http://iptv.tvfix.org/hls/cctv7hd.m3u8
+CCTV8,http://iptv.tvfix.org/hls/cctv8.m3u8
+CCTV8,http://iptv.tvfix.org/hls/cctv8hd.m3u8
+CCTV9,http://iptv.tvfix.org/hls/cctv9.m3u8
+CCTV9,http://iptv.tvfix.org/hls/cctv9hd.m3u8
+CCTV10,http://iptv.tvfix.org/hls/cctv10.m3u8
+CCTV10,http://iptv.tvfix.org/hls/cctv10hd.m3u8
+CCTV11,http://iptv.tvfix.org/hls/cctv11.m3u8
+CCTV11,http://iptv.tvfix.org/hls/cctv11hd.m3u8
+CCTV12,http://iptv.tvfix.org/hls/cctv12.m3u8
+CCTV12,http://iptv.tvfix.org/hls/cctv12hd.m3u8
+CCTV13,http://iptv.tvfix.org/hls/cctv13.m3u8
+CCTV13,http://iptv.tvfix.org/hls/cctv13hd.m3u8
+CCTV14,http://iptv.tvfix.org/hls/cctv14.m3u8
+CCTV14,http://iptv.tvfix.org/hls/cctv14hd.m3u8
+CCTV15,http://iptv.tvfix.org/hls/cctv15.m3u8
+CCTV15,http://iptv.tvfix.org/hls/cctv15hd.m3u8
+CCTV16,http://iptv.tvfix.org/hls/cctv16hd.m3u8
+CCTV17,http://iptv.tvfix.org/hls/cctv17.m3u8
+CCTV17,http://iptv.tvfix.org/hls/cctv17hd.m3u8
+CGTN,https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+CGTN,http://iptv.tvfix.org/hls/cctv16.m3u8
+CGTN,http://iptv.tvfix.org/hls/cgtnhd.m3u8
+CGTN Documentary,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+CGTN Documentary,http://iptv.tvfix.org/hls/cgtndochd.m3u8
+CGTN Espanol,https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
+CGTN Espanol,http://iptv.tvfix.org/hls/cgtnxhd.m3u8
+CGTN French,https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+CGTN French,http://iptv.tvfix.org/hls/cgtnfhd.m3u8
+CGTN Arabic,https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
+CGTN Arabic,http://iptv.tvfix.org/hls/cgtnahd.m3u8
+CGTN Russian,https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+CGTN Russian,http://iptv.tvfix.org/hls/cgtnehd.m3u8
+
+[TVFix Misc]
+
+翡翠台1声道,http://iptv.tvfix.org/hls/jade.m3u8
+翡翠台2声道,http://iptv.tvfix.org/hls/jade2.m3u8
+翡翠台海外,http://iptv.tvfix.org/hls/jadenhk.m3u8
+翡翠台普通话,http://iptv.tvfix.org/hls/jadenhk2.m3u8
+J2,http://iptv.tvfix.org/hls/j2.m3u8
+J2第2声道,http://iptv.tvfix.org/hls/j22.m3u8
+无线新闻台,http://iptv.tvfix.org/hls/inews.m3u8
+无线新闻台2声道,http://iptv.tvfix.org/hls/inews2.m3u8
+明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
+明珠台2声道,http://iptv.tvfix.org/hls/pearl2.m3u8
+无线财经·资讯台,http://iptv.tvfix.org/hls/finance.m3u8
+无线财经·资讯台2声道,http://iptv.tvfix.org/hls/finance2.m3u8
+无线财经·资讯台海外版,http://iptv.tvfix.org/hls/financenhk.m3u8
+ViuTV,http://iptv.tvfix.org/hls/viutv.m3u8
+ViuTV第2声道,http://iptv.tvfix.org/hls/viutv2.m3u8
+ViuTVSix,http://iptv.tvfix.org/hls/viutv6.m3u8
+RTHK31,http://iptv.tvfix.org/hls/rthk31.m3u8
+RTHK32,http://iptv.tvfix.org/hls/rthk32.m3u8
+香港开电视,http://iptv.tvfix.org/hls/opentv.m3u8
+香港国际财经台,http://iptv.tvfix.org/hls/hkibc.m3u8
+凤凰卫视中文台,http://iptv.tvfix.org/hls/fhzw.m3u8
+凤凰卫视资讯台,http://iptv.tvfix.org/hls/fhzx.m3u8
+凤凰卫视电影台,http://iptv.tvfix.org/hls/fhdy.m3u8
+NHK-G,http://iptv.tvfix.org/hls/nhkg.m3u8
+NHK-G第2声道,http://iptv.tvfix.org/hls/nhkg2.m3u8
+NHK-E,http://iptv.tvfix.org/hls/nhke.m3u8
+NHK-E第2声道,http://iptv.tvfix.org/hls/nhke2.m3u8
+NHK World Premium,http://iptv.tvfix.org/hls/nhkworldpremium.m3u8
+NHK World,http://iptv.tvfix.org/hls/nhkworld.m3u8
+NHK World 华语视界,http://iptv.tvfix.org/hls/nhkworldzh.m3u8
 
 [CCTV]
 CCTV1,http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8
@@ -82,23 +165,6 @@ CCTV15,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV17,http://39.134.115.163:8080/PLTV/88888910/224/3221225908/index.m3u8
 CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 
-[CGTN]
-CGTN,https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-CGTN,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225604/index.m3u8
-CGTN,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
-CGTN,https://live.wcetv.com/cache/cctvnews/live.master.m3u8
-CGTN Documentary,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225602/index.m3u8
-CGTN Documentary,http://ivi.bupt.edu.cn/hls/cgtnhd.m3u8
-CGTN Documentary,http://ivi.bupt.edu.cn/hls/cgtndochd.m3u8
-CGTN Documentary,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-CGTN Documentary,https://live.wcetv.com/cache/cctv9/live.master.m3u8
-CGTN Espanol,https://live.wcetv.com/cache/cctve/live.master.m3u8
-CGTN Espanol,https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-CGTN Francais,https://live.wcetv.com/cache/cctvf/live.master.m3u8
-CGTN Francais,https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-CGTN Russian,https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
-CGTN Arabic,https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
-
 [China Regional]
 CNC,http://livecdn1.news.cn/cnccn/manifest.m3u8
 东方卫视,http://ivi.bupt.edu.cn/hls/dfhd.m3u8
@@ -146,7 +212,7 @@ CCTV1,http://185.207.176.189:8080/channels/tv-33/playlist.m3u8
 凤凰中文,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
 凤凰中文,http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
 凤凰中文,http://125.210.152.18:9090/live/FHZW_1200.m3u8
-凤凰资讯,http://zb.ios.ifeng.com/live/05QGCOB3T34/index.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰资讯,https://d158f3mdhc5kf4.cloudfront.net/p1_cbr_lo_720p.m3u8
 凤凰资讯,http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8
 凤凰资讯,http://125.210.152.18:9090/live/FHZX_1200.m3u8
